@@ -1,9 +1,11 @@
 ## Introducción
-La laringectomía total, procedimiento quirúrgico que implica la extirpación completa de la laringe, representa una solución terapéutica para el cáncer avanzado de laringe, pero conlleva la pérdida irreversible de la voz natural. Esta situación afecta profundamente la comunicación, la integración social y la calidad de vida de los pacientes. Entre las alternativas de rehabilitación vocal, la laringe electrónica destaca por su accesibilidad y facilidad de uso, permitiendo a los usuarios articular palabras mediante la vibración mecánica transmitida a través del cuello. Sin embargo, la voz resultante es percibida como robótica, monótona y carente de naturalidad, lo que limita la inteligibilidad y la aceptación social.
-En la última década, los avances en control mioeléctrico, procesamiento digital de señales, conversión de voz, vocoders neuronales y deep learning han abierto nuevas posibilidades para humanizar la voz electro laríngea. La integración de sensores portátiles, algoritmos de control robusto, técnicas de mejora perceptual y modelos de síntesis neuronal permite abordar los desafíos históricos de la electrolaringe: la falta de control intuitivo, la baja naturalidad y la limitada inteligibilidad.
-Esta propuesta metodológica se fundamenta en los enfoques más prometedores identificados en la literatura reciente, integrando control mioeléctrico, procesamiento de señal, conversión de voz, vocoders neuronales, aprendizaje de representaciones, enmascaramiento auditivo y diseño de hardware portátil. El objetivo es desarrollar una metodología integral y escalable para la mejora y humanización de la voz electrolaríngea, con impacto clínico, tecnológico y social.
+La laringectomía total, procedimiento quirúrgico que implica la extirpación completa de la laringe, genera la pérdida de la voz natural, afectando significativamente la comunicación y la calidad de vida del paciente. Una de las principales alternativas de rehabilitación es la laringe electrónica, la cual permite la producción de voz mediante vibración mecánica transmitida al cuello.
 
-## Problemática a abordar  (Puede ser algo muy técnico enfocado en evaluar filtros por ejemplo)
+Sin embargo, la voz generada presenta limitaciones importantes, siendo percibida como robótica, monótona y poco natural. En este contexto, los avances en procesamiento digital de señales, control mioeléctrico (EMG) y modelos de síntesis de voz ofrecen nuevas oportunidades para mejorar la calidad e inteligibilidad de la voz electrolaríngea.
+
+---
+
+## Problemática a abordar
 ## Propuesta de solución
 ## Plan te actividades
 ## Referencias
