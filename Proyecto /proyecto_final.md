@@ -1,29 +1,26 @@
+# Mejora y discriminación de comandos simples en la voz producida por la laringe electrónica
+
 ## Introducción
-La laringectomía total, procedimiento quirúrgico que implica la extirpación completa de la laringe, genera la pérdida de la voz natural, afectando significativamente la comunicación y la calidad de vida del paciente. Una de las principales alternativas de rehabilitación es la laringe electrónica, la cual permite la producción de voz mediante vibración mecánica transmitida al cuello.
 
-Sin embargo, la voz generada presenta limitaciones importantes, siendo percibida como robótica, monótona y poco natural. En este contexto, los avances en procesamiento digital de señales, control mioeléctrico (EMG) y modelos de síntesis de voz ofrecen nuevas oportunidades para mejorar la calidad e inteligibilidad de la voz electrolaríngea.
+La laringectomía total implica la pérdida de la voz natural, lo que afecta significativamente la comunicación y la calidad de vida de los pacientes. Como alternativa, la laringe electrónica permite generar voz mediante vibraciones mecánicas transmitidas al cuello, facilitando la articulación del habla.
 
----
+Sin embargo, la voz obtenida presenta limitaciones importantes, como un tono monótono, presencia de ruido mecánico y baja naturalidad. Estas características no solo afectan la percepción de la voz, sino también la correcta diferenciación de palabras en situaciones cotidianas.
+
+En este contexto, el procesamiento digital de señales se plantea como una herramienta clave para analizar, mejorar y facilitar la interpretación de la señal de voz generada.
 
 ## Problemática a abordar
-La voz producida por la laringe electrónica, aunque permite la comunicación tras una laringectomía, suele ser percibida como artificial, monótona y poco expresiva. Esta falta de naturalidad no solo afecta la inteligibilidad del habla, sino también la interacción social y la confianza del usuario en situaciones cotidianas.
 
-Desde el punto de vista del procesamiento de señales, esta limitación está directamente relacionada con las características de la señal acústica generada por el dispositivo, la cual presenta un espectro limitado, escasa variabilidad tonal y la presencia de ruido mecánico.
+La señal de voz producida por la laringe electrónica presenta limitaciones acústicas como baja variabilidad en frecuencia, ruido mecánico y distorsión espectral. Estas características dificultan la discriminación clara entre palabras.
 
-En este contexto, surge la siguiente pregunta:
+En aplicaciones simples, como el uso de comandos básicos (por ejemplo, “sí” y “no”), estas limitaciones pueden generar errores de interpretación, donde una palabra puede ser confundida con otra.
 
-**¿Cómo mejorar la calidad e inteligibilidad de la señal de voz electrolaríngea mediante técnicas de procesamiento digital?**
+Desde el punto de vista del procesamiento de señales, el reto consiste en extraer características confiables a partir de una señal con baja relación señal-ruido y limitada variabilidad espectral.
 
-Específicamente, la señal presenta:
+Por ello, surge la siguiente pregunta:
 
-- Componentes no deseados asociados al ruido mecánico del dispositivo  
-- Baja variabilidad en frecuencia, lo que genera una voz monótona  
-- Distorsiones en el contenido espectral  
-- Relación señal-ruido reducida  
+**¿Cómo mejorar la discriminación de comandos simples en señales de voz electrolaríngea mediante técnicas de procesamiento digital?**
 
-Estas limitaciones motivan la necesidad de analizar y aplicar técnicas de procesamiento digital de señales, como filtrado y análisis espectral, con el fin de mejorar la calidad perceptual de la voz y acercarla a una expresión más natural.
 
----
 ## Propuesta de solución
 ## Plan te actividades
 ## Referencias
