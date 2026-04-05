@@ -52,7 +52,7 @@ En síntesis, la propuesta transforma los movimientos residuales del cuello en u
 
 ## Referencias
 [1] P. Wu et al., “Towards EMG-to-Speech with Necklace Form Factor,” Proc. Interspeech 2024, pp. 402–406, 2024, doi: 10.21437/Interspeech.2024-1568.
-[2] P. M. M. Balata, H. J. da Silva, K. J. R. de Moraes, L. de A. Pernambuco, and S. R. A. de Moraes, “Use of surface electromyography in phonation studies: an integrative review,” J. Voice, vol. 17, no. 3, pp. 329–339, Jul. 2013, doi: 10.7162/S1809-977720130003000014.
+[2] R. B. Siqueira et al., “Laryngeal electromyography in dysphonic patients with incomplete glottic closure,” Int. Arch. Otorhinolaryngol., 2022. https://doi.org/10.1055/s-0041-1733867
 [3] J. Wu. et al., “A novel silent speech recognition approach based on parallel inception CNN using surface electromyography,” Frontiers in Neurorobotics, vol. 16, 2022. https://www.frontiersin.org/articles/10.3389/fnbot.2022.971446/full  
 [4] J. T. Heaton et al., “Development of a Wireless Electromyographically Controlled Electrolarynx Voice Prosthesis,” 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC8981260/  
 [5] X. Chen, et al., “Decoding silent speech based on high-density surface electromyography using spatiotemporal neural network,” IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 31, pp. 1234–1245, 2023. https://doi.org/10.1109/TNSRE.2023.3266299  
