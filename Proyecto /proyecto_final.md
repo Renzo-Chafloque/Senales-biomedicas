@@ -2,16 +2,17 @@
 
 ## Introducción
 
-La laringectomía total implica la pérdida de la voz natural, lo que afecta profundamente la comunicación y la calidad de vida de los pacientes. Como alternativa, la laringe electrónica ofrece una solución al permitir la articulación del habla mediante vibraciones mecánicas transmitidas a través del cuello.
-Sin embargo, la voz obtenida a través de la laringe electrónica presenta importantes limitaciones, tales como un tono monótono, la presencia de ruido mecánico y una falta de naturalidad. Estas características no solo afectan la percepción de la voz, sino que también dificultan la correcta diferenciación de palabras en situaciones cotidianas.
+La laringectomía total implica la pérdida de la voz natural, lo que afecta profundamente la comunicación y la calidad de vida de los pacientes. Como alternativa, la laringe electrónica ofrece una solución al permitir la articulación del habla mediante vibraciones mecánicas transmitidas a través del cuello [1]. Sin embargo, la voz obtenida a través de la laringe electrónica presenta importantes limitaciones, tales como un tono monótono, la presencia de ruido mecánico y una falta de naturalidad [2]. Estas características no solo afectan la percepción de la voz, sino que también dificultan la correcta diferenciación de palabras en situaciones cotidianas [3].
 
-En este contexto, el procesamiento digital de señales emerge como una herramienta clave para analizar, mejorar y facilitar la interpretación de la señal de voz generada.
+En este contexto, el procesamiento digital de señales emerge como una herramienta clave para analizar, mejorar y facilitar la interpretación de la señal de voz generada [4].
 
 ## Problemática a abordar
 
-La señal de **EMG** de los músculos cervicales ha demostrado ser eficaz para diagnosticar afecciones médicas como la disfagia estimando la actividad muscular del cuello y midiendo vibraciones de las cuerdas vocales [1]. En años recientes, se está utilizando esta técnica para la traducción del habla en personas con condiciones como la disfonia y frente a las consecuencias de procedimientos como las laringectomía [2]. Sin embargo la díficil obtención de una señal clara dificulta la discriminación precisa de comandos simples. Esta suele tener baja variabilidad en su frecuencia y estar contaminada con ruido mecánico proveniente de otros movimientos del cuerpo, lo que complica la correcta identificación de comandos como "sí" y "no".
+La señal de EMG de los músculos cervicales ha demostrado ser eficaz para diagnosticar afecciones médicas como la disfagia, estimando la actividad muscular del cuello y midiendo vibraciones de las cuerdas vocales [1]. En los últimos años, se ha comenzado a utilizar esta técnica para la traducción del habla en personas con condiciones como la disfonía y frente a las consecuencias de procedimientos como las laringectomías [2]. Sin embargo, la difícil obtención de una señal clara sigue siendo un obstáculo significativo para la discriminación precisa de comandos simples.
 
-El principal desafío consiste en extraer características claras y confiables de las señales EMG, como la frecuencia de activación, amplitud y duración de contracción muscular, que permitan una clasificación correcta de los comandos sin confusión.
+La señal EMG de estos músculos suele tener baja variabilidad en su frecuencia y se encuentra contaminada con ruido mecánico proveniente de otros movimientos corporales, lo que dificulta la correcta identificación de comandos como "sí" y "no" [3].
+
+El principal desafío consiste en extraer características claras y confiables de las señales EMG, como la frecuencia de activación, la amplitud y la duración de la contracción muscular, para permitir la correcta clasificación de los comandos sin confusión.
 
 La pregunta clave que se busca resolver es:
 
@@ -98,7 +99,7 @@ En síntesis, la propuesta transforma los movimientos residuales del cuello en u
 | **Diseño de póster** | Diagramación visual de la problemática y resultados. | Hito S16 (10/jul)|
 | **Preparación de pitch** | Creación de diapositivas y ensayo para exposiciones. | Hito S16 (10/jul)|
 
-##Síntesis en una sola tabla:
+## Síntesis en una sola tabla:
 ### Cronograma Maestro de Actividades: Laringe Electrónica EMG
 
 | Fase (Semanas) | Tareas y Descripción | Hitos y Entregables |
@@ -112,13 +113,13 @@ En síntesis, la propuesta transforma los movimientos residuales del cuello en u
 | **F7: Documentación y Cierre**<br>*(Semanas 15-16)* | **1.** Recopilación de gráficos, códigos y esquemáticos.<br>**2.** Redacción estructurada del Informe Final.<br>**3.** Diagramación del póster científico.<br>**4.** Ensayo y preparación para exposiciones orales. | • **Hito S15 (03/jul):** Revisión de avance III.<br>• **Hito S16 (10/jul):** Informe Final.<br>• **Hito S16 (10/jul):** Póster y Presentación. |
 
 ## Referencias
-[1] P. Wu et al., "Towards EMG-to-Speech with a Necklace Form Factor," in Proc. Interspeech 2024, Kos, Grecia, 2024, pp. 402-406.
+[1] J. T. Heaton et al., “Development of a Wireless Electromyographically Controlled Electrolarynx Voice Prosthesis,” 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC8981260/ 
 
 [2] R. B. Siqueira et al., “Laryngeal electromyography in dysphonic patients with incomplete glottic closure,” Int. Arch. Otorhinolaryngol., 2022. https://doi.org/10.1055/s-0041-1733867
 
 [3] J. Wu. et al., “A novel silent speech recognition approach based on parallel inception CNN using surface electromyography,” Frontiers in Neurorobotics, vol. 16, 2022. https://www.frontiersin.org/articles/10.3389/fnbot.2022.971446/full 
 
-[4] J. T. Heaton et al., “Development of a Wireless Electromyographically Controlled Electrolarynx Voice Prosthesis,” 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC8981260/ 
+[4] P. Wu et al., "Towards EMG-to-Speech with a Necklace Form Factor," in Proc. Interspeech 2024, Kos, Grecia, 2024, pp. 402-406.
 
 [5] X. Chen, et al., “Decoding silent speech based on high-density surface electromyography using spatiotemporal neural network,” IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 31, pp. 1234–1245, 2023. https://doi.org/10.1109/TNSRE.2023.3266299
 
