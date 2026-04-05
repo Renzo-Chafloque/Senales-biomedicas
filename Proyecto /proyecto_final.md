@@ -1,4 +1,4 @@
-# Mejora y discriminación de comandos simples en la voz producida por la laringe electrónica
+# Optimización de comandos simples en laringe electrónica mediante señales EMG para una comunicación clara y precisa
 
 ## Introducción
 
