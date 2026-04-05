@@ -61,5 +61,6 @@ En síntesis, la propuesta transforma los movimientos residuales del cuello en u
 
 [5] X. Chen, et al., “Decoding silent speech based on high-density surface electromyography using spatiotemporal neural network,” IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 31, pp. 1234–1245, 2023. https://doi.org/10.1109/TNSRE.2023.3266299
 
-[6] L. Zhang, M. Li y Y. Chen, “Decoding silent speech: A machine learning perspective,” Neural Computing and Applications, 2025. https://link.springer.com/article/10.1007/s00521-024-10456-z  
+[6] L. Zhang, M. Li y Y. Chen, “Decoding silent speech: A machine learning perspective,” Neural Computing and Applications, 2025. https://link.springer.com/article/10.1007/s00521-024-10456-z
+
 [5] T. Ikeda, K. Yamamoto y H. Kato, “Classification of silent speech words considering walking using VMD applied facial EMG” en Proc. International Symposium on Affective Science and Engineering (ISASE), 2023. https://doi.org/10.5057/isase.2023-C000013
