@@ -17,6 +17,14 @@ La pregunta clave que se busca resolver es:
 
 **¿Cómo procesar la señal EMG para mejorar la discriminación de comandos simples, específicamente de la activación muscular en el cuello?**
 
+Este proyecto propone el desarrollo de un sistema  que tiene control mediante las señales biologicas para transformar la voz electrolaríngea robótica en una voz cercana a la natural del usuario. La solución se separa en 2 partes:
+
+Procesamiento digital: Se intercepta la señal acústica producida por la electrolaringe y se procesa para mejorar su calidad antes de que sea escuchada. Los filtros adaptativos eliminan el ruido mecanico del dispositivo, se extraen parámetros acústicos y modelos de enmascaramiento auditivo para la optimización de la inteligibilidad. Todo esto ocurre con una latencia baja para la fluidez del habla.
+
+Conversión de voz: Implementa un sistema de conversión de voz basado en una base de datos que toma como entrada la voz electrolaríngea procesada y la transforma en una voz sintetizada. Un codificador acústico extrae representaciones de la señal, un módulo de conversión mapea esas características hacia la voz natural mediante la base de datos y un vocoder sintetiza la forma de onda, produciendo una voz que suene natural.
+
+Todo el sistema se implementa en un dispositivo portátil y discreto que el usuario lleva en el cuello. El procesamiento ocurre localmente en hardware. La latencia total del sistema sera baja y la autonomía de la batería debera ser suficiente para aguantar un dia laboral.
+
 ## Propuesta de solución
 ## Plan te actividades
 ## Referencias
