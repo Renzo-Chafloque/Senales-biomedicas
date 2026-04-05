@@ -98,6 +98,19 @@ En síntesis, la propuesta transforma los movimientos residuales del cuello en u
 | **Diseño de póster** | Diagramación visual de la problemática y resultados. | Hito S16 (10/jul)|
 | **Preparación de pitch** | Creación de diapositivas y ensayo para exposiciones. | Hito S16 (10/jul)|
 
+##Síntesis en una sola tabla:
+### Cronograma Maestro de Actividades: Laringe Electrónica EMG
+
+| Fase (Semanas) | Tareas y Descripción | Hitos y Entregables |
+| :--- | :--- | :--- |
+| **F1: Investigación y Setup**<br>*(Semanas 1-2)* | **1.** Selección de tema y formalización del proyecto.<br>**2.** Creación de repositorio y setup de entorno virtual.<br>**3.** Revisión de literatura sobre adquisición EMG cervical.<br>**4.** Selección de hardware, electrodos y arquitectura. | • **Hito S1 (27/mar):** Selección de proyecto.<br>• **Hito S2 (03/abr):** Setup del entorno. |
+| **F2: Adquisición EMG**<br>*(Semanas 2-4)* | **1.** Diseño de protocolo de comandos y consentimiento.<br>**2.** Ensamble y verificación del circuito de instrumentación.<br>**3.** Pruebas de calibración para evitar saturación.<br>**4.** Levantamiento de la base de datos de señales EMG. | • **Hito S4 (17/abr):** Revisión de avance I (Adquisición). |
+| **F3: Procesamiento (DSP)**<br>*(Semanas 4-6)* | **1.** Importación y ploteo de señales en Python.<br>**2.** Diseño de filtros FIR/IIR (ruido de 60Hz y movimiento).<br>**3.** Evaluación de filtros avanzados (Transformada Wavelet).<br>**4.** Extracción de características (tiempo y frecuencia). | - |
+| **F4: Síntesis de Voz**<br>*(Semanas 6-9)* | **1.** Creación de Dataframe con características extraídas.<br>**2.** Entrenamiento y evaluación de modelos ML/DL.<br>**3.** Implementación del codificador acústico.<br>**4.** Integración de clasificación con el vocoder. | - |
+| **F5: Hardware y Energía**<br>*(Semanas 9-11)* | **1.** Migración de algoritmos al dispositivo portátil.<br>**2.** Optimización de latencia en el microcontrolador.<br>**3.** Medición de consumo de corriente del circuito.<br>**4.** Cálculo de autonomía y selección de batería Li-Po. | - |
+| **F6: Pruebas y Ajustes**<br>*(Semanas 11-14)* | **1.** Diseño e impresión 3D del soporte anatómico (collarín).<br>**2.** Ensamblaje físico del dispositivo completo.<br>**3.** Pruebas de usabilidad en tiempo real (Live testing).<br>**4.** Análisis de fallos y ajuste fino de umbrales/ganancias. | - |
+| **F7: Documentación y Cierre**<br>*(Semanas 15-16)* | **1.** Recopilación de gráficos, códigos y esquemáticos.<br>**2.** Redacción estructurada del Informe Final.<br>**3.** Diagramación del póster científico.<br>**4.** Ensayo y preparación para exposiciones orales. | • **Hito S15 (03/jul):** Revisión de avance III.<br>• **Hito S16 (10/jul):** Informe Final.<br>• **Hito S16 (10/jul):** Póster y Presentación. |
+
 ## Referencias
 [1] P. Wu et al., "Towards EMG-to-Speech with a Necklace Form Factor," in Proc. Interspeech 2024, Kos, Grecia, 2024, pp. 402-406.
 
