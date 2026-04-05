@@ -31,24 +31,72 @@ En síntesis, la propuesta transforma los movimientos residuales del cuello en u
 
 
 ## Plan te actividades
-| Semana | Fecha | F1: Diseño y Setup | F2: Adquisición EMG | F3: Procesamiento (DSP) | F4: Síntesis de Voz | F5: Hardware y Energía | F6: Pruebas y Ajustes | F7: Hitos del Curso y Cierre |
-| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **S1** | 27/mar | **X** | | | | | | **X** |
-| **S2** | 03/abr | **X** | **X** | | | | | |
-| **S3** | 10/abr | | **X** | | | | | |
-| **S4** | 17/abr | | **X** | **X** | | | | **X** |
-| **S5** | 24/abr | | | **X** | | | | |
-| **S6** | 01/may | | | **X** | **X** | | | |
-| **S7** | 08/may | | | | **X** | | | |
-| **S8** | 15/may | | | | **X** | | | |
-| **S9** | 22/may | | | | **X** | **X** | | |
-| **S10**| 29/may | | | | | **X** | | |
-| **S11**| 05/jun | | | | | **X** | **X** | |
-| **S12**| 12/jun | | | | | | **X** | |
-| **S13**| 19/jun | | | | | | **X** | |
-| **S14**| 26/jun | | | | | | **X** | |
-| **S15**| 03/jul | | | | | | | **X** |
-| **S16**| 10/jul | | | | | | | **X** |
+### Detalle de Tareas por Fase del Proyecto
+
+**Fase 1: Investigación, Diseño y Setup (Semanas 1-2)**
+| Tarea | Descripción Breve | Hito / Entregable |
+| :--- | :--- | :--- |
+| **Selección de tema** | Formalización del proyecto y creación del repositorio. | Hito S1 (27/mar) |
+| **Setup de entorno** | Configuración del entorno virtual y estructura de carpetas. | Hito S2 (03/abr) |
+| **Revisión de literatura** | Estado del arte en voz electrolaríngea y adquisición EMG. | - |
+| **Estudio anatómico** | Ubicación óptima de electrodos en el esternocleidomastoideo. | - |
+| **Selección de hardware** | Cotización de electrodos, módulo EMG, DSP y alimentación. | - |
+| **Arquitectura** | Definición del flujo de datos y software del sistema. | - |
+
+**Fase 2: Protocolo y Adquisición EMG (Semanas 2-4)**
+| Tarea | Descripción Breve | Hito / Entregable |
+| :--- | :--- | :--- |
+| **Diseño de protocolo** | Definición de comandos vocales ("sí", "no", vocales). | - |
+| **Consentimiento** | Redacción del consentimiento informado para toma de datos. | - |
+| **Ensamble de circuito** | Conexión y verificación del módulo de instrumentación EMG. | - |
+| **Pruebas de captura** | Calibración de ganancias para evitar saturación de señal. | - |
+| **Base de datos** | Registro continuo y segmentado de señales de prueba. | - |
+| **Revisión de avance I** | Presentación del estado de la adquisición de señales. | Hito S4 (17/abr) |
+
+**Fase 3: Procesamiento Digital de Señales - DSP (Semanas 4-6)**
+| Tarea | Descripción Breve | Hito / Entregable |
+| :--- | :--- | :--- |
+| **Importación de datos** | Ploteo de señales EMG en Python (Matplotlib, SciPy). | - |
+| **Filtrado básico** | Filtros FIR/IIR para ruido de línea (60Hz) y movimiento. | - |
+| **Filtrado avanzado** | Evaluación de Transformada Wavelet para ruido mecánico. | - |
+| **Extracción temporal** | Cálculo de RMS, cruces por cero y amplitud máxima. | - |
+| **Extracción frecuencial**| Análisis del espectro de potencia y frecuencia mediana. | - |
+
+**Fase 4: Clasificación y Síntesis de Voz (Semanas 6-9)**
+| Tarea | Descripción Breve | Hito / Entregable |
+| :--- | :--- | :--- |
+| **Estructuración de datos** | Creación de Dataframe con características extraídas. | - |
+| **Entrenamiento ML/DL** | Modelos para clasificación de comandos neuromusculares. | - |
+| **Evaluación de modelo** | Análisis de métricas (Accuracy, Precision) y ajuste. | - |
+| **Codificador acústico** | Implementación para la parametrización del habla. | - |
+| **Integración con vocoder** | Gatillado de voz natural a partir de la base de datos. | - |
+
+**Fase 5: Integración en Hardware y Gestión de Energía (Semanas 9-11)**
+| Tarea | Descripción Breve | Hito / Entregable |
+| :--- | :--- | :--- |
+| **Selección de lenguaje** | Definición entre C/C++ o MicroPython según hardware. | - |
+| **Migración de algoritmos** | Traslado del filtrado, DSP y modelo ML al dispositivo. | - |
+| **Optimización de latencia**| Medición de tiempos de ejecución en el microcontrolador. | - |
+| **Diseño de alimentación** | Medición del perfil de consumo de corriente del circuito. | - |
+| **Selección de batería** | Cálculo de autonomía y selección de batería Li-Po. | - |
+
+**Fase 6: Pruebas del Sistema Integrado y Ajustes (Semanas 11-14)**
+| Tarea | Descripción Breve | Hito / Entregable |
+| :--- | :--- | :--- |
+| **Diseño de case 3D** | Modelado e impresión del soporte anatómico (collarín). | - |
+| **Ensamblaje final** | Integración física de todos los componentes del dispositivo. | - |
+| **Pruebas de usabilidad** | Evaluaciones en tiempo real para verificar fluidez. | - |
+| **Análisis de fallos** | Identificación de falsos positivos/negativos en uso. | - |
+| **Ajuste fino** | Corrección de ganancias y umbrales según retroalimentación. | - |
+
+**Fase 7: Documentación, Cierre y Presentaciones (Semanas 15-16)**
+| Tarea | Descripción Breve | Hito / Entregable |
+| :--- | :--- | :--- |
+| **Revisión de avance III** | Muestra del prototipo funcional integrado. | Hito S15 (03/jul)|
+| **Recopilación de anexos** | Organización de gráficos, códigos y esquemáticos. | - |
+| **Informe Final** | Redacción estructurada (Intro, Metodología, Resultados). | Hito S16 (10/jul)|
+| **Diseño de póster** | Diagramación visual de la problemática y resultados. | Hito S16 (10/jul)|
+| **Preparación de pitch** | Creación de diapositivas y ensayo para exposiciones. | Hito S16 (10/jul)|
 
 ## Referencias
 [1] P. Wu et al., "Towards EMG-to-Speech with a Necklace Form Factor," in Proc. Interspeech 2024, Kos, Grecia, 2024, pp. 402-406.
