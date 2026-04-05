@@ -20,7 +20,7 @@ La pregunta clave que se busca resolver es:
 ## Propuesta de solución
 ## Plan te actividades
 ## Referencias
-[1] J. Wu. et al., “A novel silent speech recognition approach based on parallel inception CNN using surface electromyography,” Frontiers in Neurorobotics, vol. 16, 2022. https://www.frontiersin.org/articles/10.3389/fnbot.2022.971446/full \n
+[1] J. Wu. et al., “A novel silent speech recognition approach based on parallel inception CNN using surface electromyography,” Frontiers in Neurorobotics, vol. 16, 2022. https://www.frontiersin.org/articles/10.3389/fnbot.2022.971446/full
 [2] J. T. Heaton et al., “Development of a Wireless Electromyographically Controlled Electrolarynx Voice Prosthesis,” 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC8981260/
 [3] X. Chen, et al., “Decoding silent speech based on high-density surface electromyography using spatiotemporal neural network,” IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 31, pp. 1234–1245, 2023. https://doi.org/10.1109/TNSRE.2023.3266299
 [4] L. Zhang, M. Li y Y. Chen, “Decoding silent speech: A machine learning perspective,” Neural Computing and Applications, 2025. https://link.springer.com/article/10.1007/s00521-024-10456-z
