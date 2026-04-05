@@ -26,6 +26,15 @@ Conversión de voz: Implementa un sistema de conversión de voz basado en una ba
 Todo el sistema se implementa en un dispositivo portátil y discreto que el usuario lleva en el cuello. El procesamiento ocurre localmente en hardware. La latencia total del sistema sera baja y la autonomía de la batería debera ser suficiente para aguantar un dia laboral.
 
 ## Propuesta de solución
+
+Este proyecto propone el desarrollo de un sistema  que tiene control mediante las señales biologicas para transformar la voz electrolaríngea robótica en una voz cercana a la natural del usuario. La solución se separa en 2 partes:
+
+Procesamiento digital: Se intercepta la señal acústica producida por la electrolaringe y se procesa para mejorar su calidad antes de que sea escuchada. Los filtros adaptativos eliminan el ruido mecanico del dispositivo, se extraen parámetros acústicos y modelos de enmascaramiento auditivo para la optimización de la inteligibilidad. Todo esto ocurre con una latencia baja para la fluidez del habla.
+
+Conversión de voz: Implementa un sistema de conversión de voz basado en una base de datos que toma como entrada la voz electrolaríngea procesada y la transforma en una voz sintetizada. Un codificador acústico extrae representaciones de la señal, un módulo de conversión mapea esas características hacia la voz natural mediante la base de datos y un vocoder sintetiza la forma de onda, produciendo una voz que suene natural.
+
+Todo el sistema se implementa en un dispositivo portátil y discreto que el usuario lleva en el cuello. El procesamiento ocurre localmente en hardware. La latencia total del sistema sera baja y la autonomía de la batería debera ser suficiente para aguantar un dia laboral.
+
 ## Plan te actividades
 ## Referencias
 [1] J. Wu. et al., “A novel silent speech recognition approach based on parallel inception CNN using surface electromyography,” Frontiers in Neurorobotics, vol. 16, 2022. https://www.frontiersin.org/articles/10.3389/fnbot.2022.971446/full  
