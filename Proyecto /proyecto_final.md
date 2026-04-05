@@ -31,23 +31,7 @@ En síntesis, la propuesta transforma los movimientos residuales del cuello en u
 
 
 ## Plan te actividades
-Semana,Fecha,F1: Diseño y Setup,F2: Adquisición EMG,F3: Procesamiento (DSP),F4: Síntesis de Voz,F5: Hardware y Energía,F6: Pruebas y Ajustes,F7: Hitos del Curso y Cierre
-S1,27/mar,X,,,,,,X
-S2,03/abr,X,X,,,,,
-S3,10/abr,,X,,,,,
-S4,17/abr,,X,X,,,,X
-S5,24/abr,,,X,,,,
-S6,01/may,,,X,X,,,
-S7,08/may,,,,X,,,
-S8,15/may,,,,X,,,
-S9,22/may,,,,X,X,,
-S10,29/may,,,,,X,,
-S11,05/jun,,,,,X,X,
-S12,12/jun,,,,,,X,
-S13,19/jun,,,,,,X,
-S14,26/jun,,,,,,X,
-S15,03/jul,,,,,,,X
-S16,10/jul,,,,,,,X
+
 
 ## Referencias
 [1] J. Wu. et al., “A novel silent speech recognition approach based on parallel inception CNN using surface electromyography,” Frontiers in Neurorobotics, vol. 16, 2022. https://www.frontiersin.org/articles/10.3389/fnbot.2022.971446/full  
