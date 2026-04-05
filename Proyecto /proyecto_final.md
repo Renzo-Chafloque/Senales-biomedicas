@@ -19,13 +19,16 @@ La pregunta clave que se busca resolver es:
 
 ## Propuesta de solución
 
-Este proyecto propone el desarrollo de un sistema  que tiene control mediante las señales biologicas para transformar la voz electrolaríngea robótica en una voz cercana a la natural del usuario. La solución se separa en 2 partes:
+La propuesta consiste en desarrollar un sistema que capture señales electromiográficas (EMG) de los músculos del cuello y las procese para distinguir entre sílabas o palabras específicas, permitiendo así controlar y modular la laringe electrónica de forma intuitiva y sin intervención manual.
 
-Procesamiento digital: Se intercepta la señal acústica producida por la electrolaringe y se procesa para mejorar su calidad antes de que sea escuchada. Los filtros adaptativos eliminan el ruido mecanico del dispositivo, se extraen parámetros acústicos y modelos de enmascaramiento auditivo para la optimización de la inteligibilidad. Todo esto ocurre con una latencia baja para la fluidez del habla.
+Captura de la intención: Aunque el paciente ha perdido la laringe, aun conserva la musculatura orofacial y cervical que normalmente participa en la articulación del habla. Cuando intenta pronunciar una palabra, esos músculos generan señales de activación eléctrica. El sistema captura esas señales mediante electrodos de superficie ubicados en zonas del cuello, registrando la actividad muscular, sin sonido, que acompaña al intento de habla.
 
-Conversión de voz: Implementa un sistema de conversión de voz basado en una base de datos que toma como entrada la voz electrolaríngea procesada y la transforma en una voz sintetizada. Un codificador acústico extrae representaciones de la señal, un módulo de conversión mapea esas características hacia la voz natural mediante la base de datos y un vocoder sintetiza la forma de onda, produciendo una voz que suene natural.
+Diferenciación entre sílabas y palabras: Se extraen características de la señal en el dominio del tiempo y la frecuencia, y se entrena un modelo de clasificación capaz de identificar a qué sílaba o palabra corresponde cada patrón muscular. 
 
-Todo el sistema se implementa en un dispositivo portátil y discreto que el usuario lleva en el cuello. El procesamiento ocurre localmente en hardware. La latencia total del sistema sera baja y la autonomía de la batería debera ser suficiente para aguantar un dia laboral.
+Activación de la laringe electrónica: Una vez que el sistema reconoce la intención articulatoria del usuario, traduce esa información en señales de control para la electrolaringe. Activa la vibración en el momento preciso, ajusta la frecuencia según el patrón detectado y controla la duración del pulso de acuerdo con la extensión de la sílaba o palabra identificada. 
+
+En síntesis, la propuesta transforma los movimientos residuales del cuello en una interfaz de control natural para la laringe electrónica, con el objetivo de que el paciente pueda comunicarse de forma más fluida.
+
 
 ## Plan te actividades
 ## Referencias
