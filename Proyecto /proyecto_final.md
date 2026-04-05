@@ -9,7 +9,7 @@ En este contexto, el procesamiento digital de señales emerge como una herramien
 
 ## Problemática a abordar
 
-La señal de **EMG** de los músculos cervicales, como el esternocleidomastoideo, presenta varias limitaciones que dificultan la discriminación precisa de comandos simples. Estas señales suelen tener baja variabilidad en su frecuencia y estar contaminadas con ruido mecánico proveniente de otros movimientos del cuerpo, lo que complica la correcta identificación de comandos como "sí" y "no".
+La señal de **EMG** de los músculos cervicales ha demostrado ser eficaz para diagnosticar afecciones médicas como la disfagia estimando la actividad muscular del cuello y midiendo vibraciones de las cuerdas vocales [1]. En años recientes, se está utilizando esta técnica para la traducción del habla en personas con condiciones como la disfonia y frente a las consecuencias de procedimientos como las laringectomía [2]. Sin embargo la díficil obtención de una señal clara dificulta la discriminación precisa de comandos simples. Esta suele tener baja variabilidad en su frecuencia y estar contaminada con ruido mecánico proveniente de otros movimientos del cuerpo, lo que complica la correcta identificación de comandos como "sí" y "no".
 
 El principal desafío consiste en extraer características claras y confiables de las señales EMG, como la frecuencia de activación, amplitud y duración de contracción muscular, que permitan una clasificación correcta de los comandos sin confusión.
 
@@ -51,8 +51,10 @@ En síntesis, la propuesta transforma los movimientos residuales del cuello en u
 | **S16**| 10/jul | | | | | | | **X** |
 
 ## Referencias
-[1] J. Wu. et al., “A novel silent speech recognition approach based on parallel inception CNN using surface electromyography,” Frontiers in Neurorobotics, vol. 16, 2022. https://www.frontiersin.org/articles/10.3389/fnbot.2022.971446/full  
-[2] J. T. Heaton et al., “Development of a Wireless Electromyographically Controlled Electrolarynx Voice Prosthesis,” 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC8981260/  
-[3] X. Chen, et al., “Decoding silent speech based on high-density surface electromyography using spatiotemporal neural network,” IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 31, pp. 1234–1245, 2023. https://doi.org/10.1109/TNSRE.2023.3266299  
-[4] L. Zhang, M. Li y Y. Chen, “Decoding silent speech: A machine learning perspective,” Neural Computing and Applications, 2025. https://link.springer.com/article/10.1007/s00521-024-10456-z  
+[1] P. Wu et al., “Towards EMG-to-Speech with Necklace Form Factor,” Proc. Interspeech 2024, pp. 402–406, 2024, doi: 10.21437/Interspeech.2024-1568.
+[2] P. M. M. Balata, H. J. da Silva, K. J. R. de Moraes, L. de A. Pernambuco, and S. R. A. de Moraes, “Use of surface electromyography in phonation studies: an integrative review,” J. Voice, vol. 17, no. 3, pp. 329–339, Jul. 2013, doi: 10.7162/S1809-977720130003000014.
+[3] J. Wu. et al., “A novel silent speech recognition approach based on parallel inception CNN using surface electromyography,” Frontiers in Neurorobotics, vol. 16, 2022. https://www.frontiersin.org/articles/10.3389/fnbot.2022.971446/full  
+[4] J. T. Heaton et al., “Development of a Wireless Electromyographically Controlled Electrolarynx Voice Prosthesis,” 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC8981260/  
+[5] X. Chen, et al., “Decoding silent speech based on high-density surface electromyography using spatiotemporal neural network,” IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 31, pp. 1234–1245, 2023. https://doi.org/10.1109/TNSRE.2023.3266299  
+[6] L. Zhang, M. Li y Y. Chen, “Decoding silent speech: A machine learning perspective,” Neural Computing and Applications, 2025. https://link.springer.com/article/10.1007/s00521-024-10456-z  
 [5] T. Ikeda, K. Yamamoto y H. Kato, “Classification of silent speech words considering walking using VMD applied facial EMG” en Proc. International Symposium on Affective Science and Engineering (ISASE), 2023. https://doi.org/10.5057/isase.2023-C000013
