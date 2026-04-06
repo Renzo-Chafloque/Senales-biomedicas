@@ -26,13 +26,11 @@ Captura de la intención: Aunque el paciente ha perdido la laringe, aun conserva
 
 Diferenciación entre sílabas y palabras: Se extraen características de la señal en el dominio del tiempo y la frecuencia, y se entrena un modelo de clasificación capaz de identificar a qué sílaba o palabra corresponde cada patrón muscular. 
 
-Activación de la laringe electrónica: Una vez que el sistema reconoce la intención articulatoria del usuario, traduce esa información en señales de control para la electrolaringe. Activa la vibración en el momento preciso, ajusta la frecuencia según el patrón detectado y controla la duración del pulso de acuerdo con la extensión de la sílaba o palabra identificada. 
-
-En síntesis, la propuesta transforma los movimientos residuales del cuello en una interfaz de control natural para la laringe electrónica, con el objetivo de que el paciente pueda comunicarse de forma más fluida.
+La propuesta transforma los movimientos de músculos del cuello y cara en una interfaz de reconocimiento, con el objetivo de que el paciente pueda comunicarse de forma más fluida.
 
 
-## Plan te actividades
-### Detalle de Tareas por Fase del Proyecto
+## Plan de actividades
+### Detalle de tareas por fase del proyecto
 
 **Fase 1: Investigación, Diseño y Setup (Semanas 1-2)**
 | Tarea | Descripción Breve | Hito / Entregable |
