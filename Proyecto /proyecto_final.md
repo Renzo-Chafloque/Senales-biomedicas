@@ -104,7 +104,7 @@ La propuesta transforma los movimientos de músculos del cuello y cara en una in
 
 [3] J. Wu. et al., “A novel silent speech recognition approach based on parallel inception CNN using surface electromyography,” Frontiers in Neurorobotics, vol. 16, 2022. [Enlace](https://www.frontiersin.org/articles/10.3389/fnbot.2022.971446/full) 
 
-[4] P. Wu et al., "Towards EMG-to-Speech with a Necklace Form Factor," in Proc. Interspeech 2024, Kos, Grecia, 2024, pp. 402-406.
+[4] P. Wu et al., "Towards EMG-to-Speech with a Necklace Form Factor," in Proc. Interspeech 2024, Kos, Grecia, 2024, pp. 402-406. [Enlace](https://www.isca-archive.org/interspeech_2024/wu24k_interspeech.pdf)
 
 [5] X. Chen, et al., “Decoding silent speech based on high-density surface electromyography using spatiotemporal neural network,” IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 31, pp. 1234–1245, 2023. [Enlace](https://doi.org/10.1109/TNSRE.2023.3266299)
 
