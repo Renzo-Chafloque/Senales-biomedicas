@@ -98,16 +98,16 @@ La propuesta transforma los movimientos de músculos del cuello y cara en una in
 | **Preparación de pitch** | Creación de diapositivas y ensayo para exposiciones. | Hito S16 (10/jul)|
 
 ## Referencias
-[1] J. T. Heaton et al., “Development of a Wireless Electromyographically Controlled Electrolarynx Voice Prosthesis,” 2022. [enlace](https://pmc.ncbi.nlm.nih.gov/articles/PMC8981260/) 
+[1] J. T. Heaton et al., “Development of a Wireless Electromyographically Controlled Electrolarynx Voice Prosthesis,” 2022. [Enlace](https://pmc.ncbi.nlm.nih.gov/articles/PMC8981260/) 
 
-[2] R. B. Siqueira et al., “Laryngeal electromyography in dysphonic patients with incomplete glottic closure,” Int. Arch. Otorhinolaryngol., 2022. https://doi.org/10.1055/s-0041-1733867
+[2] R. B. Siqueira et al., “Laryngeal electromyography in dysphonic patients with incomplete glottic closure,” Int. Arch. Otorhinolaryngol., 2022. [Enlace](https://doi.org/10.1055/s-0041-1733867)
 
-[3] J. Wu. et al., “A novel silent speech recognition approach based on parallel inception CNN using surface electromyography,” Frontiers in Neurorobotics, vol. 16, 2022. https://www.frontiersin.org/articles/10.3389/fnbot.2022.971446/full 
+[3] J. Wu. et al., “A novel silent speech recognition approach based on parallel inception CNN using surface electromyography,” Frontiers in Neurorobotics, vol. 16, 2022. [Enlace](https://www.frontiersin.org/articles/10.3389/fnbot.2022.971446/full) 
 
 [4] P. Wu et al., "Towards EMG-to-Speech with a Necklace Form Factor," in Proc. Interspeech 2024, Kos, Grecia, 2024, pp. 402-406.
 
-[5] X. Chen, et al., “Decoding silent speech based on high-density surface electromyography using spatiotemporal neural network,” IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 31, pp. 1234–1245, 2023. https://doi.org/10.1109/TNSRE.2023.3266299
+[5] X. Chen, et al., “Decoding silent speech based on high-density surface electromyography using spatiotemporal neural network,” IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 31, pp. 1234–1245, 2023. [Enlace](https://doi.org/10.1109/TNSRE.2023.3266299)
 
-[6] L. Zhang, M. Li y Y. Chen, “Decoding silent speech: A machine learning perspective,” Neural Computing and Applications, 2025. https://link.springer.com/article/10.1007/s00521-024-10456-z
+[6] L. Zhang, M. Li y Y. Chen, “Decoding silent speech: A machine learning perspective,” Neural Computing and Applications, 2025. [Enlace](https://link.springer.com/article/10.1007/s00521-024-10456-z)
 
-[7] T. Ikeda, K. Yamamoto y H. Kato, “Classification of silent speech words considering walking using VMD applied facial EMG” en Proc. International Symposium on Affective Science and Engineering (ISASE), 2023. https://doi.org/10.5057/isase.2023-C000013
+[7] T. Ikeda, K. Yamamoto y H. Kato, “Classification of silent speech words considering walking using VMD applied facial EMG” en Proc. International Symposium on Affective Science and Engineering (ISASE), 2023. [Enlace](https://doi.org/10.5057/isase.2023-C000013)
