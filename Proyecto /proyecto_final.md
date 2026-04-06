@@ -1,4 +1,4 @@
-# Mejora de la discriminación de comandos simples en dispositivos de voz asistida mediante señales EMG
+# Reconocimiento de comandos simples en dispositivos de voz asistida mediante señales EMG
 
 ## Introducción
 
