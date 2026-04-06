@@ -55,7 +55,7 @@ La propuesta transforma los movimientos de músculos del cuello y cara en una in
 **Fase 3: Procesamiento Digital de Señales - DSP (Semanas 4-6)**
 | Tarea | Descripción Breve | Hito / Entregable |
 | :--- | :--- | :--- |
-| **Importación de datos** | Ploteo de señales EMG en Python (Matplotlib, SciPy). | - |
+| **Importación de datos** | Ploteo de señales EMG en Python. | - |
 | **Filtrado básico** | Filtros FIR/IIR para ruido de línea (60Hz) y movimiento. | - |
 | **Filtrado avanzado** | Evaluación de Transformada Wavelet para ruido mecánico. | - |
 | **Extracción temporal** | Cálculo de RMS, cruces por cero y amplitud máxima. | - |
@@ -66,7 +66,7 @@ La propuesta transforma los movimientos de músculos del cuello y cara en una in
 | :--- | :--- | :--- |
 | **Estructuración de datos** | Creación de Dataframe con características extraídas. | - |
 | **Entrenamiento ML/DL** | Modelos para clasificación de comandos neuromusculares. | - |
-| **Evaluación de modelo** | Análisis de métricas (Accuracy, Precision) y ajuste. | - |
+| **Evaluación de modelo** | Análisis de métricas y ajuste. | - |
 | **Codificador acústico** | Implementación para la parametrización del habla. | - |
 | **Integración con vocoder** | Gatillado de voz natural a partir de la base de datos. | - |
 
@@ -82,7 +82,7 @@ La propuesta transforma los movimientos de músculos del cuello y cara en una in
 **Fase 6: Pruebas del Sistema Integrado y Ajustes (Semanas 11-14)**
 | Tarea | Descripción Breve | Hito / Entregable |
 | :--- | :--- | :--- |
-| **Diseño de case 3D** | Modelado e impresión del soporte anatómico (collarín). | - |
+| **Diseño de case 3D** | Modelado e impresión del soporte anatómico. | - |
 | **Ensamblaje final** | Integración física de todos los componentes del dispositivo. | - |
 | **Pruebas de usabilidad** | Evaluaciones en tiempo real para verificar fluidez. | - |
 | **Análisis de fallos** | Identificación de falsos positivos/negativos en uso. | - |
