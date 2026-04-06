@@ -1,4 +1,4 @@
-# Optimización de comandos simples en laringe electrónica mediante señales EMG para una comunicación clara y precisa
+# Mejora de la discriminación de comandos simples en dispositivos de voz asistida mediante señales EMG
 
 ## Introducción
 
