@@ -98,7 +98,7 @@ La propuesta transforma los movimientos de músculos del cuello y cara en una in
 | **Preparación de pitch** | Creación de diapositivas y ensayo para exposiciones. | Hito S16 (10/jul)|
 
 ## Referencias
-[1] J. T. Heaton et al., “Development of a Wireless Electromyographically Controlled Electrolarynx Voice Prosthesis,” 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC8981260/ 
+[1] J. T. Heaton et al., “Development of a Wireless Electromyographically Controlled Electrolarynx Voice Prosthesis,” 2022. [enlace](https://pmc.ncbi.nlm.nih.gov/articles/PMC8981260/) 
 
 [2] R. B. Siqueira et al., “Laryngeal electromyography in dysphonic patients with incomplete glottic closure,” Int. Arch. Otorhinolaryngol., 2022. https://doi.org/10.1055/s-0041-1733867
 
