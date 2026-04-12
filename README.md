@@ -6,6 +6,7 @@ Esto está fundamentado en que aunque un paciente haya perdido la laringe, aún 
 ## Integrantes
 - Renzo Alejandro Chafloque Bezares
 - Aleks Sebastian Salas Sotelo
+- ![IMG_9921 copia](https://github.com/user-attachments/assets/ec14b06e-c383-48d7-b7fd-f0330a73161b)
 - Elena Carolina Mamani Rimachi
 - Ingrid Dayana Rodríguez Contreras
 - Gustavo Andre Ruiz Ortiz
