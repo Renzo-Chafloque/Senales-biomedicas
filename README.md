@@ -1,4 +1,4 @@
-![linked](https://github.com/user-attachments/assets/b3c561c0-0c66-4254-8411-0a81e2adc6c9)
+
 # ESPECIALISTAS-ISB-2026-I
 Nuestra propuesta consiste en el desarrollo un sistema que capture señales electromiográficas (EMG) de los músculos cervicales y las procese reconociendo sílabas y palabras específicas. Esto con el objetivo de controlar y modular una laringe electrónica de forma intuitiva y sin intervención manual.
 
