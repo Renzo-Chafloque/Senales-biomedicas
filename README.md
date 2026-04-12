@@ -1,3 +1,4 @@
+![linked](https://github.com/user-attachments/assets/b3c561c0-0c66-4254-8411-0a81e2adc6c9)
 # ESPECIALISTAS-ISB-2026-I
 Nuestra propuesta consiste en el desarrollo un sistema que capture señales electromiográficas (EMG) de los músculos cervicales y las procese reconociendo sílabas y palabras específicas. Esto con el objetivo de controlar y modular una laringe electrónica de forma intuitiva y sin intervención manual.
 
@@ -9,6 +10,6 @@ Esto está fundamentado en que aunque un paciente haya perdido la laringe, aún 
 
 | Renzo Chafloque | Aleks Salas | Elena Mamani | Ingrid Rodriguez | Gustavo Ruiz |
 | :--- | :--- | :--- | :--- | :--- |
-| Celda 1 | Celda 2 | <img src="https://github.com/user-attachments/assets/fa1473e7-4880-4e77-a6b5-28b783055db3" width="120"> | Celda 4 | Celda 5 |
+| <img src="https://github.com/user-attachments/assets/b3c561c0-0c66-4254-8411-0a81e2adc6c9" width="120"> | Celda 2 | <img src="https://github.com/user-attachments/assets/fa1473e7-4880-4e77-a6b5-28b783055db3" width="120"> | Celda 4 | Celda 5 |
 
 
