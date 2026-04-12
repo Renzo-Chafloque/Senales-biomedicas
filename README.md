@@ -9,6 +9,6 @@ Esto está fundamentado en que aunque un paciente haya perdido la laringe, aún 
 
 | Renzo Chafloque | Aleks Salas | Elena Mamani | Ingrid Rodriguez | Gustavo Ruiz |
 | :--- | :--- | :--- | :--- | :--- |
-| Celda 1 | Celda 2 | ![Mamani_ISB](https://github.com/user-attachments/assets/fa1473e7-4880-4e77-a6b5-28b783055db3) |Celda 4 | Celda 5 |
+| Celda 1 | Celda 2 | <img src="https://github.com/user-attachments/assets/fa1473e7-4880-4e77-a6b5-28b783055db3" width="100"> | Celda 4 | Celda 5 |
 
 
