@@ -9,6 +9,7 @@ Esto está fundamentado en que aunque un paciente haya perdido la laringe, aún 
 
 | Renzo Chafloque | Aleks Salas | Elena Mamani | Ingrid Rodriguez | Gustavo Ruiz |
 | :--- | :--- | :--- | :--- | :--- |
-| <img src="https://github.com/user-attachments/assets/b3c561c0-0c66-4254-8411-0a81e2adc6c9" width="120"> | Celda 2 | <img src="https://github.com/user-attachments/assets/fa1473e7-4880-4e77-a6b5-28b783055db3" width="120"> | <img src="https://github.com/user-attachments/assets/2f9f548f-f52e-43de-bbf3-22da156454f2" width="120"> | <img src="https://github.com/user-attachments/assets/99f56863-beeb-445a-89b1-421717f3c3ec" width="120"> |
+| <img src="https://github.com/user-attachments/assets/b3c561c0-0c66-4254-8411-0a81e2adc6c9" width="120"> | <img src="https://github.com/user-attachments/assets/63db45c2-66a4-4987-b7dc-986768fe239)" width="120">
+ | <img src="https://github.com/user-attachments/assets/fa1473e7-4880-4e77-a6b5-28b783055db3" width="120"> | <img src="https://github.com/user-attachments/assets/2f9f548f-f52e-43de-bbf3-22da156454f2" width="120"> | <img src="https://github.com/user-attachments/assets/99f56863-beeb-445a-89b1-421717f3c3ec" width="120"> |
 
 
