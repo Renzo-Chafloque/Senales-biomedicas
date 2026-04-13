@@ -10,6 +10,13 @@
 | :--- | :--- | :--- | :--- | :--- |
 | <img src="https://github.com/user-attachments/assets/b3c561c0-0c66-4254-8411-0a81e2adc6c9" width="120"> | <img src="https://github.com/user-attachments/assets/0d16b5d9-ea49-418c-8cbd-a4a5bd7e4a1f" width="120"> | <img src="https://github.com/user-attachments/assets/fa1473e7-4880-4e77-a6b5-28b783055db3" width="120"> | <img src="https://github.com/user-attachments/assets/2f9f548f-f52e-43de-bbf3-22da156454f2" width="120"> | <img src="https://github.com/user-attachments/assets/99f56863-beeb-445a-89b1-421717f3c3ec" width="120"> |
 
+## Docentes
+
+
+| Moises Stevend Meza Rodriguez | Jose Alonso Caceres Del Aguila | 
+| :--- | :--- |
+| <img src="https://github.com/user-attachments/assets/450d3e89-134d-446d-beba-a13094757319" width="120"> | <img src="https://github.com/user-attachments/assets/a5483a0e-bd8d-4f4e-ab65-edcf985c7f01" width="120"> |
+
 ## Introducción
 
 La laringectomía total implica la pérdida de la voz natural, lo que afecta profundamente la comunicación y la calidad de vida de los pacientes. Como alternativa, la laringe electrónica ofrece una solución al permitir la articulación del habla mediante vibraciones mecánicas transmitidas a través del cuello [1]. Sin embargo, la voz obtenida a través de la laringe electrónica presenta importantes limitaciones, tales como un tono monótono, la presencia de ruido mecánico y una falta de naturalidad [2]. Estas características no solo afectan la percepción de la voz, sino que también dificultan la correcta diferenciación de palabras en situaciones cotidianas [3].
