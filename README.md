@@ -2,8 +2,13 @@
 
 # Reconocimiento de comandos simples en dispositivos de voz asistida mediante señales EMG
 
-## Integrantes
+## Introducción
 
+La laringectomía total implica la pérdida de la voz natural, lo que afecta profundamente la comunicación y la calidad de vida de los pacientes. Como alternativa, la laringe electrónica ofrece una solución al permitir la articulación del habla mediante vibraciones mecánicas transmitidas a través del cuello [1]. Sin embargo, la voz obtenida a través de la laringe electrónica presenta importantes limitaciones, tales como un tono monótono, la presencia de ruido mecánico y una falta de naturalidad [2]. Estas características no solo afectan la percepción de la voz, sino que también dificultan la correcta diferenciación de palabras en situaciones cotidianas [3].
+
+En este contexto, el procesamiento digital de señales emerge como una herramienta clave para analizar, mejorar y facilitar la interpretación de la señal de voz generada [4].
+
+## Integrantes
 
 
 | Renzo Chafloque | Aleks Salas | Elena Mamani | Ingrid Rodriguez | Gustavo Ruiz |
@@ -17,11 +22,6 @@
 | :--- | :--- |
 | <img src="https://github.com/user-attachments/assets/450d3e89-134d-446d-beba-a13094757319" width="120"> | <img src="https://github.com/user-attachments/assets/a5483a0e-bd8d-4f4e-ab65-edcf985c7f01" width="120"> |
 
-## Introducción
-
-La laringectomía total implica la pérdida de la voz natural, lo que afecta profundamente la comunicación y la calidad de vida de los pacientes. Como alternativa, la laringe electrónica ofrece una solución al permitir la articulación del habla mediante vibraciones mecánicas transmitidas a través del cuello [1]. Sin embargo, la voz obtenida a través de la laringe electrónica presenta importantes limitaciones, tales como un tono monótono, la presencia de ruido mecánico y una falta de naturalidad [2]. Estas características no solo afectan la percepción de la voz, sino que también dificultan la correcta diferenciación de palabras en situaciones cotidianas [3].
-
-En este contexto, el procesamiento digital de señales emerge como una herramienta clave para analizar, mejorar y facilitar la interpretación de la señal de voz generada [4].
 
 ## Problemática a abordar
 
