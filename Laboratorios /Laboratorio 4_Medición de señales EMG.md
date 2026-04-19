@@ -21,11 +21,24 @@ En este laboratorio se adquirieron señales EMG de distintos grupos musculares, 
 Se utilizó una configuración bipolar:
 
 - Dos electrodos activos colocados sobre el músculo de interés  
-- Un electrodo de referencia en una zona neutra  
+- Un electrodo de referencia en una zona neutra (estructura ósea)
 
-**Ubicaciones:**
-- Bíceps → electrodos sobre el músculo, referencia en el codo  
-- Trapecio superior → electrodos en la región superior del músculo, referencia (FALTA)
+Los electrodos se colocaron alineados con la dirección de las fibras musculares y con una separación aproximada de 2 cm entre centros.
+
+
+#### Bíceps braquial
+
+Los electrodos activos se colocaron sobre el vientre del músculo bíceps, siguiendo la orientación de las fibras musculares.  
+El electrodo de referencia se ubicó en el codo.
+
+
+### Trapecio superior
+
+Los electrodos activos se colocaron en la región superior del trapecio, sobre el músculo.  
+El electrodo de referencia se ubicó en una zona neutra cercana.
+
+
+> Nota: Las imágenes corresponden a referencias de colocación y registro experimental. Se utilizaron como guía para asegurar una correcta adquisición de la señal.
 
 ## Referencias
 
