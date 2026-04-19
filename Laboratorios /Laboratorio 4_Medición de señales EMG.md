@@ -98,8 +98,7 @@ FALTA RESPONDER
 
 #### Q4. Show a portion of EMG signal and explain
 
-La señal presenta zonas de baja amplitud (reposo) y zonas con picos (contracción), lo cual corresponde al comportamiento esperado en EMG.  
-Músculo analizado: bíceps braquial. Acción realizada: contracción del brazo  
+FALTA RESPONDER
 
 #### Q5. Does EMG amplitude equal muscle force?
 
