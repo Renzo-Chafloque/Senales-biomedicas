@@ -8,6 +8,7 @@ Las señales EMG pueden ser registradas mediante electrodos de superficie, lo qu
 En este laboratorio se adquirieron señales EMG de distintos grupos musculares, como el bíceps y el trapecio superior, utilizando el sistema BITalino, con el objetivo de analizar sus características en el dominio del tiempo y su relación con la actividad muscular.
 
 ## Metodología
+
 ### Componentes:
 | Componente | Descripción |
 |-----------|------------|
@@ -15,6 +16,8 @@ En este laboratorio se adquirieron señales EMG de distintos grupos musculares, 
 | Electrodos EMG | Electrodos de superficie para registro muscular |
 | Cables | Conexión de electrodos al dispositivo |
 | Computadora | Registro y visualización de datos |
+
+---
 
 ### Ubicación de electrodos
 
