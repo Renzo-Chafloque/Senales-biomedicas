@@ -1,11 +1,20 @@
 ## Electromiografía (EMG) – Análisis de señales musculares
 
 ## Introducción
-La electromiografía (EMG) es una técnica utilizada para medir la actividad eléctrica generada por los músculos durante su contracción. En este experimento se adquirieron señales EMG superficiales (sEMG) utilizando el sistema BITalino, con el objetivo de analizar cómo varían estas señales en función de la activación muscular y la ubicación del músculo.
+La electromiografía (EMG) es una técnica utilizada para medir la actividad eléctrica generada por los músculos durante su contracción. Esta señal refleja la suma de los potenciales de acción de las fibras musculares, permitiendo evaluar el funcionamiento neuromuscular [1].
 
-Se trabajó con diferentes grupos musculares, incluyendo músculos del brazo (bíceps) y músculos faciales, con el fin de comparar sus características en términos de frecuencia y amplitud.
+Las señales EMG pueden ser registradas mediante electrodos de superficie, lo que permite analizar la activación muscular de manera no invasiva en diferentes condiciones, como reposo y contracción [2]. Estas mediciones son ampliamente utilizadas tanto en el ámbito clínico como en investigación, para el estudio del control muscular y la evaluación de trastornos neuromusculares [3].
+
+En este laboratorio se adquirieron señales EMG de distintos grupos musculares, como el bíceps y el trapecio superior, utilizando el sistema BITalino, con el objetivo de analizar sus características en el dominio del tiempo y su relación con la actividad muscular.
 
 ## Metodología
+# Componentes:
+- d
 
 ## Referencias
-[1] 
+
+[1] MedlinePlus. “Electromiografía y estudios de conducción nerviosa.” Disponible en: https://medlineplus.gov/spanish/pruebas-de-laboratorio/electromiografia-y-estudios-de-conduccion-nerviosa/
+
+[2] Merletti R., Parker P. “Electromyography: physiology, engineering, and noninvasive applications.” Disponible en: https://pmc.ncbi.nlm.nih.gov/articles/PMC1455479/
+
+[3] Farina D. et al. “The extraction of neural strategies from the surface EMG.” Disponible en: https://pmc.ncbi.nlm.nih.gov/articles/PMC7755956/
