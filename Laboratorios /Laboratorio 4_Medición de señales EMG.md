@@ -31,11 +31,10 @@ Los electrodos se colocaron alineados con la dirección de las fibras musculares
 Los electrodos activos se colocaron sobre el vientre del músculo bíceps, siguiendo la orientación de las fibras musculares.  
 El electrodo de referencia se ubicó en el codo.
 
-
 ### Trapecio superior
 
-Los electrodos activos se colocaron en la región superior del trapecio, sobre el músculo.  
-El electrodo de referencia se ubicó en una zona neutra cercana.
+Los electrodos activos se colocaron en la región superior del músculo trapecio, sobre el vientre muscular.  
+El electrodo de referencia se ubicó en una zona neutra, específicamente en la apófisis mastoides (región ósea detrás de la oreja).
 
 
 > Nota: Las imágenes corresponden a referencias de colocación y registro experimental. Se utilizaron como guía para asegurar una correcta adquisición de la señal.
