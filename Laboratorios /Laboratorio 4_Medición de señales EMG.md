@@ -42,6 +42,63 @@ El electrodo de referencia se ubicó en una zona neutra, específicamente en la 
 
 > Nota: Las imágenes corresponden a referencias de colocación y registro experimental. Se utilizaron como guía para asegurar una correcta adquisición de la señal.
 
+## Resultados
+### Comportamiento general de la señal
+
+- Se registraron **dos patrones claramente diferenciados** entre los canales.
+- Se identificaron **ciclos repetitivos de activación (picos) y relajación**.
+- La señal presenta **variabilidad incluso en reposo**, atribuida a actividad basal y ruido.
+
+---
+
+### Canal 1 – Bíceps braquial
+
+- **Amplitud alta y variable**
+- Valores aproximados:
+  - Máximos: ~1000 unidades digitales  
+  - Mínimos: <200 unidades digitales  
+
+- **Características observadas:**
+  - Presencia de picos pronunciados  
+  - Cambios bruscos en la señal  
+  - Ciclos de contracción-relajación bien definidos  
+
+**Interpretación del registro:**  
+Este comportamiento indica una **mayor activación muscular** durante el experimento.
+
+---
+
+### Canal 2 – Trapecio superior
+
+- **Amplitud baja y estable**
+- Valores aproximados:
+  - Rango: ~480–550 unidades digitales  
+
+- **Características observadas:**
+  - Señal con menor variabilidad  
+  - Ausencia de picos pronunciados  
+  - Comportamiento cercano a una línea base  
+
+**Interpretación del registro:**  
+Se evidencia una **actividad muscular baja o constante** en comparación con el bíceps.
+
+---
+
+### Comparación entre músculos
+
+| Característica       | Bíceps braquial | Trapecio superior |
+|----------------------|-----------------|-------------------|
+| Amplitud             | Alta            | Baja              |
+| Variabilidad         | Alta            | Baja              |
+| Picos de activación  | Presentes       | No evidentes      |
+| Tipo de señal        | Dinámica        | Estable           |
+
+---
+
+### Observación final
+
+La señal EMG presenta diferencias claras entre ambos músculos, evidenciando patrones distintos de activación en función del rol de cada músculo durante la prueba.
+
 ## Referencias
 
 [1] MedlinePlus. “Electromiografía y estudios de conducción nerviosa.” Disponible en: https://medlineplus.gov/spanish/pruebas-de-laboratorio/electromiografia-y-estudios-de-conduccion-nerviosa/
