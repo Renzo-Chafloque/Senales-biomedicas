@@ -16,6 +16,17 @@ En este laboratorio se adquirieron señales EMG de distintos grupos musculares, 
 | Cables | Conexión de electrodos al dispositivo |
 | Computadora | Registro y visualización de datos |
 
+### Ubicación de electrodos
+
+Se utilizó una configuración bipolar:
+
+- Dos electrodos activos colocados sobre el músculo de interés  
+- Un electrodo de referencia en una zona neutra  
+
+**Ubicaciones:**
+- Bíceps → electrodos sobre el músculo, referencia en el codo  
+- Trapecio superior → electrodos en la región superior del músculo, referencia (FALTA)
+
 ## Referencias
 
 [1] MedlinePlus. “Electromiografía y estudios de conducción nerviosa.” Disponible en: https://medlineplus.gov/spanish/pruebas-de-laboratorio/electromiografia-y-estudios-de-conduccion-nerviosa/
