@@ -1,4 +1,4 @@
-## Electromiografía (EMG) – Análisis de señales musculares
+# Electromiografía (EMG) – Análisis de señales musculares
 
 ## Introducción
 La electromiografía (EMG) es una técnica utilizada para medir la actividad eléctrica generada por los músculos durante su contracción. Esta señal refleja la suma de los potenciales de acción de las fibras musculares, permitiendo evaluar el funcionamiento neuromuscular [1].
@@ -8,7 +8,7 @@ Las señales EMG pueden ser registradas mediante electrodos de superficie, lo qu
 En este laboratorio se adquirieron señales EMG de distintos grupos musculares, como el bíceps y el trapecio superior, utilizando el sistema BITalino, con el objetivo de analizar sus características en el dominio del tiempo y su relación con la actividad muscular.
 
 ## Metodología
-# Componentes:
+A. Componentes:
 - d
 
 ## Referencias
