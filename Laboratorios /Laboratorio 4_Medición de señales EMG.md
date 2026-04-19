@@ -55,24 +55,51 @@ Las señales EMG fueron adquiridas con el sistema BITalino a una frecuencia de m
 ### Canal 1 – Bíceps braquial
 
 - Valores aproximados:
-  - Máximos: ~1000 unidades digitales  
-  - Mínimos: <200 unidades digitales  
+  - Máximos: 
+  - Mínimos: 
 
 - Características observadas:
-  - Presencia de picos pronunciados  
-  - Cambios bruscos en la señal  
-  - Variabilidad alta a lo largo del tiempo  
+  - FR 
 
 ### Canal 2 – Trapecio superior
 
 - Valores aproximados:
-  - Rango: ~480–550 unidades digitales  
+  - Rango:
 
 - Características observadas:
-  - Señal con menor variabilidad  
-  - Ausencia de picos pronunciados  
-  - Comportamiento cercano a una línea base
+  - SF
  
+---
+
+## Discusión
+
+### Análisis de resultados
+
+ACA HAGAN UN ANALISIS DE LOS RESULTADOS
+
+### Respuestas a las preguntas
+
+#### Q1. Which are the significant frequencies for EMG acquisitions?
+
+FALTA RESPONDER
+
+#### Q2. Which kind of filter is essential when working with EMG signals?
+
+FALTA RESPONDER
+
+#### Q3. How does the amplitude differ in each muscular contraction?
+
+FALTA RESPONDER
+
+#### Q4. Show a portion of EMG signal and explain
+
+La señal presenta zonas de baja amplitud (reposo) y zonas con picos (contracción), lo cual corresponde al comportamiento esperado en EMG.  
+Músculo analizado: bíceps braquial. Acción realizada: contracción del brazo  
+
+#### Q5. Does EMG amplitude equal muscle force?
+
+No. La amplitud de la señal EMG está relacionada con la activación muscular, pero no es una medida directa de la fuerza generada.
+
 ---
 
 ## Referencias
