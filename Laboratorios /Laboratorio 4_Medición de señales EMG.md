@@ -32,7 +32,7 @@ Los electrodos se colocaron alineados con la dirección de las fibras musculares
 
 #### Bíceps braquial
 
-Los electrodos activos se colocaron sobre el vientre del músculo bíceps, siguiendo la orientación de las fibras musculares.  
+Los electrodos activos se colocaron sobre el músculo bíceps, siguiendo la orientación de las fibras musculares.  
 El electrodo de referencia se ubicó en el codo.
 
 #### Trapecio superior
