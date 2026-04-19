@@ -110,6 +110,8 @@ No. La amplitud de la señal EMG está relacionada con la activación muscular, 
 ## Limitaciones
 FALTA
 
+---
+
 ## Referencias
 
 [1] MedlinePlus. “Electromiografía y estudios de conducción nerviosa.” Disponible en: https://medlineplus.gov/spanish/pruebas-de-laboratorio/electromiografia-y-estudios-de-conduccion-nerviosa/
