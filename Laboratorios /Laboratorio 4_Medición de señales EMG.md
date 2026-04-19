@@ -6,6 +6,7 @@ La electromiografía (EMG) es una técnica utilizada para medir la actividad el�
 Las señales EMG pueden ser registradas mediante electrodos de superficie, lo que permite analizar la activación muscular de manera no invasiva en diferentes condiciones, como reposo y contracción [2]. Estas mediciones son ampliamente utilizadas tanto en el ámbito clínico como en investigación, para el estudio del control muscular y la evaluación de trastornos neuromusculares [3].
 
 En este laboratorio se adquirieron señales EMG de distintos grupos musculares, como el bíceps y el trapecio superior, utilizando el sistema BITalino, con el objetivo de analizar sus características en el dominio del tiempo y su relación con la actividad muscular.
+
 ---
 
 ## Metodología
