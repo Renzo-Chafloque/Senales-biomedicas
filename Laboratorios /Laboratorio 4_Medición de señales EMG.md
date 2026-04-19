@@ -35,10 +35,15 @@ Los electrodos se colocaron alineados con la dirección de las fibras musculares
 Los electrodos activos se colocaron sobre el músculo bíceps, siguiendo la orientación de las fibras musculares.  
 El electrodo de referencia se ubicó en el codo.
 
+ACA AGREGUMOS UNA IMAGEN, LA DE LA GUIA
+
+
 #### Trapecio superior
 
 Los electrodos activos se colocaron en la región superior del músculo trapecio, sobre el vientre muscular.  
 El electrodo de referencia se ubicó en una zona neutra, específicamente en la apófisis mastoides (región ósea detrás de la oreja).
+
+ACA TMB AGREGUMOS UNA IMAGEN, LA DE LA GUIA
 
 ---
 
@@ -59,7 +64,7 @@ Las señales EMG fueron adquiridas con el sistema BITalino a una frecuencia de m
   - Mínimos: 
 
 - Características observadas:
-  - FR 
+  - FALTA 
 
 ### Canal 2 – Trapecio superior
 
@@ -67,7 +72,7 @@ Las señales EMG fueron adquiridas con el sistema BITalino a una frecuencia de m
   - Rango:
 
 - Características observadas:
-  - SF
+  - FALTA
  
 ---
 
