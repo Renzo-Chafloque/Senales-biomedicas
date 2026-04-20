@@ -117,21 +117,56 @@ ACA HAGAN UN ANALISIS DE LOS RESULTADOS
 
 ### Respuestas a las preguntas
 
-#### Q1. Which are the significant frequencies for EMG acquisitions?
+# Sustentación del Cuestionario Técnico
 
-FALTA RESPONDER
+### **P1. ¿Cuáles son las frecuencias significativas para las adquisiciones de EMG?**
 
-#### Q2. Which kind of filter is essential when working with EMG signals?
+Desde una perspectiva fisiológica y de instrumentación biomédica, el espectro de potencia de una señal EMG de superficie se distribuye predominantemente en el rango de los **$20 \text{ Hz}$ a los $500 \text{ Hz}$**. 
 
-FALTA RESPONDER
+No obstante, el intervalo de mayor relevancia diagnóstica, donde se concentra la máxima densidad espectral y la mayor información de las unidades motoras, se encuentra entre los **$50 \text{ Hz}$ y $150 \text{ Hz}$**. Las componentes de frecuencia por debajo de los $20 \text{ Hz}$ suelen ser descartadas en el procesamiento, ya que generalmente corresponden a:
+* Artefactos de movimiento (ruido mecánico).
+* Inestabilidad en la interfaz electrodo-piel.
 
-#### Q3. How does the amplitude differ in each muscular contraction?
+---
 
-FALTA RESPONDER
+### **P2. ¿Qué tipo de filtro es esencial al trabajar con señales EMG?**
 
-#### Q4. Show a portion of EMG signal and explain
+Para el procesamiento de señales EMG, es imperativo implementar una arquitectura de filtrado digital que combine dos etapas críticas:
 
-FALTA RESPONDER
+1.  **Filtro Notch (Elimina-banda):** Sintonizado específicamente a **$60 \text{ Hz}$** (frecuencia de la red eléctrica local). Su función es suprimir la interferencia electromagnética captada por el cuerpo humano, el cual actúa como antena receptora del ruido de línea.
+2.  **Filtro Pasa-banda (Band-pass):** Generalmente un filtro *Butterworth* de orden superior con frecuencias de corte entre **$20 \text{ Hz}$ y $450 \text{ Hz}$**. Este filtro es esencial para delimitar la ventana de información biológica, atenuando tanto el ruido de baja frecuencia (movimiento) como el ruido térmico de alta frecuencia ajeno a la actividad muscular.
+
+---
+
+### **P3. ¿En qué se diferencia la amplitud en cada contracción muscular?**
+
+La variación en la amplitud de la señal (medida en $\mu V$ o $mV$ pico a pico) es el reflejo de dos mecanismos neurofisiológicos de control:
+
+* **Reclutamiento de unidades motoras:** A mayor demanda de carga, el sistema nervioso activa un mayor número de fibras musculares siguiendo el *principio de tamaño de Henneman*.
+* **Frecuencia de disparo (Rate Coding):** El incremento en la cadencia de los impulsos nerviosos genera una sumación espacial y temporal de los potenciales de acción.
+
+**Conclusión:** Una contracción contra carga máxima presentará ráfagas de amplitud significativamente superiores y una mayor densidad de picos comparada con una contracción leve o isométrica sin carga.
+
+---
+
+### **P4. Muestre una porción de la señal EMG y explíquela.**
+
+*(Referencia al segmento de activación o "burst" observado en la sección de Resultados).*
+
+En una ventana de tiempo reducida durante la fase de contracción, se aprecia una **actividad de interferencia compleja**. 
+* **Los picos de voltaje:** Representan la despolarización asincrónica de las membranas de las fibras musculares en respuesta a los potenciales de acción. La densidad y magnitud de estos picos son indicadores directos de la intensidad del esfuerzo y el reclutamiento de fibras.
+* **Segmentos de línea base:** Los periodos de retorno a la línea base o baja amplitud indican los periodos de reposo relativo o la repolarización celular previa a un nuevo ciclo de activación voluntaria.
+
+---
+
+### **P5. ¿La amplitud de la EMG es igual a la fuerza muscular?**
+
+Científicamente, **no existe una equivalencia lineal o igualdad absoluta** entre ambos parámetros. 
+
+* **EMG:** Mide exclusivamente la **actividad eléctrica** (el comando neural y la respuesta electroquímica de la membrana).
+* **Fuerza:** Es un **resultado mecánico** influenciado por variables biomecánicas como el ángulo articular, la velocidad de contracción, la longitud del sarcómero y la fatiga muscular. 
+
+**Ejemplo crítico:** En estado de fatiga, la señal EMG puede mostrar una amplitud elevada debido a un intento del sistema nervioso por compensar la pérdida de eficiencia muscular mediante más reclutamiento, mientras que la fuerza mecánica producida disminuye drásticamente.
 
 #### Q5. Does EMG amplitude equal muscle force?
 
