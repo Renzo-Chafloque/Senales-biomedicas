@@ -119,7 +119,7 @@ ACA HAGAN UN ANALISIS DE LOS RESULTADOS
 
 ### **P1. ¿Cuáles son las frecuencias significativas para las adquisiciones de EMG?**
 
-Desde una perspectiva fisiológica y de instrumentación biomédica, el espectro de potencia de una señal EMG de superficie se distribuye predominantemente en el rango de los **$20 \text{ Hz}$ a los $500 \text{ Hz}$**. 
+Desde una perspectiva fisiológica y de análisis de señales, el espectro de potencia de una señal EMG de superficie se distribuye predominantemente en el rango de los **$20 \text{ Hz}$ a los $500 \text{ Hz}$**. 
 
 No obstante, el intervalo de mayor relevancia diagnóstica, donde se concentra la máxima densidad espectral y la mayor información de las unidades motoras, se encuentra entre los **$50 \text{ Hz}$ y $150 \text{ Hz}$**. Las componentes de frecuencia por debajo de los $20 \text{ Hz}$ suelen ser descartadas en el procesamiento, ya que generalmente corresponden a:
 * Artefactos de movimiento (ruido mecánico).
@@ -143,7 +143,7 @@ La variación en la amplitud de la señal (medida en $\mu V$ o $mV$ pico a pico)
 * **Reclutamiento de unidades motoras:** A mayor demanda de carga, el sistema nervioso activa un mayor número de fibras musculares siguiendo el *principio de tamaño de Henneman*.
 * **Frecuencia de disparo (Rate Coding):** El incremento en la cadencia de los impulsos nerviosos genera una sumación espacial y temporal de los potenciales de acción.
 
-**Conclusión:** Una contracción contra carga máxima presentará ráfagas de amplitud significativamente superiores y una mayor densidad de picos comparada con una contracción leve o isométrica sin carga.
+Una contracción contra carga máxima presentará ráfagas de amplitud significativamente superiores y una mayor densidad de picos comparada con una contracción leve o isométrica sin carga.
 
 ---
 
