@@ -42,7 +42,7 @@ El electrodo de referencia se ubicó en el codo.
 Los electrodos activos se colocaron en la región superior del músculo trapecio, sobre el vientre muscular.  
 El electrodo de referencia se ubicó en una zona neutra, específicamente en la apófisis mastoides (región ósea detrás de la oreja).
 
-<img width="383" height="186" alt="Trapecio_electrodos" src="https://github.com/user-attachments/assets/2690e7a7-1b56-4f5b-92ae-684f46f94ed6" />
+<img width="562" height="273" alt="Trapecio_electrodos" src="https://github.com/user-attachments/assets/2690e7a7-1b56-4f5b-92ae-684f46f94ed6" />
 
 
 ---
