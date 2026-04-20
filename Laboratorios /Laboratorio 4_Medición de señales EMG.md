@@ -42,6 +42,8 @@ El electrodo de referencia se ubicó en el codo.
 
 <img width="567" height="273" alt="Biceps_electrodos" src="https://github.com/user-attachments/assets/3a756d08-90c9-427a-9ec5-e47b86f60e68" />
 
+Fig 1. Posicionamiento de electrodos en el bíceps braquial. Extraído de BITalino (r)evolution Home Guide [4]
+
 #### Trapecio superior
 
 Los electrodos activos se colocaron en la región superior del músculo trapecio, sobre el vientre muscular.  
@@ -49,7 +51,7 @@ El electrodo de referencia se ubicó en una zona neutra, específicamente en la 
 
 <img width="567" height="273" alt="Trapecio_electrodos" src="https://github.com/user-attachments/assets/a382c9c9-8c1d-4341-99c0-1d35957a83e9" />
 
-
+Fig 2. Posicionamiento de electrodos en el trapecio descendente. Extraído de BITalino (r)evolution Home Guide [4]
 ---
 
 ## Resultados
