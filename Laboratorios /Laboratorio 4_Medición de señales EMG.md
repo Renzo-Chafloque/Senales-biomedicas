@@ -117,8 +117,6 @@ ACA HAGAN UN ANALISIS DE LOS RESULTADOS
 
 ### Respuestas a las preguntas
 
-# Sustentación del Cuestionario Técnico
-
 ### **P1. ¿Cuáles son las frecuencias significativas para las adquisiciones de EMG?**
 
 Desde una perspectiva fisiológica y de instrumentación biomédica, el espectro de potencia de una señal EMG de superficie se distribuye predominantemente en el rango de los **$20 \text{ Hz}$ a los $500 \text{ Hz}$**. 
