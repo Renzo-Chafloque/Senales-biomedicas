@@ -93,7 +93,7 @@ Las señales EMG fueron adquiridas con el sistema BITalino a una frecuencia de m
     ![Señal Filtrada Biceps](espacio_para_imagen_biceps_filtrado.png)
 *   **Análisis:** La señal en reposo es uniforme. Al aplicar carga, se vuelve caótica y de alta amplitud debido al reclutamiento masivo de unidades motoras.
 
-### Abductor del Pulgar
+### Zona basal
 *   **Señal sin filtrar:** 
     ![Señal Cruda Pulgar](espacio_para_imagen_pulgar_crudo.png)
 *   **Señal filtrada:**
