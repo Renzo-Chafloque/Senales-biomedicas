@@ -9,7 +9,7 @@ En este laboratorio se adquirieron señales EMG de distintos grupos musculares, 
 
 ---
 
-## 2. Objetivos
+## Objetivos
 *   **Adquisición de señales:** Capturar biopotenciales de EMG utilizando el kit BITalino bajo tres condiciones fisiológicas: reposo, contracción leve y contracción con carga.
 *   **Análisis de datos:** Comprender el uso de software especializado para la visualización de resultados y realizar el análisis de las señales obtenidas.
 *   **Procesamiento:** Identificar componentes de ruido y evaluar la importancia del filtrado en bioseñales.
