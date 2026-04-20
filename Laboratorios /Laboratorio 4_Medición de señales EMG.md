@@ -84,6 +84,31 @@ Las señales EMG fueron adquiridas con el sistema BITalino a una frecuencia de m
  
 ---
 
+## 5. Resultados
+
+### 5.1. Bíceps Braquial
+*   **Señal sin filtrar:** 
+    ![Señal Cruda Biceps](espacio_para_imagen_biceps_crudo.png)
+*   **Señal filtrada:**
+    ![Señal Filtrada Biceps](espacio_para_imagen_biceps_filtrado.png)
+*   **Análisis:** La señal en reposo es uniforme. Al aplicar carga, se vuelve caótica y de alta amplitud debido al reclutamiento masivo de unidades motoras.
+
+### 5.2. Abductor del Pulgar
+*   **Señal sin filtrar:** 
+    ![Señal Cruda Pulgar](espacio_para_imagen_pulgar_crudo.png)
+*   **Señal filtrada:**
+    ![Señal Filtrada Pulgar](espacio_para_imagen_pulgar_filtrado.png)
+*   **Análisis:** Se observa una activación rítmica. La señal logra opacar el ruido basal durante la fase de contracción máxima.
+
+### 5.3. Trapecio Superior
+*   **Señal sin filtrar:** 
+    ![Señal Cruda Trapecio](espacio_para_imagen_trapecio_crudo.png)
+*   **Señal filtrada:**
+    ![Señal Filtrada Trapecio](espacio_para_imagen_trapecio_filtrado.png)
+*   **Análisis:** El ruido es más difícil de caracterizar debido a que es un músculo con activación postural constante.
+
+---
+
 ## Discusión
 
 ### Análisis de resultados
