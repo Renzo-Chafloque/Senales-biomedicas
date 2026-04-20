@@ -52,6 +52,7 @@ El electrodo de referencia se ubicó en una zona neutra, específicamente en la 
 <img width="567" height="273" alt="Trapecio_electrodos" src="https://github.com/user-attachments/assets/a382c9c9-8c1d-4341-99c0-1d35957a83e9" />
 
 Fig 2. Posicionamiento de electrodos en el trapecio descendente. Extraído de BITalino (r)evolution Home Guide [4]
+
 ---
 
 ## Resultados
