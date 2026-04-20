@@ -126,3 +126,5 @@ FALTA
 [2] Merletti R., Parker P. “Electromyography: physiology, engineering, and noninvasive applications.” Disponible en: https://pmc.ncbi.nlm.nih.gov/articles/PMC1455479/
 
 [3] Farina D. et al. “The extraction of neural strategies from the surface EMG.” Disponible en: https://pmc.ncbi.nlm.nih.gov/articles/PMC7755956/
+
+[4] “BITalino (r)evolution Lab Guide.” Disponible en: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf
