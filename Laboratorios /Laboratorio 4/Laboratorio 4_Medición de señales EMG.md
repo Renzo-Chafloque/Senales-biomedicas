@@ -66,6 +66,7 @@ Las señales EMG fueron adquiridas con el sistema BITalino a una frecuencia de m
 - La señal presenta variabilidad incluso en periodos de reposo.
 
 ### Canal 1 – Bíceps braquial
+### Prueba 1: Reposo
 
 - Valores aproximados:
   - Máximos: 
@@ -84,61 +85,6 @@ Las señales EMG fueron adquiridas con el sistema BITalino a una frecuencia de m
  
 ---
 
-## Resultados
-
-### Bíceps Braquial
-*   **Señal sin filtrar:** 
-    ![Señal Cruda Biceps](espacio_para_imagen_biceps_crudo.png)
-*   **Señal filtrada:**
-    ![Señal Filtrada Biceps](espacio_para_imagen_biceps_filtrado.png)
-*   **Análisis:** La señal en reposo es uniforme. Al aplicar carga, se vuelve caótica y de alta amplitud debido al reclutamiento masivo de unidades motoras.
-
-### Zona basal
-*   **Señal sin filtrar:** 
-    ![Señal Cruda Pulgar](espacio_para_imagen_pulgar_crudo.png)
-*   **Señal filtrada:**
-    ![Señal Filtrada Pulgar](espacio_para_imagen_pulgar_filtrado.png)
-*   **Análisis:** Se observa una activación rítmica. La señal logra opacar el ruido basal durante la fase de contracción máxima.
-
-### Trapecio Superior
-*   **Señal sin filtrar:** 
-    ![Señal Cruda Trapecio](espacio_para_imagen_trapecio_crudo.png)
-*   **Señal filtrada:**
-    ![Señal Filtrada Trapecio](espacio_para_imagen_trapecio_filtrado.png)
-*   **Análisis:** El ruido es más difícil de caracterizar debido a que es un músculo con activación postural constante.
-
-## 5. Resultados y Análisis de Datos (Ciclo 2026)
-
-En esta sección se analizan los biopotenciales capturados en el Bíceps Braquial y el Trapecio Superior, utilizando una frecuencia de muestreo de 1000 Hz.
-
-### 5.1. Análisis de Carga Progresiva (Bíceps)
-Se evaluó el reclutamiento de unidades motoras desde el estado de reposo hasta la contracción voluntaria máxima con carga (Pesa 2).
-
-| Condición | Señal Cruda | Señal Procesada (Filtrada + Rectificada) |
-| :--- | :--- | :--- |
-| **Reposo (basal)** | ![Cruda Basal](img/basal_raw.png) | ![Filtrada Basal](img/basal_filt.png) |
-| **Movimiento Libre** | ![Cruda Mov](img/mov1_raw.png) | ![Filtrada Mov](img/mov1_filt.png) |
-| **Carga Máxima (Pesa 2)** | ![Cruda Pesa2](img/pesa2_raw.png) | ![Filtrada Pesa2](img/pesa2_filt.png) |
-
-**Interpretación:** Se observa que la amplitud de la señal filtrada aumenta proporcionalmente al esfuerzo. En la prueba "Pesa 2", se evidencia el fenómeno de sumación espacial, donde el voltaje pico a pico es notablemente superior al movimiento libre.
-
-### 5.2. Evaluación Cervical (Trapecio Superior)
-El registro `CERVIBASAL` permitió identificar la línea base en la zona del cuello. 
-
-> ![Análisis Cervical](img/cervical_analisis.png)
-> *Figura: Comparativa de la señal cervical antes y después del filtro Notch de 60 Hz.*
-
-**Interpretación:** Debido a la ubicación anatómica, se detectó una interferencia de red eléctrica significativa que fue mitigada exitosamente mediante el procesamiento digital, permitiendo aislar el tono muscular basal.
-
-### 5.3. Comparación Inter-sujeto (Sujeto 1 vs Ingrid)
-Se comparó la respuesta eléctrica ante una carga similar entre dos sujetos distintos.
-
-| Registro | Amplitud Máxima (uV) | Observación |
-| :--- | :--- | :--- |
-| **Pesa 2 (Sujeto 1)** | [Insertar Valor] | Alta densidad de disparo. |
-| **Peso Ingrid** | [Insertar Valor] | [Insertar comentario sobre la señal] |
-
----
 
 ---
 
