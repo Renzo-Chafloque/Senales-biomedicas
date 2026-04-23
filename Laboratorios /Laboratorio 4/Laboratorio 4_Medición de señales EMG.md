@@ -67,7 +67,7 @@ Las señales EMG fueron adquiridas con el sistema BITalino a una frecuencia de m
 
 ### Canal 1 – Bíceps braquial
 ### Prueba 1: Reposo
-
+![Línea Base](./Imágenes/Activación con una pesa inicial (473g)..png)
 - Valores aproximados:
   - Máximos: 
   - Mínimos: 
