@@ -68,60 +68,60 @@ Las señales EMG fueron adquiridas con el sistema BITalino a una frecuencia de m
 ### Canal 1 – Bíceps braquial
 ### Prueba 1: Reposo - Sujeto 1 (Aleks)
 <img width="1918" height="937" alt="Reposo del Bíceps Braquial del Sujeto 1 (Aleks)" src="https://github.com/user-attachments/assets/8946bb7a-0af8-4a93-b764-9b76a8a89e04" />
+
 - Valores aproximados:
-  - Máximos: 
-  - Mínimos: 
+  - Máximos: 0.04 mv
+  - Mínimos: -0.04 mv
 
 - Características observadas:
-  - FALTA
+  - Ruido de fondo gaussiano uniforme; sin ráfagas de activación voluntaria.
+  
 ### Prueba 2: Movimientos libres de flexo-extensión del brazo - Sujeto 1 (Aleks)
 <img width="1536" height="754" alt="Movimientos libres de flexo-extensión del brazo (Aleks)" src="https://github.com/user-attachments/assets/825023b6-e99c-4dbf-896e-eff9e692862f" />
 - Valores aproximados:
-  - Máximos: 
-  - Mínimos: 
+  - Máximos: 0.50 mv
+  - Mínimos: -0.75 mv
 
 - Características observadas:
-  - FALTA
+  - Ráfagas intermitentes definidas; amplitud moderada característica de movimiento sin carga.
 
 ### Prueba 3: Activación 473g - Sujeto 1 (Aleks)
 <img width="1536" height="754" alt="Activación con una pesa inicial (473g)" src="https://github.com/user-attachments/assets/9a84916e-2b2b-45b1-8059-d0df0cd15547" />
 - Valores aproximados:
-  - Máximos: 
-  - Mínimos: 
+  - Máximos: 1.60 mv
+  - Mínimos: -1.10 mv
 
 - Características observadas:
-  - FALTA
+  - Picos de activación muy claros y repetitivos; alta relación señal-ruido.
 
 ### Prueba 3.1: Activación 473g - Sujeto 2 (Ingrid)
 <img width="1536" height="754" alt="Sujeto 2 utilizando una pesa de 473 g" src="https://github.com/user-attachments/assets/662c8f47-03d4-4929-8818-8ba5477823e4" />
 - Valores aproximados:
-  - Máximos: 
-  - Mínimos: 
+  - Máximos: 1.30 mv
+  - Mínimos: -1.00 mv
 
 - Características observadas:
-  - FALTA
+  - Inicio de actividad marcado tras 3 segundos de reposo; ciclos de contracción muy definidos.
     
 ### Prueba 4: Carga de 2 kg - Sujeto 1 (Aleks)
 <img width="1536" height="754" alt="Carga de 2 kg (destinada a proyectar la Contracción Voluntaria Máxima o CVM)" src="https://github.com/user-attachments/assets/4fe469af-9b32-4216-b564-dae7f25db972" />
 
 - Valores aproximados:
-  - Máximos: 
-  - Mínimos: 
+  - Máximos: 0.90 mv
+  - Mínimos: -0.90 mv
 
 - Características observadas:
-  - FALTA
+  - Actividad densa y sostenida; mayor reclutamiento de unidades motoras durante el esfuerzo.
 
 ### Canal 2 – Trapecio superior
 ### Prueba 1: Reposo 
 <img width="1918" height="942" alt="Reposo del Trapecio Superior" src="https://github.com/user-attachments/assets/69ffae47-8dca-469d-8d97-e0b1bf509078" />
 - Valores aproximados:
-  - Rango:
+  - Máximos: 0.09 mv
+  - Mínimos: -0.08 mv
 
 - Características observadas:
-  - FALTA
- 
----
-
+  - Ruido tónico constante; amplitud ligeramente mayor que la basal braquial por postura cervical.
 
 ---
 
