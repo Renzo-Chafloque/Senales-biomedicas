@@ -189,7 +189,25 @@ No. La amplitud de la señal EMG está relacionada con la activación muscular, 
 ---
 
 ## Limitaciones
-FALTA
+### 1. Baja relación señal/ruido (SNR)
+
+La señal EMG presenta amplitudes muy bajas del orden de microvoltios, por lo que es altamente susceptible a ruido eléctrico, interferencias externas y artefactos de movimiento, lo que puede degradar la calidad de la señal y afectar su interpretación.
+
+### 2. Interferencia entre músculos
+
+La señal registrada por electrodos superficiales no corresponde exclusivamente a un músculo, sino a la suma de la actividad de potenciales eléctricos de varios músculos cercanos, lo que dificulta la discriminación precisa de patrones musculares específicos.
+
+### 3. Sensibilidad a la colocación de electrodos
+
+La ubicación, separación y orientación de los electrodos influyen significativamente en la señal EMG, generando variabilidad entre mediciones y reduciendo la reproducibilidad del sistema.
+
+### 4. Limitaciones en la resolución espacial
+
+La resolución espacial de la EMG superficial es limitada, lo que reduce la capacidad de diferenciar activaciones musculares cercanas o simultáneas.
+
+### 5. Dependencia del procesamiento de señal
+
+La calidad de la información obtenida depende en gran medida de las técnicas de filtrado, normalización y extracción de características, lo que introduce variabilidad metodológica en los resultados.
 
 ---
 
