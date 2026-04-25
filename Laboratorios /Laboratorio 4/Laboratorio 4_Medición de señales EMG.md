@@ -163,7 +163,6 @@ Una contracción contra carga máxima presentará ráfagas de amplitud significa
 
 *(Referencia al segmento de activación o "burst" observado en la sección de Resultados).*
 
-En una ventana de tiempo reducida durante la fase de contracción, se aprecia una **actividad de interferencia compleja**. 
 * **Los picos de voltaje:** Representan la despolarización asincrónica de las membranas de las fibras musculares en respuesta a los potenciales de acción. La densidad y magnitud de estos picos son indicadores directos de la intensidad del esfuerzo y el reclutamiento de fibras.
 * **Segmentos de línea base:** Los periodos de retorno a la línea base o baja amplitud indican los periodos de reposo relativo o la repolarización celular previa a un nuevo ciclo de activación voluntaria.
 
