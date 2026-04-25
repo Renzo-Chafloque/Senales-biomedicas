@@ -127,10 +127,6 @@ Las señales EMG fueron adquiridas con el sistema BITalino a una frecuencia de m
 
 ## Discusión
 
-### Análisis de resultados
-
-ACA HAGAN UN ANALISIS DE LOS RESULTADOS
-
 ### Respuestas a las preguntas
 
 ### **P1. ¿Cuáles son las frecuencias significativas para las adquisiciones de EMG?**
