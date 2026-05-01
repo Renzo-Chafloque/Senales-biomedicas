@@ -1,12 +1,11 @@
 # Laboratorio 5
----
 
 ## Introducción
 
 
 ## Objetivos
 
-
+---
 ## Metodología
 
 
