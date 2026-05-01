@@ -1,16 +1,16 @@
-#Laboratorio 5
+# Laboratorio 5
 ---
 
-##Introducción
+## Introducción
 
 
-##Metodología
+## Metodología
 
 
-##Resultados
+## Resultados
 
 
-##Discusión
+## Discusión
 
 
-##Referencias
+## Referencias
