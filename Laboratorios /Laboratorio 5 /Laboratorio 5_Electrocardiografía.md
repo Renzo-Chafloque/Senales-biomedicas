@@ -1,13 +1,34 @@
 
 ## Introducción
+El electrocardiograma (ECG) es un procedimiento diagnóstico no invasivo que registra la actividad eléctrica del corazón. Este examen es fundamental para evaluar el ritmo y la frecuencia cardíaca, así como para detectar diversas patologías como arritmias, insuficiencia cardíaca, hipertrofia y otras alteraciones cardíacas. Mediante el ECG, se obtiene una representación gráfica de los impulsos eléctricos generados durante el ciclo cardíaco, lo cual permite a los médicos obtener información clave sobre el estado funcional del corazón.
 
+La adquisición de señales ECG se realiza mediante la colocación de electrodos en puntos específicos del cuerpo, y el análisis de las señales obtenidas ofrece patrones característicos que corresponden a las fases del ciclo cardíaco. En este estudio, se empleó el sistema BITalino (r)evolution para registrar señales de ECG en diferentes condiciones fisiológicas, como reposo, actividad física y respiración controlada. El objetivo principal de este estudio es analizar cómo la ubicación de los electrodos afecta la calidad de las señales adquiridas y cómo esto influye en el análisis de la función cardíaca [1].
 
 ---
 
 ## Objetivos
-*   **Adquisición de señales:** .
-*   **Análisis de datos:** .
-*   **Procesamiento:** .
+**Objetivo general:**
+- Explorar las señales electrocardiográficas adquiridas mediante el sistema **BITalino (r)evolution** en diferentes condiciones fisiológicas, evaluando el impacto de la ubicación de los electrodos sobre la calidad de las señales obtenidas.
+
+**Objetivos específicos:**
+1. **Adquisición de señales:**
+   - Registrar señales ECG en tiempo real utilizando el sistema **BITalino (r)evolution** en diferentes condiciones fisiológicas (reposo, actividad física, respiración controlada).
+   
+2. **Análisis de datos:**
+   - Procesar las señales adquiridas para identificar los componentes del ECG, como la onda P, el complejo QRS, el segmento ST y la onda T.
+   - Comparar las señales obtenidas en diferentes derivaciones y ubicaciones de los electrodos para evaluar la variabilidad y la influencia de la posición sobre la calidad de los datos.
+
+3. **Procesamiento:**
+   - Filtrar y procesar las señales ECG para reducir el ruido y artefactos (por ejemplo, ruido muscular, interferencia eléctrica).
+   - Generar gráficas y tablas comparativas que muestren las características de las señales de ECG en distintas condiciones experimentales.
+   
+4. **Comprensión fisiológica:**
+   - Entender los procesos fisiológicos que originan las señales ECG, a partir de la propagación de los impulsos eléctricos a través del sistema de conducción cardíaco.
+
+5. **Detección de anomalías:**
+   - Identificar posibles patrones atípicos o anormales en las señales adquiridas, relacionados con la función cardíaca, que puedan indicar posibles alteraciones o enfermedades.
+  
+---
 
 ## Metodología
 
