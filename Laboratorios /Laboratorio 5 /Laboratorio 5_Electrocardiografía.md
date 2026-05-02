@@ -198,7 +198,9 @@ También, se van interferencias como el baseline wander a causa de la respiraci�
 
 2. ¿Por qué el cambio de posición en los sensores (derivadas I-III) cambian los componentes de la señal ECG? ¿Cómo cambian estos componentes?
 
-3. Existen grandes diferencias en la señal cuando se adquiere de distintas partes del cuerpo ¿Cuál puede ser la causa? ¿Se esperan estos cambios en la señal?
+Esto sucede porque cada derivación nos da una perspectiva distinta del vector eléctrico del corazón. Al mover el sitio de electrodos cambiamos la observación por ello cuando el impulso va hacia el polo positivo se registra hacia arriba mientras que si se aleja irá hacia abajo. Respecto a las características en D-I, se muestran ondas P positivas pequeñas y la onda R modesta. Para D-II se observan en general amplitudes más altas especialmente en R, una morfología redondeada en P y una onda T mayor en comparación con D-I. Finalmente, en D-III se muestran ondas T más bajas o invertidas y ondas R variables.
+
+4. Existen grandes diferencias en la señal cuando se adquiere de distintas partes del cuerpo ¿Cuál puede ser la causa? ¿Se esperan estos cambios en la señal?
 - Orientación del vector eléctrico cardíaco [1]
   Cada derivación registra la proyección del vector desde un ángulo distinto.
 - Posición relativa al corazón [1]
