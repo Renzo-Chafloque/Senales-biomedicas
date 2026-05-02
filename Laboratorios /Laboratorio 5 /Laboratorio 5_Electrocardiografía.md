@@ -228,20 +228,26 @@ En esta prueba, realizada durante el segundo reposo, la señal registrada fue mu
 
 
 - Características observadas:
-  - .
+  - En esta prueba realizada bajo hipoventilación, la señal mostró una frecuencia cardíaca más baja, con solo 8 latidos detectados en 32.7 segundos. Los picos R fueron visibles, pero se notó una baja amplitud en comparación con las pruebas anteriores. La variabilidad de los intervalos RR fue notablemente alta, lo que indica que la frecuencia cardíaca estaba variando más que en los estados de reposo. Esta variabilidad puede estar relacionada con la dificultad respiratoria inducida por la hipoventilación. Aunque hubo algo de ruido, los picos R fueron detectables, lo que permitió el análisis de la señal. 
+
+
 ### Prueba 5.2: Hipoventilación - Derivada 2
 <img width="2084" height="1769" alt="GustavoHIPOVENT2" src="https://github.com/user-attachments/assets/aa7e1cfb-9b6d-40be-9c43-a44e76da4d4b" />
 <img width="467" height="217" alt="GustavoHIPOVENT2 resultado" src="https://github.com/user-attachments/assets/000633e5-692e-4961-9a80-b9199a0e9c7b" />
 
 
 - Características observadas:
+  - En la segunda derivada durante la hipoventilación, la señal mostró un comportamiento similar, pero con una frecuencia cardíaca algo más alta, con 41 latidos detectados en 31.3 segundos. Los picos R fueron más regulares que en la derivada 1, pero aún presentaron algo de fluctuación debido a los movimientos de respiración. La variabilidad en los intervalos RR fue significativa, con algunos intervalos más largos, lo que refleja un aumento de la frecuencia cardíaca. Los valores de SDNN y RMSSD fueron más bajos que en la derivada 1, indicando que la señal fue más estable en esta derivada. 
+
 ### Prueba 5.3: Hipoventilación - Derivada 3
 <img width="2084" height="1769" alt="GustavoHIPOVENT3" src="https://github.com/user-attachments/assets/7f8d41bf-228b-4203-887a-f9e3f0c34c59" />
 <img width="467" height="222" alt="GustavoHIPOVENT3 resultado" src="https://github.com/user-attachments/assets/8ed0222c-b2cf-4340-b85b-c99b5bf8e6c7" />
 
 
 - Características observadas:
-  - .
+  - La tercera derivada mostró una frecuencia cardíaca aún más baja que en las derivadas anteriores, con 9 latidos detectados en 31.5 segundos. Los picos R fueron bien definidos, pero la señal mostró más variabilidad en los intervalos RR debido a la hipoventilación. En esta derivada, los intervalos fueron más consistentes en términos de duración, lo que refleja una respuesta cardíaca más estable durante la hipoventilación, aunque con algunos picos más largos de lo normal. Los valores de SDNN y RMSSD fueron más altos que en las derivadas anteriores, lo que indica una mayor dispersión en los intervalos RR debido a la respiración controlada.
+
+
 ## Discusión
 1. ¿Cuáles son los tipos de ruidos más comunes que afectan la señal ECG?
 
