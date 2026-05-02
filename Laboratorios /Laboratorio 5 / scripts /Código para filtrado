@@ -1,1 +1,241 @@
+  PROCESAMIENTO DE SEÑAL ECG - BITalino
+  Autor: Gustavo Andre Ruiz Ortiz
+  Descripción: Carga, filtra, detecta picos R y calcula HRV de señales
+               ECG adquiridas con BITalino a 1000 Hz.
+"""
 
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.signal import butter, filtfilt, iirnotch, find_peaks
+import os
+
+# 
+# 1. CONFIGURACIÓN 
+# 
+script_dir    = os.path.dirname(os.path.abspath(_file_))
+nombre_archivo = 'GustavoINH3.txt'          # ← cambiar al nombre del archivo
+ruta_completa  = os.path.join(script_dir, nombre_archivo)
+
+FS            = 1000.0    # Frecuencia de muestreo (Hz) — BITalino estándar
+COLUMNA_ECG   = 5         # Columna A1 en el archivo BITalino (índice 5)
+N_BITS        = 10        # Resolución ADC del BITalino
+VCC           = 3.3       # Voltaje de alimentación (V)
+GAIN_ECG      = 1100      # Ganancia del sensor ECG BITalino (datasheet oficial)
+
+# 
+# 2. FUNCIONES DE PROCESAMIENTO
+# 
+
+def raw_to_mv_ecg(raw, n_bits=N_BITS, vcc=VCC, gain=GAIN_ECG):
+    """
+    Ecuación de transferencia oficial BITalino para el sensor ECG.
+    ECG (mV) = ((ADC / 2^n) - 0.5) * VCC / GAIN * 1000
+    """
+    return ((raw / (2**n_bits)) - 0.5) * vcc / gain * 1000
+
+
+def filtrar_ecg(signal, fs=FS, lowcut=0.5, highcut=40.0, notch_freq=60.0):
+    """
+    Pipeline de filtrado estándar para ECG:
+      1. Centrado (elimina offset DC)
+      2. Notch 60 Hz  →  elimina interferencia eléctrica de red
+      3. Pasa-banda 0.5–40 Hz  →  conserva morfología QRS, P y T
+    """
+    signal_c = signal - np.mean(signal)
+
+    # Notch
+    Q = 30.0
+    b_n, a_n = iirnotch(notch_freq, Q, fs)
+    signal_n = filtfilt(b_n, a_n, signal_c)
+
+    # Pasa-banda
+    nyq = 0.5 * fs
+    b_b, a_b = butter(4, [lowcut / nyq, highcut / nyq], btype='band')
+    return filtfilt(b_b, a_b, signal_n)
+
+
+def detectar_picos_r(ecg_filtrado, fs=FS, altura_relativa=0.25, distancia_min_ms=300):
+    """
+    Detección de picos R (complejo QRS) usando scipy.signal.find_peaks.
+    
+    Parámetros:
+      altura_relativa  : fracción del máximo que sirve como umbral (0–1)
+      distancia_min_ms : distancia mínima entre picos en milisegundos
+                         (300 ms ≈ 200 lpm máximo fisiológico)
+    """
+    altura   = np.max(ecg_filtrado) * altura_relativa
+    distancia = int(distancia_min_ms * fs / 1000)
+    picos, _ = find_peaks(ecg_filtrado, height=altura, distance=distancia)
+    return picos
+
+
+def calcular_metricas_hrv(picos_r, fs=FS):
+    """
+    Calcula métricas básicas de Variabilidad de la Frecuencia Cardíaca (HRV):
+      - RR (ms): intervalos entre picos R consecutivos
+      - FC (lpm): frecuencia cardíaca media
+      - SDNN (ms): desviación estándar de los intervalos RR
+      - RMSSD (ms): raíz cuadrada de la media de diferencias sucesivas al cuadrado
+    """
+    if len(picos_r) < 2:
+        return None
+
+    rr_muestras = np.diff(picos_r)
+    rr_ms       = rr_muestras / fs * 1000          # convertir a ms
+
+    fc_media    = 60 / (np.mean(rr_ms) / 1000)     # lpm
+    sdnn        = np.std(rr_ms)
+    rmssd       = np.sqrt(np.mean(np.diff(rr_ms)**2))
+
+    return {
+        'rr_ms'    : rr_ms,
+        'fc_media' : fc_media,
+        'sdnn'     : sdnn,
+        'rmssd'    : rmssd,
+        'n_latidos': len(picos_r),
+    }
+
+# 
+# 3. CARGA Y PROCESAMIENTO
+# 
+
+try:
+    # BITalino guarda 3 líneas de cabecera y usa tabulador como separador
+    data = np.genfromtxt(ruta_completa,
+                         delimiter='\t',
+                         skip_header=3)
+
+    # Validación del archivo cargado 
+    if data is None or data.size == 0:
+        raise ValueError("El archivo está vacío o no se pudo leer.")
+
+    # Si genfromtxt leyó solo 1 fila, la convierte en 1D → forzar 2D
+    if data.ndim == 1:
+        data = data.reshape(1, -1)
+
+    n_cols = data.shape[1]
+    print(f"  Archivo cargado: {data.shape[0]} muestras, {n_cols} columnas")
+
+    if COLUMNA_ECG >= n_cols:
+        raise ValueError(
+            f"La columna ECG configurada (índice {COLUMNA_ECG}) no existe. "
+            f"El archivo solo tiene {n_cols} columnas (índices 0–{n_cols-1}). "
+            f"Ajusta la variable COLUMNA_ECG al inicio del script."
+        )
+
+    raw_ecg = data[:, COLUMNA_ECG]
+
+    # Verificar que no haya solo NaN (fila corrupta)
+    if np.all(np.isnan(raw_ecg)):
+        raise ValueError(
+            f"La columna {COLUMNA_ECG} contiene solo NaN. "
+            "Revisa el delimitador o las filas de cabecera del archivo."
+        )
+
+    # Reemplazar NaN aislados por interpolación lineal
+    nans = np.isnan(raw_ecg)
+    if nans.any():
+        idx = np.arange(len(raw_ecg))
+        raw_ecg = np.interp(idx, idx[~nans], raw_ecg[~nans])
+        print(f"  Advertencia: {nans.sum()} muestras NaN reemplazadas por interpolación.")
+
+    t = np.arange(len(raw_ecg)) / FS             # vector de tiempo (s)
+
+    # Pipeline de señal
+    ecg_mv       = raw_to_mv_ecg(raw_ecg)
+    ecg_filtrado = filtrar_ecg(ecg_mv)
+
+    # Detección de picos R y métricas HRV
+    picos_r  = detectar_picos_r(ecg_filtrado)
+
+    if len(picos_r) < 2:
+        print(f"\n  Advertencia: solo se detectaron {len(picos_r)} pico(s) R.")
+        print("  Posibles causas: señal muy ruidosa, umbral muy alto, o registro muy corto.")
+        print("  Prueba ajustando 'altura_relativa' en detectar_picos_r() (valor actual: 0.5).")
+        metricas = None
+    else:
+        metricas = calcular_metricas_hrv(picos_r)
+
+    # 
+    # 4. RESULTADOS EN CONSOLA
+    # 
+    print("=" * 50)
+    print("  RESULTADOS — ECG BITalino")
+    print("=" * 50)
+    print(f"  Duración del registro : {t[-1]:.1f} s")
+    print(f"  Latidos detectados    : {len(picos_r)}")
+    if metricas is not None:
+        print(f"  FC media              : {metricas['fc_media']:.1f} lpm")
+        print(f"  SDNN                  : {metricas['sdnn']:.2f} ms")
+        print(f"  RMSSD                 : {metricas['rmssd']:.2f} ms")
+    else:
+        print("  FC media              : no calculable (picos insuficientes)")
+        print("  → Revisa la señal o ajusta 'altura_relativa' en detectar_picos_r()")
+    print("=" * 50)
+
+    # 
+    # 5. GRÁFICAS
+    # 
+    fig, axes = plt.subplots(4, 1, figsize=(14, 12), sharex=False)
+    fig.suptitle(f"Procesamiento ECG — {nombre_archivo}", fontsize=14, fontweight='bold')
+
+    #  Panel 1: ECG cruda 
+    axes[0].plot(t, ecg_mv, color='tomato', alpha=0.7, linewidth=0.5)
+    axes[0].set_title("ECG Cruda (mV)")
+    axes[0].set_ylabel("Amplitud (mV)")
+    axes[0].tick_params(labelbottom=False)      # oculta etiquetas eje X (redundante)
+
+    #  Panel 2: ECG filtrada + picos R 
+    axes[1].plot(t, ecg_filtrado, color='steelblue', linewidth=0.6, label='ECG filtrada')
+    axes[1].plot(t[picos_r], ecg_filtrado[picos_r],
+                 'v', color='crimson', markersize=6, label='Picos R')
+    axes[1].set_title("ECG Filtrada (0.5–40 Hz + Notch 60 Hz) con detección de picos R")
+    axes[1].set_ylabel("Amplitud (mV)")
+    axes[1].tick_params(labelbottom=False)      # oculta etiquetas eje X (redundante)
+    axes[1].legend(loc='upper right', fontsize=8)
+
+    #  Panel 3: Intervalos RR 
+    if metricas is not None:
+        t_rr = t[picos_r[1:]]
+        axes[2].plot(t_rr, metricas['rr_ms'],
+                     color='darkorange', marker='o', markersize=3, linewidth=1)
+        axes[2].axhline(np.mean(metricas['rr_ms']),
+                        color='gray', linestyle='--', linewidth=1, label='Media RR')
+        axes[2].set_title("Intervalos RR (ms) — Variabilidad de la FC")
+        axes[2].set_ylabel("RR (ms)")
+        axes[2].set_xlabel("Tiempo (s)")        # solo este panel muestra eje X de tiempo
+        axes[2].legend(fontsize=8)
+
+    #  Panel 4: Histograma RR 
+    if metricas is not None:
+        axes[3].hist(metricas['rr_ms'], bins=20, color='mediumseagreen',
+                     edgecolor='white', alpha=0.85)
+        axes[3].set_title(
+            f"Distribución intervalos RR  |  FC={metricas['fc_media']:.1f} lpm  "
+            f"|  SDNN={metricas['sdnn']:.1f} ms  |  RMSSD={metricas['rmssd']:.1f} ms"
+        )
+        axes[3].set_xlabel("Intervalo RR (ms)")
+        axes[3].set_ylabel("Frecuencia")
+
+    for ax in axes:
+        ax.grid(True, alpha=0.3)
+
+    plt.tight_layout(h_pad=3.5)
+
+    # Guarda la figura junto al script
+    ruta_fig = os.path.join(script_dir, 'resultado_ecg.png')
+    plt.savefig(ruta_fig, dpi=150, bbox_inches='tight')
+    print(f"\n  Figura guardada en: {ruta_fig}")
+
+    plt.show()
+
+except FileNotFoundError:
+    print(f"\n  ✗ Archivo no encontrado: {ruta_completa}")
+    print("  → Verifica que 'nombre_archivo' coincida con tu archivo .txt de BITalino.")
+except ValueError as e:
+    print(f"\n  ✗ Error de datos: {e}")
+except Exception as e:
+    import traceback
+    print(f"\n  ✗ Error durante el procesamiento: {e}")
+    print("\n  Detalle completo:")
+    traceback.print_exc()
