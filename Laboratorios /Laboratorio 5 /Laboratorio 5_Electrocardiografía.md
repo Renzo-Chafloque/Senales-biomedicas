@@ -181,8 +181,6 @@ También, se van interferencias como el baseline wander a causa de la respiraci�
 - Conductividad de los tejidos [1]
   Músculo, grasa, hueso y piel afectan la propagación de la señal, lo cual varía en distintas partes del cuerpo.
 Debido a estas causas, es muy común esperar cambios para analizar distintos puntos de vista para el análisis de las señales del corazón.
-Tipo de derivación (bipolar/unipolar)
-Cada configuración mide diferencias de potencial distintas.
 4. ¿Los diferentes tipos de respiración (p. ej., más rápida, más profunda) influyen en las señales del ECG? En base a las señales del ECG mostradas anteriormente en diferentes circunstancias respiratorias, se describen las variaciones.
 Sí influyen en las señales, se tienen las siguientes variaciones:
 ### Frecuencia cardíaca
