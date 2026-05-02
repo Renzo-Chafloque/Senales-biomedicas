@@ -131,6 +131,7 @@ Las señales EKG fueron adquiridas con el sistema BITalino a una frecuencia de m
 <img width="2071" height="1769" alt="GustavoBASAL2" src="https://github.com/user-attachments/assets/bdd82a81-5662-4b8d-97ef-5c586b428c4c" />
 <img width="467" height="227" alt="GustavoBASAL2 Resultado" src="https://github.com/user-attachments/assets/5b34250a-e03c-44c1-b0b1-a6b161218536" />
 
+
 - Características observadas:
   - .Para la segunda derivada, también realizada en reposo, la señal mostró algunas diferencias. Aunque los picos **R** seguían siendo visibles, su amplitud era un poco más baja en comparación con la primera derivada, lo que podría indicar una ligera pérdida de calidad en la señal. La variabilidad entre los intervalos **RR** fue más pronunciada en esta derivada, lo que podría estar relacionado con pequeños cambios en la respiración o el movimiento del cuerpo. Además, se notaron algunas fluctuaciones en la línea base, que en su mayoría se debieron a interferencias menores. A pesar de estos pequeños ruidos, la señal seguía siendo suficientemente clara para permitir el análisis de la frecuencia cardíaca, aunque con una menor claridad que la derivada anterior.
 
@@ -149,22 +150,25 @@ Las señales EKG fueron adquiridas con el sistema BITalino a una frecuencia de m
 <img width="458" height="221" alt="GustavoINH1 Resultado" src="https://github.com/user-attachments/assets/cfdccb34-2ac9-402a-bbc5-1933d4b4c03f" />
 
 
-
 - Características observadas:
-  - .
+  - En esta prueba, realizada bajo hiperventilación, la señal muestra un patrón similar al de las pruebas anteriores, pero con una mayor frecuencia cardíaca debido a la respiración acelerada. Los picos **R** son más frecuentes, lo que refleja el aumento en la frecuencia cardíaca. A pesar de la aceleración, los picos siguen siendo visibles, pero con algunas fluctuaciones que indican que la señal está siendo afectada por el movimiento respiratorio. El ruido es mayor en esta condición, especialmente entre los picos, lo que podría ser causado por pequeños movimientos o interferencias externas. La señal muestra variabilidad en los intervalos **RR**, con algunos intervalos más largos que otros, lo que es típico durante la hiperventilación.
+
 ### Prueba 2.2: Hiperventilación - Derivada 2
 <img width="2084" height="1769" alt="GustavoINH2" src="https://github.com/user-attachments/assets/9fdc26b8-0f09-4bdd-bafa-6ca6669bc284" />
 <img width="481" height="226" alt="GustavoINH2 Resultado" src="https://github.com/user-attachments/assets/89c4b049-3cfa-4714-9016-26f8c84f4b3a" />
 
 
-
 - Características observadas:
-  - .
+  - Para esta segunda derivada, la señal muestra un patrón similar al de la primera derivada, con picos **R** más rápidos y frecuentes debido a la hiperventilación. A pesar de la alta frecuencia de los latidos, los picos siguen siendo visibles, pero algunos están menos definidos, probablemente debido a la mayor variabilidad en los intervalos **RR**. El ruido también es más prominente, lo que sugiere que la respiración acelerada está causando pequeñas interferencias. La variabilidad en los intervalos es algo irregular, lo que puede reflejar fluctuaciones normales debido a la respiración rápida.
+
 ### Prueba 2.3: Hiperventilación - Derivada 3
 <img width="2084" height="1769" alt="GustavoINH3" src="https://github.com/user-attachments/assets/85e122a8-3fbc-471f-b66d-9bc89e9cc591" />
 <img width="482" height="198" alt="GustavoINH3 Resultados" src="https://github.com/user-attachments/assets/c0e9f8cf-9120-415d-85a4-1877d45af531" />
+
+
 - Características observadas:
-  - .
+  - En la tercera derivada, la señal muestra una mayor suavidad, aunque todavía es posible observar los picos **R**. Al igual que en las otras derivadas, la frecuencia cardíaca aumentó debido a la hiperventilación. Sin embargo, la señal no tiene la misma claridad que en las pruebas de reposo. Se observa una **variabilidad** en los intervalos **RR** más pronunciada, lo que indica que el ritmo cardíaco está siendo afectado por la respiración rápida. El ruido sigue siendo un factor importante en la señal, aunque los picos aún son identificables. La calidad de la señal disminuyó un poco en comparación con las pruebas en reposo debido al mayor movimiento y la interferencia generada por la respiración acelerada.
+
     
 ### Prueba 3.1: Segundo reposo - Derivada 1
 <img width="1536" height="754" alt="Gustavo2DABASAL1" src="https://github.com/user-attachments/assets/5b1ebba8-1500-445f-82aa-29563588fd12" />
