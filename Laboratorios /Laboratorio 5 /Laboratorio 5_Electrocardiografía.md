@@ -1,4 +1,3 @@
-<img width="2080" height="1769" alt="GustavoACTIVIDAD3" src="https://github.com/user-attachments/assets/56fec1b7-6cb8-4021-8904-b3f2f1468cdb" /># Electromiografía (EMG) – Análisis de señales musculares
 
 ## Introducción
 
