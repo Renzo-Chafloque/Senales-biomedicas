@@ -124,20 +124,16 @@ Las señales EKG fueron adquiridas con el sistema BITalino a una frecuencia de m
 <img width="505" height="223" alt="GustavoBASAL1 Resultado " src="https://github.com/user-attachments/assets/34687b63-8792-4371-94a3-8208a38dde7a" />
 
 
-Características observadas
-
-- **Descripción de la señal**: La señal obtenida muestra un patrón regular, con picos bien definidos en cada latido del corazón. Se observa que los picos R son altos y claramente visibles, lo que indica una señal de buena calidad.
-- **Ruido**: La señal muestra algunas pequeñas fluctuaciones que pueden estar relacionadas con interferencias de bajo nivel, pero estas no afectan significativamente los picos R.
-- **Comportamiento general**: La señal tiene una variabilidad moderada, lo que es normal en reposo, y la frecuencia cardíaca parece estar dentro de un rango saludable.
-- **Conclusión**: La señal es bastante estable y adecuada para el análisis. No se observan artefactos graves o irregularidades significativas.
-
+- Características observadas
+En esta primera prueba, donde se registró la señal ECG mientras el participante estaba en reposo, la señal se mostró bastante estable. Los picos de la onda **R** fueron claramente visibles, con una amplitud definida, lo que sugiere una señal de buena calidad. La variabilidad de los intervalos **RR** era moderada, lo que es normal en un estado de reposo. A pesar de la regularidad, se observó una leve fluctuación en la línea base, lo que podría estar relacionado con algunos pequeños movimientos del cuerpo, pero no hubo interferencias significativas. En general, la señal fue bastante limpia, lo que permitió obtener una buena lectura del ritmo cardíaco y la frecuencia.
   
 ### Prueba 1.2: Reposo - Derivada 2
 <img width="2071" height="1769" alt="GustavoBASAL2" src="https://github.com/user-attachments/assets/bdd82a81-5662-4b8d-97ef-5c586b428c4c" />
 <img width="467" height="227" alt="GustavoBASAL2 Resultado" src="https://github.com/user-attachments/assets/5b34250a-e03c-44c1-b0b1-a6b161218536" />
 
 - Características observadas:
-  - .
+Para la segunda derivada, también realizada en reposo, la señal mostró algunas diferencias. Aunque los picos **R** seguían siendo visibles, su amplitud era un poco más baja en comparación con la primera derivada, lo que podría indicar una ligera pérdida de calidad en la señal. La variabilidad entre los intervalos **RR** fue más pronunciada en esta derivada, lo que podría estar relacionado con pequeños cambios en la respiración o el movimiento del cuerpo. Además, se notaron algunas fluctuaciones en la línea base, que en su mayoría se debieron a interferencias menores. A pesar de estos pequeños ruidos, la señal seguía siendo suficientemente clara para permitir el análisis de la frecuencia cardíaca, aunque con una menor claridad que la derivada anterior.
+
 
 ### Prueba 1.3: Reposo - Derivada 3
 <img width="2084" height="1769" alt="GustavoBASAL3" src="https://github.com/user-attachments/assets/9459df6a-834b-4f15-846a-9add634127df" />
@@ -145,7 +141,8 @@ Características observadas
 
 
 - Características observadas:
-  - .
+En la tercera derivada, también tomada en reposo, la calidad de la señal fue un poco más afectada. Aunque los picos **R** seguían presentes, fueron menos definidos y la señal mostró más variabilidad en su amplitud. Además, se notaron más fluctuaciones en la línea base, lo que sugiere que hubo más movimiento o interferencias externas durante la medición. La señal en general se veía más "suave", lo que dificultó un poco la identificación precisa de cada latido. Esto podría haber sido causado por el mal contacto de los electrodos o algún pequeño movimiento involuntario del participante. A pesar de la menor claridad, la señal aún era útil para el análisis general, aunque no tan precisa como las derivadas anteriores.
+
 
 ### Prueba 2.1: Hiperventilación - Derivada 1
 <img width="2071" height="1769" alt="GustavoINH1" src="https://github.com/user-attachments/assets/5c7eceb9-1f71-4136-9c73-dbd63ae5e9f0" />
