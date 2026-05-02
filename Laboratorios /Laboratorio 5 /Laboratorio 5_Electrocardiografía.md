@@ -45,6 +45,34 @@ La adquisición de señales ECG se realiza mediante la colocación de electrodos
 
 <img width="450" height="800" alt="Ubicacion_electrodos" src="https://github.com/user-attachments/assets/ae494443-164e-4ded-bd1e-e41eda7c7e81" />
 
+### Protocolo experimental
+
+La adquisición de señales ECG se realizó utilizando el sistema BITalino y electrodos de superficie. Antes del registro, se colocaron los electrodos en las posiciones correspondientes a las derivaciones I, II y III, considerando la configuración de Einthoven. En estas derivaciones, la señal se obtiene mediante la diferencia de potencial eléctrico registrada entre dos electrodos, mientras que un tercer electrodo funciona como referencia [2].
+
+Para cada condición experimental, se registraron señales en las derivaciones I, II y III. La frecuencia de muestreo utilizada fue de **1000 Hz**. Durante la adquisición, se procuró reducir el movimiento corporal para disminuir la presencia de artefactos musculares y variaciones no deseadas en la señal [2].
+
+### Condiciones de registro
+
+Las mediciones se realizaron en el siguiente orden:
+
+| Código | Condición experimental | Descripción | Derivaciones registradas |
+|-------|------------------------|-------------|--------------------------|
+| P1 | Reposo basal inicial | Registro de la señal ECG durante 30 segundos en estado de reposo. | I, II y III |
+| P2 | Hiperventilación | Registro durante un ciclo de inhalación, retención y exhalación. | I, II y III |
+| P3 | Segundo reposo basal | Registro de una segunda señal basal durante 30 segundos después de 2 minutos de descanso. | I, II y III |
+| P4 | Actividad física | Ejecución de burpees durante 4 minutos antes del registro de la señal. | I, II y III |
+| P5 | Hipoventilación | Registro inmediato posterior a la actividad física mientras el participante mantenía la respiración. | I, II y III |
+
+### Descripción de las derivaciones utilizadas
+Las derivaciones I, II y III corresponden a derivaciones bipolares de las extremidades. Estas permiten registrar la actividad eléctrica cardíaca desde diferentes orientaciones del plano frontal [3].
+
+| Derivación | Electrodo negativo | Electrodo positivo | Referencia |
+|-----------|-------------------|-------------------|------------|
+| I | Muñeca derecha | Muñeca izquierda | Cresta ilíaca |
+| II | Muñeca derecha | Región inferior izquierda / referencia modificada según configuración del laboratorio | Cresta ilíaca |
+| III | Muñeca izquierda | Región inferior izquierda / referencia modificada según configuración del laboratorio | Cresta ilíaca |
+
+> Nota: La ubicación de los electrodos fue modificada según la derivación registrada, siguiendo el principio de las derivaciones de Einthoven y la configuración experimental indicada durante la práctica.
 
 ### Evidencia
 
