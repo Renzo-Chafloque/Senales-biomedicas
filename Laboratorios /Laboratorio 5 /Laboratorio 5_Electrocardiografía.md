@@ -1,3 +1,4 @@
+# Análisis de Señales Electrocardiográficas en Diferentes Condiciones Fisiológicas
 
 ## Introducción
 El electrocardiograma (ECG) es un procedimiento diagnóstico no invasivo que registra la actividad eléctrica del corazón. Este examen es fundamental para evaluar el ritmo y la frecuencia cardíaca, así como para detectar diversas patologías como arritmias, insuficiencia cardíaca, hipertrofia y otras alteraciones cardíacas. Mediante el ECG, se obtiene una representación gráfica de los impulsos eléctricos generados durante el ciclo cardíaco, lo cual permite a los médicos obtener información clave sobre el estado funcional del corazón.
@@ -262,9 +263,9 @@ Esto sucede porque cada derivación nos da una perspectiva distinta del vector e
 3. Existen grandes diferencias en la señal cuando se adquiere de distintas partes del cuerpo ¿Cuál puede ser la causa? ¿Se esperan estos cambios en la señal?
 - Orientación del vector eléctrico cardíaco [1]
   Cada derivación registra la proyección del vector desde un ángulo distinto.
-- Posición relativa al corazón [1]
+- Posición relativa al corazón [3]
   Electrodos más cercanos o alineados con el eje cardíaco captan señales de mayor amplitud.
-- Conductividad de los tejidos [1]
+- Conductividad de los tejidos [3]
   Músculo, grasa, hueso y piel afectan la propagación de la señal, lo cual varía en distintas partes del cuerpo.
 Debido a estas causas, es muy común esperar cambios para analizar distintos puntos de vista para el análisis de las señales del corazón.
 
@@ -308,6 +309,12 @@ En bradicardia: los complejos QRS están muy separados entre sí, el corazón la
 En taquicardia: los complejos QRS están muy juntos, el corazón late rápido.
 
 ## Limitaciones
+
+El experimento se realizó con un solo participante, por lo que los resultados no pueden generalizarse. Además, la ubicación de los electrodos y el contacto con la piel pudo haber afectado la calidad de la señal, especialmente debido a movimientos y variaciones en el contacto.
+En las pruebas de respiración (hiperventilación e hipoventilación), no se controló de manera exacta el volumen de aire, lo que introduce cierta imprecisión en la replicabilidad de las condiciones. 
+
+Durante la actividad física, el movimiento y el ruido muscular pueden haber afectado la detección de los picos R y la calidad de la señal. Además, en algunas pruebas, se detectaron pocos latidos o señales débiles, lo que sugiere interferencias que afectan la precisión de los resultados.
+Finalmente, el tiempo de adquisición de las señales fue corto, lo que puede limitar el análisis de la variabilidad de la frecuencia cardíaca.
 
 ## Referencias
 [1] MedlinePlus. Electrocardiograma. Disponible en: https://medlineplus.gov/spanish/pruebas-de-laboratorio/electrocardiograma/
