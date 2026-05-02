@@ -48,6 +48,31 @@ https://github.com/user-attachments/assets/ea8e0b36-9857-44ae-b0b9-dde45d93514b
 
 
 <img width="450" height="800" alt="Ubicacion_electrodos" src="https://github.com/user-attachments/assets/ae494443-164e-4ded-bd1e-e41eda7c7e81" />
+
+
+
+
+https://github.com/user-attachments/assets/b71cae5c-a8d5-4de6-b925-48eda6271c79
+
+
+
+
+https://github.com/user-attachments/assets/3cfb054f-5927-4bb1-b711-67ab932f18a4
+
+
+
+
+
+https://github.com/user-attachments/assets/2fc9228b-5f31-4108-9e86-77ae058d8f68
+
+
+
+
+https://github.com/user-attachments/assets/4ac9b222-08c8-4948-98f0-f994afa26411
+
+
+
+
 ---
 
 ## Resultados
