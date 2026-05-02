@@ -147,7 +147,7 @@ También, se van interferencias como el baseline wander a causa de la respiraci�
 
 2. ¿Por qué el cambio de posición en los sensores (derivadas I-III) cambian los componentes de la señal ECG? ¿Cómo cambian estos componentes?
 
-3. Grandes diferencias en la señal cuando se adquiere de distintas partes del cuerpo ¿Cuál puede ser la causa? ¿Se esperan estos cambios en la señal?
+3. Existen grandes diferencias en la señal cuando se adquiere de distintas partes del cuerpo ¿Cuál puede ser la causa? ¿Se esperan estos cambios en la señal?
 4. ¿Los diferentes tipos de respiración (p. ej., más rápida, más profunda) influyen en las señales del ECG? En base a las señales del ECG mostradas anteriormente en diferentes circunstancias respiratorias, se describen las variaciones.
    
 5. ¿Cómo influye el movimiento en la señal ECG?
