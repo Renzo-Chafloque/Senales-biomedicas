@@ -174,8 +174,33 @@ También, se van interferencias como el baseline wander a causa de la respiraci�
 2. ¿Por qué el cambio de posición en los sensores (derivadas I-III) cambian los componentes de la señal ECG? ¿Cómo cambian estos componentes?
 
 3. Existen grandes diferencias en la señal cuando se adquiere de distintas partes del cuerpo ¿Cuál puede ser la causa? ¿Se esperan estos cambios en la señal?
+- Orientación del vector eléctrico cardíaco [1]
+  Cada derivación registra la proyección del vector desde un ángulo distinto.
+- Posición relativa al corazón [1]
+  Electrodos más cercanos o alineados con el eje cardíaco captan señales de mayor amplitud.
+- Conductividad de los tejidos [1]
+  Músculo, grasa, hueso y piel afectan la propagación de la señal, lo cual varía en distintas partes del cuerpo.
+Debido a estas causas, es muy común esperar cambios para analizar distintos puntos de vista para el análisis de las señales del corazón.
+Tipo de derivación (bipolar/unipolar)
+Cada configuración mide diferencias de potencial distintas.
 4. ¿Los diferentes tipos de respiración (p. ej., más rápida, más profunda) influyen en las señales del ECG? En base a las señales del ECG mostradas anteriormente en diferentes circunstancias respiratorias, se describen las variaciones.
-   
+Sí influyen en las señales, se tienen las siguientes variaciones:
+### Frecuencia cardíaca
+Reposo: Frecuencia estable con ligera arritmia sinusal respiratoria normal.
+Hipoventilación: Disminuye la frecuencia cardíaca debido a mayor actividad parasimpática y retención de CO₂.
+Hiperventilación: Aumenta la frecuencia cardíaca por activación simpática y disminución de CO₂.
+### Intervalos (RR)
+Reposo: Intervalos regulares con pequeñas variaciones fisiológicas.
+Hipoventilación: Intervalos RR más largos por latidos más separados.
+Hiperventilación: Intervalos RR más cortos por latidos más frecuentes.
+### Amplitud del QRS
+Reposo: Amplitud estable.
+Hipoventilación: Puede aumentar ligeramente por menor movimiento torácico y posición más estable del corazón.
+Hiperventilación: Varía por cambios rápidos en la posición del corazón y en la impedancia torácica.
+### Artefactos
+Reposo: Bajos.
+Hipoventilación: Muy bajos.
+Hiperventilación: Aumentan debido al movimiento, tensión muscular y respiración forzada.
 5. ¿Cómo influye el movimiento en la señal ECG?
 
 El movimiento introduce artefactos de movimiento, que son de las principales fuentes de ruido en el ECG:
