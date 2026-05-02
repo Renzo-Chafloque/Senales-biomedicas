@@ -125,7 +125,7 @@ Las señales EKG fueron adquiridas con el sistema BITalino a una frecuencia de m
 
 
 - Características observadas
-  - .En esta primera prueba, donde se registró la señal ECG mientras el participante estaba en reposo, la señal se mostró bastante estable. Los picos de la onda **R** fueron claramente visibles, con una amplitud definida, lo que sugiere una señal de buena calidad. La variabilidad de los intervalos **RR** era moderada, lo que es normal en un estado de reposo. A pesar de la regularidad, se observó una leve fluctuación en la línea base, lo que podría estar relacionado con algunos pequeños movimientos del cuerpo, pero no hubo interferencias significativas. En general, la señal fue bastante limpia, lo que permitió obtener una buena lectura del ritmo cardíaco y la frecuencia.
+  - En esta primera prueba, donde se registró la señal ECG mientras el participante estaba en reposo, la señal se mostró bastante estable. Los picos de la onda **R** fueron claramente visibles, con una amplitud definida, lo que sugiere una señal de buena calidad. La variabilidad de los intervalos **RR** era moderada, lo que es normal en un estado de reposo. A pesar de la regularidad, se observó una leve fluctuación en la línea base, lo que podría estar relacionado con algunos pequeños movimientos del cuerpo, pero no hubo interferencias significativas. En general, la señal fue bastante limpia, lo que permitió obtener una buena lectura del ritmo cardíaco y la frecuencia.
   
 ### Prueba 1.2: Reposo - Derivada 2
 <img width="2071" height="1769" alt="GustavoBASAL2" src="https://github.com/user-attachments/assets/bdd82a81-5662-4b8d-97ef-5c586b428c4c" />
@@ -133,7 +133,7 @@ Las señales EKG fueron adquiridas con el sistema BITalino a una frecuencia de m
 
 
 - Características observadas:
-  - .Para la segunda derivada, también realizada en reposo, la señal mostró algunas diferencias. Aunque los picos **R** seguían siendo visibles, su amplitud era un poco más baja en comparación con la primera derivada, lo que podría indicar una ligera pérdida de calidad en la señal. La variabilidad entre los intervalos **RR** fue más pronunciada en esta derivada, lo que podría estar relacionado con pequeños cambios en la respiración o el movimiento del cuerpo. Además, se notaron algunas fluctuaciones en la línea base, que en su mayoría se debieron a interferencias menores. A pesar de estos pequeños ruidos, la señal seguía siendo suficientemente clara para permitir el análisis de la frecuencia cardíaca, aunque con una menor claridad que la derivada anterior.
+  - Para la segunda derivada, también realizada en reposo, la señal mostró algunas diferencias. Aunque los picos **R** seguían siendo visibles, su amplitud era un poco más baja en comparación con la primera derivada, lo que podría indicar una ligera pérdida de calidad en la señal. La variabilidad entre los intervalos **RR** fue más pronunciada en esta derivada, lo que podría estar relacionado con pequeños cambios en la respiración o el movimiento del cuerpo. Además, se notaron algunas fluctuaciones en la línea base, que en su mayoría se debieron a interferencias menores. A pesar de estos pequeños ruidos, la señal seguía siendo suficientemente clara para permitir el análisis de la frecuencia cardíaca, aunque con una menor claridad que la derivada anterior.
 
 
 ### Prueba 1.3: Reposo - Derivada 3
@@ -142,7 +142,7 @@ Las señales EKG fueron adquiridas con el sistema BITalino a una frecuencia de m
 
 
 - Características observadas:
-  - .En la tercera derivada, también tomada en reposo, la calidad de la señal fue un poco más afectada. Aunque los picos **R** seguían presentes, fueron menos definidos y la señal mostró más variabilidad en su amplitud. Además, se notaron más fluctuaciones en la línea base, lo que sugiere que hubo más movimiento o interferencias externas durante la medición. La señal en general se veía más "suave", lo que dificultó un poco la identificación precisa de cada latido. Esto podría haber sido causado por el mal contacto de los electrodos o algún pequeño movimiento involuntario del participante. A pesar de la menor claridad, la señal aún era útil para el análisis general, aunque no tan precisa como las derivadas anteriores.
+  - En la tercera derivada, también tomada en reposo, la calidad de la señal fue un poco más afectada. Aunque los picos **R** seguían presentes, fueron menos definidos y la señal mostró más variabilidad en su amplitud. Además, se notaron más fluctuaciones en la línea base, lo que sugiere que hubo más movimiento o interferencias externas durante la medición. La señal en general se veía más "suave", lo que dificultó un poco la identificación precisa de cada latido. Esto podría haber sido causado por el mal contacto de los electrodos o algún pequeño movimiento involuntario del participante. A pesar de la menor claridad, la señal aún era útil para el análisis general, aunque no tan precisa como las derivadas anteriores.
 
 
 ### Prueba 2.1: Hiperventilación - Derivada 1
@@ -176,18 +176,39 @@ Las señales EKG fueron adquiridas con el sistema BITalino a una frecuencia de m
 
 
 - Características observadas:
-  - .
+  - 
+En esta prueba, realizada durante el segundo reposo, la señal registrada fue muy débil, lo que resultó en solo **2 latidos detectados** en un periodo de **30.6 segundos**. Debido a esta debilidad en la señal, los picos **R** no fueron claramente identificables, lo que dificultó el análisis. La señal fue atenuada, y aunque los intervalos **RR** se detectaron, no hubo una variabilidad significativa entre ellos. Este tipo de señal probablemente se debió a problemas como el **mal contacto de los electrodos** o **movimiento del participante**, lo que afectó la precisión de la detección de los picos. Debido a esta falta de claridad, los valores de **SDNN** y **RMSSD** no fueron calculados correctamente, ya que los pocos picos detectados no fueron suficientes para obtener métricas representativas de la variabilidad de la frecuencia cardíaca.
+
+**Frecuencia cardíaca promedio**: 2.0 lpm  
+**SDNN**: 0.0 ms  
+**RMSSD**: nan ms  
+
+
 ### Prueba 3.2: Segundo reposo - Derivada 2
 <img width="1536" height="754" alt="Gustavo2DABASAL2" src="https://github.com/user-attachments/assets/fc3804b9-ffd6-4cec-8da5-55a6faef98b0" />
 <img width="502" height="203" alt="Gustavo2DABASAL2 resultados" src="https://github.com/user-attachments/assets/adf474ef-9030-477e-9956-aeb6ffcc9108" />
 
+
 - Características observadas:
-  - .
+  - En esta segunda derivada durante el segundo reposo, la señal fue mucho más clara en comparación con la derivada 1. La frecuencia cardíaca aumentó y se detectaron **41 latidos** en **30.9 segundos**. Los picos **R** fueron claramente visibles, y la variabilidad en los intervalos **RR** fue mayor, lo que indica una frecuencia cardíaca más estable. La señal no estuvo completamente libre de fluctuaciones, pero la calidad fue lo suficientemente buena como para calcular correctamente los valores de **SDNN** y **RMSSD**, los cuales fueron representativos de la variabilidad de la frecuencia cardíaca.
+
+**Frecuencia cardíaca promedio**: 78.7 lpm  
+**SDNN**: 448.9 ms  
+**RMSSD**: 618.2 ms  
+
+
 ### Prueba 3.3: Segundo reposo - Derivada 3
 <img width="2084" height="1769" alt="Gustavo2DOBASAL3" src="https://github.com/user-attachments/assets/3221e1a6-4617-41ea-8e75-cd68e627c16a" />
 <img width="473" height="197" alt="Gustavo2DOBASAL3 resultados" src="https://github.com/user-attachments/assets/4d8b8d09-23e1-4df1-bfa7-049d63eaaf4e" />
+
+
 - Características observadas:
-  - .
+  - La tercera derivada también mostró una señal más estable en comparación con la derivada 1. Durante esta prueba, se detectaron **45 latidos** en **30.9 segundos**, con picos **R** más definidos. La señal mantuvo una variabilidad moderada en los intervalos **RR**, lo que refleja una frecuencia cardíaca estable durante el reposo. A pesar de algunas fluctuaciones en la señal, los resultados de **SDNN** y **RMSSD** fueron adecuados para el análisis, y los valores obtenidos son representativos de la variabilidad normal de la frecuencia cardíaca en reposo.
+
+**Frecuencia cardíaca promedio**: 88.9 lpm  
+**SDNN**: 390.7 ms  
+**RMSSD**: 583.8 ms 
+
 
 ### Prueba 4.1: Actividad física - Derivada 1
 <img width="2084" height="1769" alt="GustavoACTIVIDAD1" src="https://github.com/user-attachments/assets/75ee7bf3-67a1-4a84-a7df-5b10e463af39" />
