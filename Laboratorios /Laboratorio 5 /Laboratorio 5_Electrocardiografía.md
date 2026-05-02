@@ -317,7 +317,9 @@ Durante la actividad física, el movimiento y el ruido muscular pueden haber afe
 Finalmente, el tiempo de adquisición de las señales fue corto, lo que puede limitar el análisis de la variabilidad de la frecuencia cardíaca.
 
 ## Referencias
-[1] MedlinePlus. Electrocardiograma. Disponible en: https://medlineplus.gov/spanish/pruebas-de-laboratorio/electrocardiograma/
-[2] PLUX. BITalino Home Guide: Electrocardiography ECG. Disponible en: https://www.plux.info/docs/bitalino-home-guide
-[3] A. Azzouz et al. , “Una técnica eficiente de eliminación de ruido en señales de ECG basada en la combinación de optimización por enjambre de partículas y transformada wavelet”, Heliyon , vol. 10, n.º 5, pág. e26171, marzo de 2024, doi: https://doi.org/10.1016/j.heliyon.2024.e26171.
-‌
+
+[1] MedlinePlus. Electrocardiograma. Disponible en: https://medlineplus.gov/spanish/pruebas-de-laboratorio/electrocardiograma/  
+
+[2] PLUX. BITalino Home Guide: Electrocardiography ECG. Disponible en: https://www.plux.info/docs/bitalino-home-guide  
+
+[3] A. Azzouz et al. , “Una técnica eficiente de eliminación de ruido en señales de ECG basada en la combinación de optimización por enjambre de partículas y transformada wavelet”, *Heliyon*, vol. 10, n.º 5, pág. e26171, marzo de 2024, doi: https://doi.org/10.1016/j.heliyon.2024.e26171.
