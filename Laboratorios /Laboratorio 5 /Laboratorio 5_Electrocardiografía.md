@@ -43,11 +43,12 @@ La adquisición de señales ECG se realiza mediante la colocación de electrodos
 
 ### Ubicación de electrodos
 
+<img width="450" height="800" alt="Ubicacion_electrodos" src="https://github.com/user-attachments/assets/ae494443-164e-4ded-bd1e-e41eda7c7e81" />
+
+
+### Evidencia
 
 https://github.com/user-attachments/assets/ea8e0b36-9857-44ae-b0b9-dde45d93514b
-
-
-<img width="450" height="800" alt="Ubicacion_electrodos" src="https://github.com/user-attachments/assets/ae494443-164e-4ded-bd1e-e41eda7c7e81" />
 
 
 
@@ -58,7 +59,6 @@ https://github.com/user-attachments/assets/b71cae5c-a8d5-4de6-b925-48eda6271c79
 
 
 https://github.com/user-attachments/assets/3cfb054f-5927-4bb1-b711-67ab932f18a4
-
 
 
 
