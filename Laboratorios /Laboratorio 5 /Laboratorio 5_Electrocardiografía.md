@@ -200,7 +200,7 @@ También, se van interferencias como el baseline wander a causa de la respiraci�
 
 Esto sucede porque cada derivación nos da una perspectiva distinta del vector eléctrico del corazón. Al mover el sitio de electrodos cambiamos la observación por ello cuando el impulso va hacia el polo positivo se registra hacia arriba mientras que si se aleja irá hacia abajo. Respecto a las características en D-I, se muestran ondas P positivas pequeñas y la onda R modesta. Para D-II se observan en general amplitudes más altas especialmente en R, una morfología redondeada en P y una onda T mayor en comparación con D-I. Finalmente, en D-III se muestran ondas T más bajas o invertidas y ondas R variables.
 
-4. Existen grandes diferencias en la señal cuando se adquiere de distintas partes del cuerpo ¿Cuál puede ser la causa? ¿Se esperan estos cambios en la señal?
+3. Existen grandes diferencias en la señal cuando se adquiere de distintas partes del cuerpo ¿Cuál puede ser la causa? ¿Se esperan estos cambios en la señal?
 - Orientación del vector eléctrico cardíaco [1]
   Cada derivación registra la proyección del vector desde un ángulo distinto.
 - Posición relativa al corazón [1]
@@ -208,6 +208,7 @@ Esto sucede porque cada derivación nos da una perspectiva distinta del vector e
 - Conductividad de los tejidos [1]
   Músculo, grasa, hueso y piel afectan la propagación de la señal, lo cual varía en distintas partes del cuerpo.
 Debido a estas causas, es muy común esperar cambios para analizar distintos puntos de vista para el análisis de las señales del corazón.
+
 4. ¿Los diferentes tipos de respiración (p. ej., más rápida, más profunda) influyen en las señales del ECG? En base a las señales del ECG mostradas anteriormente en diferentes circunstancias respiratorias, se describen las variaciones.
 Sí influyen en las señales, se tienen las siguientes variaciones:
 ### Frecuencia cardíaca
@@ -226,6 +227,8 @@ Hiperventilación: Varía por cambios rápidos en la posición del corazón y en
 Reposo: Bajos.
 Hipoventilación: Muy bajos.
 Hiperventilación: Aumentan debido al movimiento, tensión muscular y respiración forzada.
+
+
 5. ¿Cómo influye el movimiento en la señal ECG?
 
 El movimiento introduce artefactos de movimiento, que son de las principales fuentes de ruido en el ECG:
