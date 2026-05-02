@@ -124,8 +124,13 @@ Las señales EKG fueron adquiridas con el sistema BITalino a una frecuencia de m
 <img width="505" height="223" alt="GustavoBASAL1 Resultado " src="https://github.com/user-attachments/assets/34687b63-8792-4371-94a3-8208a38dde7a" />
 
 
-- Características observadas:
-  - .
+Características observadas
+
+- **Descripción de la señal**: La señal obtenida muestra un patrón regular, con picos bien definidos en cada latido del corazón. Se observa que los picos R son altos y claramente visibles, lo que indica una señal de buena calidad.
+- **Ruido**: La señal muestra algunas pequeñas fluctuaciones que pueden estar relacionadas con interferencias de bajo nivel, pero estas no afectan significativamente los picos R.
+- **Comportamiento general**: La señal tiene una variabilidad moderada, lo que es normal en reposo, y la frecuencia cardíaca parece estar dentro de un rango saludable.
+- **Conclusión**: La señal es bastante estable y adecuada para el análisis. No se observan artefactos graves o irregularidades significativas.
+
   
 ### Prueba 1.2: Reposo - Derivada 2
 <img width="2071" height="1769" alt="GustavoBASAL2" src="https://github.com/user-attachments/assets/bdd82a81-5662-4b8d-97ef-5c586b428c4c" />
