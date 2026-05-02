@@ -63,16 +63,20 @@ Las mediciones se realizaron en el siguiente orden:
 | P4 | Actividad física | Ejecución de burpees durante 4 minutos antes del registro de la señal. | I, II y III |
 | P5 | Hipoventilación | Registro inmediato posterior a la actividad física mientras el participante mantenía la respiración. | I, II y III |
 
+
 ### Descripción de las derivaciones utilizadas
-Las derivaciones I, II y III corresponden a derivaciones bipolares de las extremidades. Estas permiten registrar la actividad eléctrica cardíaca desde diferentes orientaciones del plano frontal [3].
 
-| Derivación | Electrodo negativo | Electrodo positivo | Referencia |
-|-----------|-------------------|-------------------|------------|
-| I | Muñeca derecha | Muñeca izquierda | Cresta ilíaca |
-| II | Muñeca derecha | Región inferior izquierda / referencia modificada según configuración del laboratorio | Cresta ilíaca |
-| III | Muñeca izquierda | Región inferior izquierda / referencia modificada según configuración del laboratorio | Cresta ilíaca |
+Las derivaciones **I**, **II** y **III** corresponden a **derivaciones bipolares** de las extremidades, basadas en el principio de **Einthoven**. Estas derivaciones permiten registrar la actividad eléctrica cardíaca desde diferentes orientaciones del plano frontal. A continuación, se describen las configuraciones de los electrodos para cada derivada, de acuerdo con la variabilidad en la ubicación de los cables para cada medición:
 
-> Nota: La ubicación de los electrodos fue modificada según la derivación registrada, siguiendo el principio de las derivaciones de Einthoven y la configuración experimental indicada durante la práctica.
+| **Derivación** | **Electrodo negativo** | **Electrodo positivo** | **Referencia** |
+|----------------|------------------------|------------------------|----------------|
+| **I**          | Muñeca derecha | Muñeca izquierda | Cresta ilíaca |
+| **II**         | Muñeca derecha  | Cresta ilíaca  | Muñeca izquierda |
+| **III**        | Muñeca izquierda | Cresta ilíaca  | Muñeca derecha |
+
+> **Nota**: La ubicación de los electrodos fue modificada según la derivación registrada, siguiendo el principio de las derivaciones de **Einthoven** y la configuración experimental indicada durante la práctica.
+
+Este ajuste en la colocación de los electrodos permite registrar la actividad eléctrica desde distintas posiciones y obtener la señal correcta para cada derivada, facilitando el análisis de la señal ECG obtenida.
 
 ### Evidencia
 
