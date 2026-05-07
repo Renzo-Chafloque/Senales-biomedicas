@@ -9,4 +9,5 @@ de frecuencia. Es más preciso que un Butterworth y menos complejo que un filtro
 
 ## Referencias
 [1] “Chebyshev Filter - an overview,” ScienceDirect Topics, Elsevier. Disponible en: https://www.sciencedirect.com/topics/engineering/chebyshev-filter [Accedido: 7-may-2026].‌
+
 [2] “Chebyshev Filters,” Analog Devices. Disponible en: https://www.analog.com/media/en/technical-documentation/dsp-book/dsp_book_Ch20.pdf [Accedido: 7-may-2026].‌
