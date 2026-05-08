@@ -1,6 +1,6 @@
 # Filtro Notch aplicado a señales biomédicas EMG, EKG y EEG
 
-## 1. ¿Qué es un filtro Notch?
+## 1. Introducción y ¿Qué es un filtro Notch?
 
 En el procesamiento de señales biomédicas, los filtros digitales permiten reducir componentes no deseados de una señal sin eliminar la información fisiológica más importante. En señales como EMG, EKG y EEG, uno de los ruidos más frecuentes es la interferencia de la red eléctrica, conocida como *power line interference* o PLI.
 
