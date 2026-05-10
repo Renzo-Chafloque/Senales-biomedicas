@@ -9,8 +9,11 @@ de frecuencia. Es más preciso que un Butterworth y menos complejo que un filtro
 
 ## Función en señales biomédicas
 ### ECG
+
 ### EEG
+
 ### EMG
+
 
 ## Referencias
 [1] “Chebyshev Filter - an overview,” ScienceDirect Topics, Elsevier, 2026. Disponible en: https://www.sciencedirect.com/topics/engineering/chebyshev-filter [Accedido: 7-may-2026].
