@@ -11,28 +11,31 @@ Su función de transferencia de magnitud al cuadrado es:
 n = orden del filtro
 Mayor orden n, más abrupta es la caída en la banda de transición. 
 Puede ser pasa-bajas, pasa-altas, pasa-banda o rechaza-banda[1].
-Ruido que elimina en cada señal:
 
-EKG, electrocardiograma:
+## 2. Ruido que elimina
+
+## EKG, electrocardiograma:
 Rango fisiológico útil: 0.05 – 100 Hz
 *Ruido de línea base, causado por respiración y movimiento
 de los electrodos. Suele estar en frecuencias de menos de 0.5Hz.
 *Ruido por artefactos musculares, actividad EMG no deseada durante el registro.
 Usualmente menores a 100 Hz.[2]
 
-EMG, electromiograma:
+## EMG, electromiograma:
 Rango fisiológico útil: 20 – 500 Hz
 *Ruido por artefactos, desplazamiento de electrodos por la piel. Usualmente 
 menores a 20Hz.
 *Ruido de alta frecuencia, interferencia electromagnética y ruido térmico del 
 amplificador, estas se presentan en frecuencias mayores a 500Hz.[3]
 
-EEG, electroencefalograma:
+## EEG, electroencefalograma:
 Rango fisiológico útil: 0.5 – 70 Hz
 *Ruido por artefactos oculares, parapadeos y movimiento ocular.
 Usualmente menores a 1Hz.
 *Ruido muscular, contraccion de músculos fasciales y del cuero cabelludo.
 Estos son de frecuencias mayores a 50Hz.[4]
+
+## Bibliografia
 
 [1] L. Sörnmo and P. Laguna, Bioelectrical Signal Processing in Cardiac and Neurological Applications. Burlington, MA, USA: Elsevier Academic Press, 2005.
 [2] J. Pan and W. J. Tompkins, "A real-time QRS detection algorithm," IEEE Trans. Biomed. Eng., vol. 32, no. 3, pp. 230–236, Mar. 1985, doi: 10.1109/TBME.1985.325532.
