@@ -1,44 +1,44 @@
 # Filtro Notch aplicado a señales biomédicas EMG, EKG y EEG
 
-## 1. Introducción
+## 1. ¿Qué es un filtro Notch?
 
-En el procesamiento de señales biomédicas, los filtros digitales permiten reducir componentes no deseados de una señal sin eliminar la información fisiológica más importante. En señales como EMG, EKG y EEG, uno de los ruidos más frecuentes es la interferencia de la red eléctrica, conocida como *power line interference* o PLI.
+Un filtro Notch es un filtro digital que elimina o atenúa fuertemente una banda muy estrecha de frecuencias, mientras deja pasar el resto de componentes de la señal. A diferencia de un filtro pasa baja, pasa alta o pasa banda, el filtro Notch se centra en rechazar una frecuencia puntual. Por ejemplo, si una señal biomédica está contaminada por ruido eléctrico de 60 Hz, se puede aplicar un filtro Notch centrado en 60 Hz para disminuir esa interferencia [1].
 
-Un filtro Notch es un tipo de filtro digital que elimina o atenúa fuertemente una banda muy estrecha de frecuencias, mientras deja pasar el resto de componentes de la señal. A diferencia de un filtro pasa baja, pasa alta o pasa banda, el filtro Notch se centra en rechazar una frecuencia puntual. Por ejemplo, si una señal biomédica está contaminada por ruido eléctrico de 60 Hz, se puede aplicar un filtro Notch centrado en 60 Hz para disminuir esa interferencia.
-
-Este filtro es útil porque no elimina un rango amplio de frecuencias, sino solo una zona puntual, lo que lo hace especialmente útil en el tratamiento de señales como EMG, EKG y EEG, donde la interferencia de la red eléctrica puede ser un problema frecuente.
+Este filtro es útil porque no elimina un rango amplio de frecuencias, sino solo una zona puntual, lo que lo hace especialmente útil en el tratamiento de señales como EMG, EKG y EEG, donde la interferencia de la red eléctrica puede ser un problema frecuente [2].
 
 ## 2. Ruido que elimina
 
-El principal ruido que elimina el filtro Notch es la interferencia de la red eléctrica. Este ruido aparece porque los equipos biomédicos, electrodos, cables y amplificadores pueden captar campos electromagnéticos producidos por la corriente alterna de tomacorrientes, lámparas, computadoras u otros dispositivos eléctricos cercanos. Las frecuencias más comunes de este ruido son:
-
-- 50 Hz: común en varios países de Europa, Asia y otras regiones [2].
-- 60 Hz: común en países como Perú y Estados Unidos [3].
-- Armónicos: pueden aparecer en 100 Hz, 120 Hz, 150 Hz, 180 Hz, etc., dependiendo de si la frecuencia base es 50 Hz o 60 Hz [4].
+El principal ruido que elimina el filtro Notch es la interferencia de la red eléctrica. Este ruido aparece cuando los equipos biomédicos, electrodos, cables o amplificadores captan campos eléctricos generados por tomacorrientes, lámparas, computadoras u otros dispositivos cercanos. Las frecuencias más comunes de este ruido son 50 Hz y 60 Hz [4]. También pueden aparecer armónicos como 100 Hz, 120 Hz, 150 Hz o 180 Hz [4].
 
 ## 3. Aplicación en señales EMG, EKG y EEG
 
 ### EMG
-La señal EMG registra la actividad eléctrica de los músculos. Esta señal puede contaminarse fácilmente con interferencia eléctrica, especialmente cuando los electrodos o cables están cerca de fuentes de corriente alterna. El filtro Notch se usa para reducir el ruido de 50 Hz o 60 Hz. Sin embargo, debe aplicarse con cuidado, porque parte de la información útil del EMG también puede estar cerca de esas frecuencias [5].
+La señal EMG registra la actividad eléctrica de los músculos. Esta señal puede contaminarse fácilmente con interferencia eléctrica, especialmente cuando los electrodos o cables están cerca de fuentes de corriente alterna [3]. El filtro Notch se usa para reducir el ruido de 50 Hz o 60 Hz. Sin embargo, debe aplicarse con cuidado, porque parte de la información útil del EMG también puede estar cerca de esas frecuencias [5].
 
 ### EKG
-La señal EKG o ECG registra la actividad eléctrica del corazón. En esta señal, la interferencia de la red eléctrica puede aparecer como una oscilación rápida superpuesta al trazado cardíaco. El filtro Notch puede ayudar a reducir el ruido de 50 Hz o 60 Hz para que se observen mejor las ondas P, el complejo QRS y la onda T. Debe usarse con cuidado, porque algunos filtros pueden generar distorsiones si la banda de rechazo es muy amplia [6].
+La señal EKG o ECG registra la actividad eléctrica del corazón. La interferencia de la red eléctrica puede aparecer como una oscilación rápida superpuesta al trazado cardíaco. El filtro Notch ayuda a reducir ese ruido para mejorar la visualización de las ondas P, el complejo QRS y la onda T [1].
 
 ### EEG
-La señal EEG registra la actividad eléctrica cerebral. Como esta señal tiene amplitudes muy pequeñas, es bastante sensible al ruido externo, especialmente al ruido de la red eléctrica. El filtro Notch se usa para reducir la interferencia de 50 Hz o 60 Hz, permitiendo observar ritmos cerebrales como alfa, beta, theta o delta con mayor claridad. Se recomienda revisar si la frecuencia eliminada no afecta componentes importantes del análisis [7].
+La señal EEG registra la actividad eléctrica cerebral. Como esta señal tiene amplitudes muy pequeñas, es bastante sensible al ruido externo. El filtro Notch se usa para reducir la interferencia de 50 Hz o 60 Hz, permitiendo observar ritmos cerebrales como alfa, beta, theta o delta con mayor claridad. Se recomienda revisar si la frecuencia eliminada no afecta componentes importantes del análisis [2].
 
 ## 4. Ventajas del filtro Notch
 
-- Elimina frecuencias específicas como el ruido de 50 Hz o 60 Hz.
-- Es fácil de implementar en Python, MATLAB o sistemas embebidos.
-- No elimina un rango amplio de frecuencias, solo una zona puntual.
-- Es útil para mejorar la visualización de señales biomédicas contaminadas por ruido eléctrico.
+- Elimina frecuencias específicas como el ruido de 50 Hz o 60 Hz [1].  
+- Es fácil de implementar en Python, MATLAB o sistemas embebidos [3].  
+- No elimina un rango amplio de frecuencias, solo una zona puntual [2].  
+- Mejora la visualización de señales biomédicas contaminadas por ruido eléctrico [5].
 
 ## 5. Limitaciones
 
-Aunque el filtro Notch es muy usado, no siempre debe aplicarse automáticamente. Si la señal biomédica tiene información útil cerca de 50 Hz o 60 Hz, el filtro puede eliminar parte de esa información. Además, si el ruido eléctrico varía ligeramente, por ejemplo de 60 Hz a 59.5 Hz o 60.5 Hz, un filtro Notch muy estrecho podría no eliminarlo completamente [5].
+Aunque el filtro Notch es muy usado, no siempre debe aplicarse automáticamente [3]. Si la señal biomédica tiene información útil cerca de 50 Hz o 60 Hz, el filtro puede eliminar parte de esa información [5]. Además, si la interferencia eléctrica varía ligeramente, por ejemplo de 60 Hz a 59.5 Hz o 60.5 Hz, un filtro Notch muy estrecho podría no eliminarlo completamente [4].
 
-## 6. Referencias
+## 6. Conclusión
+
+El filtro Notch es un filtro digital utilizado para reducir la interferencia de la red eléctrica en señales biomédicas como EMG, EKG y EEG [1]. Su función principal es atenuar una frecuencia específica, generalmente 50 Hz o 60 Hz, sin modificar demasiado el resto de la señal [2].  
+
+En EMG ayuda a reducir ruido eléctrico que puede confundirse con actividad muscular [3]. En señales EKG mejora la visualización del trazado cardíaco [1]. En señales EEG permite disminuir la contaminación externa para observar mejor la actividad cerebral [2]. Sin embargo, debe utilizarse con cuidado, porque también puede eliminar información útil si la señal fisiológica tiene componentes cercanos a la frecuencia filtrada [5].
+
+## 7. Referencias
 
 [1] Levkov, C., Mihov, G., Ivanov, R., Daskalov, I., Christov, I., & Dotsinsky, I. (2005). Removal of power-line interference from the ECG: a review of the subtraction procedure. *BioMedical Engineering OnLine*, 4, 50. https://doi.org/10.1186/1475-925X-4-50
 
