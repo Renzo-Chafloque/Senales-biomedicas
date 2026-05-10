@@ -1,4 +1,4 @@
-Butterworth filter 
+# Filtro Butterworth aplicado a señales biomédicas EMG, EKG y EEG
 
 El filtro Butterworth es de respuesta infinita al impulso (IIR) 
 caracterizado por no presentar rizado ni en la banda de paso ni en la banda de rechazo.
