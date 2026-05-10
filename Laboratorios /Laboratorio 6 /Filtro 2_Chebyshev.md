@@ -9,6 +9,9 @@ de frecuencia. Es más preciso que un Butterworth y menos complejo que un filtro
 
 ## Función en señales biomédicas
 ### ECG
+Este tipo de filtro para ECG permite atenuar interferencia eléctrica de 50/60 Hz y artefactos de movimiento. Su principal función es preservar las ondas P, QRS y T sin perder información diagnóstica. Los ECG contienen información clínica relevante entre los 0.5 y 100 Hz por lo que este tipo de filtro suele emplearse como pasa-banda dejando pasar ese rango. Entre las ventajas se encuentran una atenuación rápida del ruido, menor carga computacional y un buen desempeño en tiempo real.
+
+Respecto a las aplicaciones, 
 
 ### EEG
 
