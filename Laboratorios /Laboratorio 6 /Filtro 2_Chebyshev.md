@@ -7,6 +7,11 @@ el roll-off que es la rapidez con la que el filtro atenúa será mayor [1].
 Este tipo de filtro es usado en el procesamiento de señales y telecomunicaciones en las que se requiere una separación rápida y precisa entre bandas
 de frecuencia. Es más preciso que un Butterworth y menos complejo que un filtro Elíptico [2].
 
+## Función en señales biomédicas
+### ECG
+### EEG
+### EMG
+
 ## Referencias
 [1] “Chebyshev Filter - an overview,” ScienceDirect Topics, Elsevier, 2026. Disponible en: https://www.sciencedirect.com/topics/engineering/chebyshev-filter [Accedido: 7-may-2026].
 
