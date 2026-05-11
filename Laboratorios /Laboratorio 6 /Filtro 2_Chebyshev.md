@@ -19,6 +19,10 @@ Respecto a las aplicaciones, en un estudio elaborado en Israel en el año 2025 s
 
 ### EMG
 
+Este tipo de filtro para EMG permite eliminar el ruido de baja frecuencia originado por el movimiento de los electrodos y la línea base. Ello permite concentrar la energía de la señal en el rango de activación muscular, generalmente situado entre los 20 y 500 Hz, por lo que suele configurarse como un pasa-banda para capturar el espectro donde el músculo está activo. Como ventajas de diseño frente a otros filtros destaca su banda de transición abrupta, lo que permite una separación más limpia de las interferencias sin necesidad de órdenes excesivamente altos. Esto se traduce en una menor latencia en el procesamiento, factor crítico para aplicaciones de control de prótesis o interfaces humano-máquina en tiempo real donde la velocidad de respuesta es fundamental.
+
+Respecto a las aplicaciones, en 
+
 
 ## Referencias
 [1] “Chebyshev Filter - an overview,” ScienceDirect Topics, Elsevier, 2026. Disponible en: https://www.sciencedirect.com/topics/engineering/chebyshev-filter [Accedido: 7-may-2026].
