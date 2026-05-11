@@ -21,7 +21,7 @@ Respecto a las aplicaciones, en un estudio elaborado en Israel en el año 2025 s
 
 Este tipo de filtro para EMG permite eliminar el ruido de baja frecuencia originado por el movimiento de los electrodos y la línea base. Ello permite concentrar la energía de la señal en el rango de activación muscular, generalmente situado entre los 20 y 500 Hz, por lo que suele configurarse como un pasa-banda para capturar el espectro donde el músculo está activo. Como ventajas de diseño frente a otros filtros destaca su banda de transición abrupta, lo que permite una separación más limpia de las interferencias sin necesidad de órdenes excesivamente altos. Esto se traduce en una menor latencia en el procesamiento, factor crítico para aplicaciones de control de prótesis o interfaces humano-máquina en tiempo real donde la velocidad de respuesta es fundamental.
 
-Respecto a las aplicaciones, en 
+Respecto a las aplicaciones, en un estudio publicado en el año 2019 se evaluó la implementación de filtros digitales de bajo orden, como el Chebyshev, para el procesamiento de biopotenciales EMG en sistemas de tiempo real. Los resultados indicaron que el uso de estructuras de Secciones de Segundo Orden (SOS) permiten que filtros de bajo orden par alcancen una alta selectividad. Entre las razones principales se encuentra la optimización de la memoria y ciclos de reloj en microcontroladores, permitiendo atenuar el ruido de alta frecuencia y la interferencia de línea. Con ello, se garantiza una señal fidedigna para el diagnóstico clínico o el control de prótesis, logrando un equilibrio entre velocidad de respuesta y calidad de la señal [5].
 
 
 ## Referencias
@@ -32,3 +32,5 @@ Respecto a las aplicaciones, en
 [3] D. Dobrev, T. Neycheva, V. Krasteva e I. Jekova, "Diseño de filtros inversos activos pasa-altas y pasa-bajas para compensar distorsiones en electrocardiogramas filtrados por RC" Technologies, vol. 13, n.º 4, p. 159, abr. 2025, doi: 10.3390/technologies13040159.
 
 [4] N. Avital, N. Shulkin y D. Malka, «Cálculo automático de la potencia media en señales de electroencefalografía para la detección mejorada de la actividad cerebral y patrones de comportamiento», Biosensors, vol. 15, n.º 5, p. 314, mayo 2025, doi: 10.3390/bios15050314.
+
+[5] T. Roland, S. Amsuess, M. Russold y W. Baumgartner, "Filtrado digital de ultra bajo consumo para la detección de EMG aislada", Sensors, vol. 19, n.º 4, p. 959, feb. 2019, doi: 10.3390/s19040959.
