@@ -13,7 +13,7 @@ En el presente laboratorio se analizarán señales EEG mediante técnicas de pro
 
 ## Métodos
 ### BITalino y OpenSignals
-Para la adquisición de señales se utilizó el kit de hardware BITalino, este ha sido diseñado especialmente para captar bioseñales. Este dispositivo cuenta con sensores de ECG, EMG, EDA y EEG, los cuales pueden emplearse en entornos de aprendizaje como aulas y laboratorios [a].
+Para la adquisición de señales se utilizó el kit de hardware BITalino, este ha sido diseñado especialmente para captar bioseñales. Este dispositivo cuenta con sensores de ECG, EMG, EDA y EEG, los cuales pueden emplearse en entornos de aprendizaje como aulas y laboratorios [4].
 Para la visualización de la señal adquirida, se utilizó el software OpenSignals que permite conectar el BITalino a un computador mediante Bluetooth. Durante la configuración, se estableció una frecuencia de muestreo de 100 Hz, ya que las ondas cerebrales estudiadas presentan frecuencias menores a 50 Hz. Finalmente, los datos almacenados en archivos con formato .h5 y .txt para su posterior procesamiento.
 
 ### Colocación de electrodos
@@ -21,7 +21,7 @@ Los electrodos empleados para esta experiencia fueron el sistema integrado de tr
 
 <img width="617" height="307" alt="image" src="https://github.com/user-attachments/assets/8df3f70d-d461-4682-8a7f-968f764bd243" />
 
-Posicionamiento de electrodos para medir EEG en la posicion FP1 [4].
+Posicionamiento de electrodos para medir EEG en la posicion FP1 [5].
 
 
 Por otro lado, el sensor SnapBIT-DUO se posicionó en la frente, sobre el ojo izquierdo del participante. En esta ocasión, no se usó un cable de referencia debido a que no se disponía del case necesario para integrar ambos sistemas.
@@ -35,7 +35,7 @@ Posicionamiento del SnapBIT-DUO
 El procedimiento se realizó con distintas condiciones cognitivas. Inicialmente, se hizo una lectura basal con un minuto de duración en la que el participante permanecía con los ojos cerrados en reposo ningún esfuerzo cognitivo. Luego, se solicitó que este abriera los ojos y mirase a un punto fijo sin distracciones durante treinta segundos para su registro. Después de esta etapa se realizó nuevamente una medida basal de treinta segundos.
 
 
-Seguidamente, el participante ejecutó movimientos de parpadeo y masticación con el fin de captar la señal EEG con artefactos de movimiento durante treinta segundos y se hizo una última medición basal con la misma duración. La actividad final consistió en que el sujeto respondiera preguntas simples y complejas basadas en [b]. Esto se realizó con el fin de analizar variaciones en la señal causadas por cargas cognitivas distintas.
+Seguidamente, el participante ejecutó movimientos de parpadeo y masticación con el fin de captar la señal EEG con artefactos de movimiento durante treinta segundos y se hizo una última medición basal con la misma duración. La actividad final consistió en que el sujeto respondiera preguntas simples y complejas basadas en [6]. Esto se realizó con el fin de analizar variaciones en la señal causadas por cargas cognitivas distintas.
 
 
 ## Resultados
