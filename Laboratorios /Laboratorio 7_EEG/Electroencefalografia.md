@@ -25,3 +25,12 @@ En el presente laboratorio se analizarán señales EEG mediante técnicas de pro
 • ¿Se observan diferencias entre Fp1 y Fp2? ¿Por qué podrían ocurrir?
 
 ## Referencias
+
+## Bibliografía
+
+[1]	“Electroencefalografía (EEG)”, Mayoclinic.org, 2024. [En línea]. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875. [Consultado: 17-may-2026].
+
+[2]	“Electroencefalograma”, Medlineplus.gov, 13-ene-2025. [En línea]. Disponible en: https://medlineplus.gov/spanish/ency/article/003931.htm. [Consultado: 17-may-2026].
+
+[3]	Priyanka A. Abhang, Bharti W. Gawali, Suresh C. Mehrotra, “Technological Basics of EEG Recording and Operation of Apparatus”, ScienceDirect, 2016. [En línea]. Disponible en: https://www.sciencedirect.com/science/chapter/monograph/abs/pii/B9780128044902000026. [Consultado: 17-may-2026].
+
