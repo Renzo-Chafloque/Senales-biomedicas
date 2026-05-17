@@ -37,6 +37,26 @@ El procedimiento se realizó con distintas condiciones cognitivas. Inicialmente,
 
 Seguidamente, el participante ejecutó movimientos de parpadeo y masticación con el fin de captar la señal EEG con artefactos de movimiento durante treinta segundos y se hizo una última medición basal con la misma duración. La actividad final consistió en que el sujeto respondiera preguntas simples y complejas basadas en [6]. Esto se realizó con el fin de analizar variaciones en la señal causadas por cargas cognitivas distintas.
 
+### Evidencias
+
+
+
+
+https://github.com/user-attachments/assets/b3c87407-4492-4d3a-845e-d5c07afa5f2b
+
+
+
+https://github.com/user-attachments/assets/4dba657f-cb2d-4fc6-91a9-746c9d4f3541
+
+
+
+https://github.com/user-attachments/assets/eb52988f-dc9e-4444-982d-087b08029633
+
+
+
+https://github.com/user-attachments/assets/43c7d335-b1f5-46b3-b4ad-b54cc518aaa7
+
+
 
 ## Resultados
 
