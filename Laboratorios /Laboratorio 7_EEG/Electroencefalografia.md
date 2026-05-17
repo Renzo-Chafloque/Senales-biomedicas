@@ -16,6 +16,10 @@ En el presente laboratorio se analizarán señales EEG mediante técnicas de pro
 Para la adquisición de señales se utilizó el kit de hardware BITalino, este ha sido diseñado especialmente para captar bioseñales. Este dispositivo cuenta con sensores de ECG, EMG, EDA y EEG, los cuales pueden emplearse en entornos de aprendizaje como aulas y laboratorios [a].
 Para la visualización de la señal adquirida, se utilizó el software OpenSignals que permite conectar el BITalino a un computador mediante Bluetooth. Durante la configuración, se estableció una frecuencia de muestreo de 100 Hz, ya que las ondas cerebrales estudiadas presentan frecuencias menores a 50 Hz. Finalmente, los datos almacenados en archivos con formato .h5 y .txt para su posterior procesamiento.
 
+<img width="617" height="307" alt="image" src="https://github.com/user-attachments/assets/8df3f70d-d461-4682-8a7f-968f764bd243" />
+
+Posicionamiento de electrodos para medir EEG en la posicion FP1 [4].
+
 ### Colocación de electrodos
 Los electrodos empleados para esta experiencia fueron el sistema integrado de tres derivaciones incluido en el kit BITalino y un sensor SnapBIT-DUO. El sistema de tres derivaciones se colocó en la frente del participante, ubicando un electrodo en la frente sobre cada ojo y el tercero sobre el hueso mastoideo que fue usado como referencia.
 
