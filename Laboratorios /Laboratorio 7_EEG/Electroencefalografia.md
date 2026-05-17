@@ -30,6 +30,14 @@ Por otro lado, el sensor SnapBIT-DUO se posicionó en la frente, sobre el ojo iz
 
 Posicionamiento del SnapBIT-DUO
 
+
+### Procedimiento experimental
+El procedimiento se realizó con distintas condiciones cognitivas. Inicialmente, se hizo una lectura basal con un minuto de duración en la que el participante permanecía con los ojos cerrados en reposo ningún esfuerzo cognitivo. Luego, se solicitó que este abriera los ojos y mirase a un punto fijo sin distracciones durante treinta segundos para su registro. Después de esta etapa se realizó nuevamente una medida basal de treinta segundos.
+
+
+Seguidamente, el participante ejecutó movimientos de parpadeo y masticación con el fin de captar la señal EEG con artefactos de movimiento durante treinta segundos y se hizo una última medición basal con la misma duración. La actividad final consistió en que el sujeto respondiera preguntas simples y complejas basadas en [b]. Esto se realizó con el fin de analizar variaciones en la señal causadas por cargas cognitivas distintas.
+
+
 ## Resultados
 
 • Evaluar incremento de β durante la tarea cognitiva (t‑test pareado).
