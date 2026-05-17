@@ -45,3 +45,5 @@ Por otro lado, el sensor SnapBIT-DUO se posicionó en la frente, sobre el ojo iz
 
 [3]	Priyanka A. Abhang, Bharti W. Gawali, Suresh C. Mehrotra, “Technological Basics of EEG Recording and Operation of Apparatus”, ScienceDirect, 2016. [En línea]. Disponible en: https://www.sciencedirect.com/science/chapter/monograph/abs/pii/B9780128044902000026. [Consultado: 17-may-2026].
 
+[a] “BITalino”, PLUX Biosignals. [En línea]. Disponible en: https://www.pluxbiosignals.com/collections/bitalino?srsltid=AfmBOoqSQHArGd9wQ5qW7GMdWWOrt3JAuqIjVuxrgDUkuIQw2IilsLKP. [Consultado: 17-may-2026].
+
