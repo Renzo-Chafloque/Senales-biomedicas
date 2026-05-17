@@ -26,6 +26,9 @@ Posicionamiento de electrodos para medir EEG en la posicion FP1 [4].
 
 Por otro lado, el sensor SnapBIT-DUO se posicionó en la frente, sobre el ojo izquierdo del participante. En esta ocasión, no se usó un cable de referencia debido a que no se disponía del case necesario para integrar ambos sistemas.
 
+<img width="1152" height="648" alt="ELECTRODE" src="https://github.com/user-attachments/assets/b7bdfba0-a3ea-43be-9aff-041dfda6871a" />
+
+Posicionamiento del SnapBIT-DUO
 
 ## Resultados
 
