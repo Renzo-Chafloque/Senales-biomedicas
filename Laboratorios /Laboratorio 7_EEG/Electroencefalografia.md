@@ -26,8 +26,6 @@ En el presente laboratorio se analizarán señales EEG mediante técnicas de pro
 
 ## Referencias
 
-## Bibliografía
-
 [1]	“Electroencefalografía (EEG)”, Mayoclinic.org, 2024. [En línea]. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875. [Consultado: 17-may-2026].
 
 [2]	“Electroencefalograma”, Medlineplus.gov, 13-ene-2025. [En línea]. Disponible en: https://medlineplus.gov/spanish/ency/article/003931.htm. [Consultado: 17-may-2026].
