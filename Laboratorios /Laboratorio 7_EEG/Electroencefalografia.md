@@ -24,7 +24,11 @@ Por otro lado, el sensor SnapBIT-DUO se posicionó en la frente, sobre el ojo iz
 
 ## Resultados
 
+• Evaluar incremento de β durante la tarea cognitiva (t‑test pareado).
+
+• Detectar artefactos de parpadeo (> 80 μV) y contabilizar su número.
 ## Discusión
+
 • ¿Qué banda de frecuencia predomina al cerrar los ojos?
 
 • ¿Qué filtro es imprescindible para EEG y por qué?
