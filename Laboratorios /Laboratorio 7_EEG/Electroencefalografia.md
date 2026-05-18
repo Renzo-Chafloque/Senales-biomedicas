@@ -272,7 +272,105 @@ El hecho de que el segmento de artefactos muestre además la mayor potencia alph
 | Artefactos detectados | 0 eventos | 4 eventos | Bulla → mayor ruido motor |
 | Gamma en reposo | < 35 % | > 45 % | Bulla → mayor activación |
 
+## Resultados — Sujeto 2 [Aleks] (Ambiente Silencioso)
 
+### Señales crudas y filtradas
+
+<img width="2387" height="2736" alt="fig1s2_senales" src="https://github.com/user-attachments/assets/84ad7db8-edd0-40ad-9640-aa22c1daf7fe" />
+
+
+Las señales crudas del Sujeto 2 presentaron amplitudes de ±200 µV con mayor irregularidad morfológica respecto al Sujeto 1 en la misma condición acústica, especialmente en los segmentos de ojos cerrados, tarea cognitiva y artefactos. Tras el filtrado pasa-banda 0.8–48 Hz y el notch a 50 Hz se eliminó la interferencia eléctrica, aunque la señal filtrada conservó componentes de baja frecuencia pronunciadas en varias condiciones, anticipando la dominancia delta que se cuantifica en el análisis espectral.
+
+---
+
+### Densidad Espectral de Potencia (PSD Welch)
+
+<img width="1788" height="2736" alt="fig2s2_psd" src="https://github.com/user-attachments/assets/0773b86a-7062-44e5-9046-cd94609e647e" />
+
+
+La inspección espectral revela un patrón con mayor presencia de energía en bajas frecuencias respecto al Sujeto 1:
+
+- **Basal 1 (ojos abiertos):** es el único segmento con distribución espectral coherente con vigilia: concentración de potencia en gamma y beta, con delta contenida por debajo del 13%. Este segmento constituye la referencia más fiable del sujeto.
+- **Ojos cerrados y Basal 2:** ambos muestran un pico marcado en delta (< 4 Hz), atribuible a inestabilidad de contacto o artefactos de movimiento que contaminaron estos segmentos desde el inicio del registro.
+- **Tarea cognitiva:** presenta la mayor concentración delta de todas las condiciones, lo que distorsiona el cálculo de potencia relativa en las bandas superiores y limita la interpretabilidad de este segmento.
+- **Artefactos:** espectro con dominancia delta similar a los segmentos anteriores, con un pequeño repunte en beta y gamma posiblemente asociado a la actividad muscular del parpadeo controlado.
+
+---
+
+### Potencia relativa por banda
+
+<img width="1935" height="880" alt="fig3s2_potencia_bandas" src="https://github.com/user-attachments/assets/bf579895-46d7-46af-a9c6-05777d619dcf" />
+
+
+| Condición | Delta (%) | Theta (%) | Alpha (%) | Beta (%) | Gamma (%) |
+|---|---|---|---|---|---|
+| Basal 1 (ojos abiertos) | 12.38 | 11.99 | 11.14 | 28.90 | **35.59** |
+| Ojos cerrados | **49.55** | 17.33 | 11.88 | 13.41 | 7.82 |
+| Basal 2 | **40.10** | 23.43 | 14.92 | 14.33 | 7.22 |
+| Basal 3 | 27.77 | 24.23 | **18.55** | 19.16 | 10.29 |
+| Tarea cognitiva | **52.52** | 14.08 | 7.95 | 15.29 | 10.15 |
+| Artefactos | **40.37** | 15.11 | 8.14 | 19.46 | 16.93 |
+
+> **Nota:** Los valores en negrita destacan la banda dominante de cada condición relevante.
+
+La tabla pone en evidencia el problema central de este registro: delta domina en 4 de las 6 condiciones (ojos cerrados, basal 2, tarea cognitiva y artefactos), con valores que oscilan entre el 27% y el 52%. Dado que la potencia relativa se calcula como fracción del espectro total, una delta inflada comprime matemáticamente los porcentajes de todas las demás bandas, incluidas alpha y beta. Esto significa que los valores de alpha y beta en estas condiciones subestiman la actividad real en esas frecuencias, lo que tiene consecuencia directa en los resultados estadísticos descritos a continuación.
+
+El único segmento sin esta contaminación es Basal 1, que muestra un perfil espectral de vigilia normal: gamma y beta son las bandas dominantes (35.59% y 28.90% respectivamente), delta está contenida al 12.38% y alpha alcanza el 11.14%, valor coherente con un estado de reposo con ojos abiertos.
+
+---
+
+### Análisis estadístico
+
+#### Alpha blocking: ojos abiertos vs. ojos cerrados
+
+<img width="1934" height="740" alt="fig4s2_ttest" src="https://github.com/user-attachments/assets/ed5d390d-3556-4854-bdcc-bc41b20fffdd" />
+
+
+| Parámetro | Valor |
+|---|---|
+| Media ojos abiertos | 14.47 % |
+| Media ojos cerrados | 13.76 % |
+| Variación relativa | −4.9 % |
+| Estadístico t | 0.46 |
+| Valor p | 0.6511 |
+| Significancia | p ≥ 0.05 — no significativo |
+
+El t-test pareado no detectó una diferencia estadísticamente significativa en la potencia alpha entre ojos abiertos y ojos cerrados (p = 0.65). A diferencia del Sujeto 1, donde el alpha blocking fue claro y significativo (p < 0.001), en este sujeto el efecto no es detectable con este método.
+
+La explicación más probable no es fisiológica sino metodológica: la dominancia delta en el segmento de ojos cerrados (49.55%) comprime la potencia relativa de alpha hacia valores artificialmente bajos, ocultando el incremento real que podría existir en esa banda. En otras palabras, aunque los circuitos talamocorticales del sujeto probablemente sí generaron más actividad alpha al cerrar los ojos, el cálculo de potencia relativa no puede reflejarlo porque el denominador está distorsionado por la contaminación de baja frecuencia. Este hallazgo ilustra una limitación importante del análisis de potencia relativa frente a la potencia absoluta: cuando una banda se infla artificialmente, todas las demás quedan subrepresentadas independientemente de su actividad real.
+
+#### Beta en tarea cognitiva vs. reposo basal
+
+<img width="1934" height="740" alt="fig4s2_ttest" src="https://github.com/user-attachments/assets/f9c1ea3b-b38d-46e6-91d0-86dfc9efeca6" />
+
+
+| Parámetro | Valor |
+|---|---|
+| Media basal (ojos abiertos) | 25.50 % |
+| Media tarea cognitiva | 23.16 % |
+| Variación relativa | −9.2 % |
+| Estadístico t | 0.94 |
+| Valor p | 0.3553 |
+| Significancia | p ≥ 0.05 — no significativo |
+
+La potencia beta no mostró diferencia significativa entre el reposo basal y la tarea cognitiva (p = 0.36). Nuevamente, la condición de tarea cognitiva presenta la mayor dominancia delta del registro (52.52%), lo que comprime el valor de beta relativo hasta el 15.29% frente al 28.90% del basal, una reducción que es artefactual y no refleja una menor actividad atencional real.
+
+A diferencia del Sujeto 1, donde los segmentos de tarea cognitiva estaban espectralmente limpios y permitieron detectar el incremento de beta (p < 0.001), en este caso la calidad del registro en ese segmento específico impide llegar a una conclusión estadística válida. La recomendación para futuras sesiones sería verificar la impedancia de contacto antes de iniciar cada condición y descartar los primeros 5 segundos de cada segmento para evitar transitorios de estabilización.
+
+---
+
+### Detección de artefactos
+
+<img width="1934" height="583" alt="fig5s2_artefactos" src="https://github.com/user-attachments/assets/45113206-54de-46e9-a491-bd8279ab0e2d" />
+
+
+| Parámetro | Valor |
+|---|---|
+| Duración del segmento | 31.9 s |
+| Umbral de detección | ± 80 µV |
+| Eventos detectados | 0 |
+
+Al igual que en el Sujeto 1 en condición de silencio, el algoritmo de umbral no registró transientes superiores a ±80 µV. Sin embargo, es importante señalar que la ausencia de eventos por encima del umbral no implica ausencia de artefactos: la dominancia delta observada en múltiples segmentos de este sujeto corresponde a artefactos de baja frecuencia (movimiento, deriva de línea base) que el filtro pasa-banda atenúa parcialmente pero no elimina por completo cuando son de gran amplitud. Estos artefactos de baja frecuencia son invisibles al umbral de ±80 µV pero distorsionan el análisis espectral, como evidencian los altos porcentajes de delta en la tabla de potencia relativa.
 
 
 
