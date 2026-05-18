@@ -66,7 +66,8 @@ https://github.com/user-attachments/assets/43c7d335-b1f5-46b3-b4ad-b54cc518aaa7
 
 ### Señales crudas y filtradas
 
-<!-- INSERTAR AQUÍ: fig1_senales.png -->
+
+<img width="2388" height="2736" alt="fig1_senales" src="https://github.com/user-attachments/assets/b26fb70e-b477-44eb-853e-de0d98eb5153" />
 
 Las señales crudas presentaron amplitudes de ±200 µV a lo largo de todas las condiciones. Tras aplicar el filtro pasa-banda 0.8–48 Hz más el notch a 50 Hz se eliminaron la deriva de línea base y los picos de interferencia eléctrica, resultando en señales de morfología oscilatoria más definida con amplitudes contenidas entre ±150 µV.
 
@@ -74,7 +75,7 @@ Las señales crudas presentaron amplitudes de ±200 µV a lo largo de todas las 
 
 ### Densidad Espectral de Potencia (PSD Welch)
 
-<!-- INSERTAR AQUÍ: fig2_psd.png -->
+<img width="1788" height="2736" alt="fig2_psd" src="https://github.com/user-attachments/assets/bf12b9cd-b2ee-48ab-9e76-b28f59724411" />
 
 La inspección de los espectros permite identificar diferencias cualitativas entre condiciones:
 
@@ -87,7 +88,7 @@ La inspección de los espectros permite identificar diferencias cualitativas ent
 
 ### Potencia relativa por banda
 
-<!-- INSERTAR AQUÍ: fig3_potencia_bandas.png -->
+<img width="1935" height="880" alt="fig3_potencia_bandas" src="https://github.com/user-attachments/assets/17906ae5-37c0-41be-8977-3dd8bde57f80" />
 
 | Condición | Delta (%) | Theta (%) | Alpha (%) | Beta (%) | Gamma (%) |
 |---|---|---|---|---|---|
@@ -108,7 +109,7 @@ El segmento Basal 1 presenta una dominancia delta del 57.83%, incompatible con u
 
 #### Alpha blocking: ojos abiertos vs. ojos cerrados
 
-<!-- INSERTAR AQUÍ: fig4_ttest.png (panel izquierdo) -->
+<img width="1934" height="740" alt="fig4_ttest" src="https://github.com/user-attachments/assets/907c6e89-ddfe-4de1-8511-2c9b48f356aa" />
 
 | Parámetro | Valor |
 |---|---|
@@ -125,7 +126,7 @@ Cabe señalar que el artefacto inicial en Basal 1 atenúa el valor de alpha en "
 
 #### Beta en tarea cognitiva vs. reposo basal
 
-<!-- INSERTAR AQUÍ: fig4_ttest.png (panel derecho) -->
+<img width="1934" height="740" alt="fig4_ttest" src="https://github.com/user-attachments/assets/bbe9e317-713d-4c34-8821-5f59fa021ad3" />
 
 | Parámetro | Valor |
 |---|---|
@@ -142,7 +143,8 @@ La potencia beta durante la tarea cognitiva fue un 44% mayor que en reposo basal
 
 ### Detección de artefactos
 
-<!-- INSERTAR AQUÍ: fig5_artefactos.png -->
+<img width="1934" height="583" alt="fig5_artefactos" src="https://github.com/user-attachments/assets/ce59fbe8-1a70-43df-953d-fe21b98a9779" />
+
 
 | Parámetro | Valor |
 |---|---|
