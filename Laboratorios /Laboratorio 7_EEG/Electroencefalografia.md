@@ -396,8 +396,18 @@ En este laboratorio, la aplicación del filtro notch a 50 Hz permitió reducir s
 El filtro pasabanda también es esencial en EEG, ya que permite conservar únicamente el rango fisiológico relevante de la señal cerebral y eliminar la deriva de línea base con frecuencias < 0.5 Hz y ruido muscular de alta frecuencia > 50 Hz [13].
 
 • ¿Puedes modular conscientemente tu señal EEG? Da un ejemplo.
+Sí. La actividad EEG puede modularse de manera consciente mediante cambios en el estado mental, la atención, la relajación o la ejecución de tareas cognitivas y motoras [14]. Esto ocurre porque distintas actividades cerebrales generan patrones oscilatorios característicos en determinadas bandas de frecuencia.
 
+Un ejemplo claro observado en este laboratorio es el fenómeno de alpha blocking. Cuando se cerró los ojos y se entró en un estado de relajación visual, aumentó la potencia de la banda alpha (8–13 Hz). En cambio, al abrir los ojos o realizar una tarea cognitiva, la actividad alpha disminuyó debido al incremento del procesamiento cortical [14], [15].
 • ¿Se observan diferencias entre Fp1 y Fp2? ¿Por qué podrían ocurrir?
+Sí, pueden observarse diferencias entre Fp1 y Fp2 debido a factores tanto fisiológicos como técnicos [16].
+
+Fp1 y Fp2 corresponden a electrodos frontopolares izquierdo y derecho del sistema internacional 10–20. Aunque ambas regiones registran actividad frontal similar, pequeñas diferencias son esperables.
+
+Los hemisferios cerebrales no siempre presentan la misma actividad eléctrica. Algunas tareas cognitivas, emocionales o lingüísticas pueden activar más un hemisferio que el otro [16].
+Los electrodos frontales son muy sensibles a parpadeos, movimientos oculares y contracciones de músculos faciales. Si un ojo parpadea más intensamente en un lado del rostro, Fp1 y Fp2 pueden diferir significativamente [17].
+Pequeñas diferencias en la colocación del electrodo o contacto con la piel modifican la amplitud y calidad de la señal registrada [18].
+Movimientos de cabeza, postura o desplazamiento de cables también pueden introducir diferencias entre canales [18].
 
 ## Referencias
 
@@ -425,3 +435,13 @@ El filtro pasabanda también es esencial en EEG, ya que permite conservar única
 [12] R. B. Pachori and S. Patidar, “Epileptic seizure classification in EEG signals using second-order difference plot of intrinsic mode functions,” Computer Methods and Programs in Biomedicine, vol. 113, no. 2, pp. 494–502, 2020.
 
 [13] H. Sharma and K. Pachori, “Automatic Identification and Removal of Ocular and Muscle Artifacts from EEG Signals Using Wavelet Transform,” Biomedical Signal Processing and Control, vol. 62, 2020.
+
+[14] B. J. Fisch, Spehlmann’s EEG Primer, 4th ed. Amsterdam, Netherlands: Elsevier, 2020.
+
+[15] S. M. Pfurtscheller and F. H. Lopes da Silva, “Event-related EEG/MEG synchronization and desynchronization: basic principles,” Clinical Neurophysiology, vol. 110, no. 11, pp. 1842–1857, 1999.
+
+[16] S. Sanei and J. A. Chambers, EEG Signal Processing and Machine Learning. Hoboken, NJ, USA: Wiley, 2021.
+
+[17] H. Sharma and K. Pachori, “Automatic Identification and Removal of Ocular and Muscle Artifacts from EEG Signals Using Wavelet Transform,” Biomedical Signal Processing and Control, vol. 62, 2020.
+
+[18] M. Teplan, “Fundamentals of EEG measurement,” Measurement Science Review, vol. 2, no. 2, pp. 1–11, 2021.
