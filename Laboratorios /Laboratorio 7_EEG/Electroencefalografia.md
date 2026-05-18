@@ -62,13 +62,7 @@ https://github.com/user-attachments/assets/43c7d335-b1f5-46b3-b4ad-b54cc518aaa7
 
 • Detectar artefactos de parpadeo (> 80 μV) y contabilizar su número.
 
-
-### Parpadeo - muestra 1 (Renzo):
-<img width="616" height="468" alt="Artefactos_1" src="https://github.com/user-attachments/assets/c09568f0-6832-48cc-81a4-bf5aa9b17dc6" />
-
-Se detectan 487 artefactos debido a la gran cantidad de sonidos externos presentes durante la toma de la muestra.
-
-## Resultados — Sujeto 1 (Ambiente Silencioso)
+## Resultados — Sujeto 1 [Renzo] (Ambiente Silencioso)
 
 ### Señales crudas y filtradas
 
