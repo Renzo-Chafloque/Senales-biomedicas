@@ -58,9 +58,6 @@ https://github.com/user-attachments/assets/43c7d335-b1f5-46b3-b4ad-b54cc518aaa7
 
 ## Resultados
 
-• Evaluar incremento de β durante la tarea cognitiva (t‑test pareado).
-
-• Detectar artefactos de parpadeo (> 80 μV) y contabilizar su número.
 
 ## Resultados — Sujeto 1 [Renzo] (Ambiente Silencioso)
 
@@ -218,6 +215,8 @@ El t-test pareado detecta una diferencia estadísticamente significativa (p < 0.
 
 La interpretación más consistente con la literatura es que el ruido ambiental sostenido actuó como un estímulo sensorial auditivo constante que mantuvo el sistema nervioso autónomo en un estado de alerta, impidiendo que los circuitos talamocorticales sincronizaran en la frecuencia alpha incluso al cerrar los ojos. En condiciones normales, cerrar los ojos elimina la entrada visual y permite la sincronización alpha. Sin embargo, cuando existe un estímulo auditivo suficientemente intenso, el sistema de activación reticular ascendente (SARA) sostiene la vigilia cortical independientemente de la modalidad visual, suprimiendo la aparición del ritmo alpha. El cerebro, en otras palabras, no puede "desconectarse" sensorialmente aunque no haya procesamiento visual activo.
 
+## Evaluar incremento de β durante la tarea cognitiva (t‑test pareado).
+
 #### Beta en tarea cognitiva vs. reposo basal
 
 <img width="1934" height="740" alt="fig4b_ttest" src="https://github.com/user-attachments/assets/c095baf2-b6fd-4a97-9a96-d323a2e7e92d" />
@@ -238,7 +237,7 @@ La primera y más probable es metodológica: los segmentos Basal 3 y Tarea cogni
 
 La segunda explicación es fisiológica: en un ambiente ruidoso, la sobrecarga sensorial puede saturar los recursos atencionales disponibles, reduciendo la capacidad del sujeto para sostener el procesamiento ejecutivo prefrontal característico de la banda beta. Esta hipótesis es coherente con modelos de carga cognitiva que postulan que el ruido de fondo actúa como tarea secundaria implícita, restando recursos a la tarea principal.
 
----
+## Detectar artefactos de parpadeo (> 80 μV) y contabilizar su número.
 
 ### Detección de artefactos
 
@@ -377,8 +376,25 @@ Al igual que en el Sujeto 1 en condición de silencio, el algoritmo de umbral no
 ## Discusión
 
 • ¿Qué banda de frecuencia predomina al cerrar los ojos?
+La banda que típicamente predomina al cerrar los ojos es la banda alpha, asociada a estados de relajación y reposo cortical en vigilia. Este fenómeno ocurre porque, al eliminarse la entrada visual, disminuye la actividad de procesamiento sensorial visual y los circuitos talamocorticales sincronizan su actividad en frecuencias alpha, especialmente en regiones occipitales y parietales.
+
+En el presente estudio, este comportamiento se observó claramente en el Sujeto 1 en ambiente silencioso, donde la potencia alpha aumentó de 7.55% (ojos abiertos) a 10.95% (ojos cerrados). Este resultado es consistente con el fenómeno conocido como alpha blocking, donde la actividad alpha aumenta durante el reposo visual y disminuye al abrir los ojos o procesar estímulos externos.
+
+Sin embargo, en condiciones de ruido ambiental y en algunos segmentos del Sujeto 2, este patrón no se observó de manera clara. La principal explicación es la presencia de artefactos de baja frecuencia y actividad cortical asociada al estado de alerta auditivo. En el ambiente con bulla, la estimulación sonora constante probablemente mantuvo activado el sistema reticular ascendente, dificultando la sincronización alpha incluso con los ojos cerrados. Además, la elevada potencia delta observada en varios segmentos comprimió matemáticamente el porcentaje relativo de alpha, limitando su detección en el análisis espectral.
+
+Por tanto, aunque fisiológicamente la banda alpha debería predominar al cerrar los ojos, su observación experimental depende significativamente de la calidad del registro, la ausencia de artefactos y las condiciones ambientales durante la adquisición.
 
 • ¿Qué filtro es imprescindible para EEG y por qué?
+Uno de los filtros más importantes e imprescindibles en el procesamiento de señales EEG es el filtro notch de 50/60 Hz, utilizado para eliminar la interferencia de la red eléctrica.
+
+Las señales EEG tienen amplitudes muy pequeñas, típicamente del orden de microvoltios, por lo que son altamente susceptibles al ruido electromagnético generado por dispositivos electrónicos y líneas de alimentación eléctrica. Esta interferencia aparece como un componente sinusoidal estable centrado en 50 Hz.
+
+Si no se elimina, este ruido puede superponerse a bandas fisiológicas importantes, especialmente beta y gamma, distorsionando el análisis espectral y dificultando la interpretación de la actividad cerebral real.
+
+En este laboratorio, la aplicación del filtro notch a 50 Hz permitió reducir significativamente los picos de interferencia eléctrica observados en las señales crudas, obteniendo señales filtradas con morfología más estable y espectros más limpios para el cálculo de potencia relativa por bandas.
+
+El filtro pasabanda también es esencial en EEG, ya que permite conservar únicamente el rango fisiológico relevante de la señal cerebral y eliminar la deriva de línea base con frecuencias < 0.5 Hz y ruido muscular de alta frecuencia > 50 Hz.
+
 
 • ¿Puedes modular conscientemente tu señal EEG? Da un ejemplo.
 
