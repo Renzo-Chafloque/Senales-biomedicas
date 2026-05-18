@@ -61,6 +61,8 @@ https://github.com/user-attachments/assets/43c7d335-b1f5-46b3-b4ad-b54cc518aaa7
 • Evaluar incremento de β durante la tarea cognitiva (t‑test pareado).
 
 • Detectar artefactos de parpadeo (> 80 μV) y contabilizar su número.
+
+
 ### Parpadeo - muestra 1 (Renzo):
 <img width="616" height="468" alt="Artefactos_1" src="https://github.com/user-attachments/assets/c09568f0-6832-48cc-81a4-bf5aa9b17dc6" />
 
