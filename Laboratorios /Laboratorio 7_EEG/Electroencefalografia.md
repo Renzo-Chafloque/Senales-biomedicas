@@ -154,6 +154,128 @@ La potencia beta durante la tarea cognitiva fue un 44% mayor que en reposo basal
 
 El algoritmo de umbral no registró eventos por encima de ± 80 µV. Esto se debe principalmente a que el filtro pasa-banda 0.8–48 Hz atenúa los transitorios del electrooculograma (EOG), cuya energía se concentra por debajo de 5 Hz. Si el parpadeo fue suave o la impedancia redujo la ganancia efectiva, la amplitud del artefacto pudo mantenerse por debajo del umbral aun siendo visible a simple vista en la señal cruda.
 
+## Resultados — Sujeto 1 (Ambiente con Bulla)
+
+### Señales crudas y filtradas
+
+<img width="2388" height="2736" alt="fig1b_senales" src="https://github.com/user-attachments/assets/c72c9285-273a-496d-81fd-8282d48d4bfb" />
+
+
+Las señales crudas presentaron amplitudes de ±200 µV con mayor variabilidad respecto a la sesión en silencio, especialmente en los segmentos Basal 3 y Tarea cognitiva. Tras el filtrado pasa-banda 0.8–48 Hz y el notch a 50 Hz se logró reducir la interferencia eléctrica, aunque la señal filtrada conservó mayor irregularidad morfológica que su contraparte en silencio, indicativa de mayor actividad de ruido fisiológico asociado al estado de alerta auditivo.
+
+---
+
+### Densidad Espectral de Potencia (PSD Welch)
+
+<img width="1788" height="2736" alt="fig2b_psd" src="https://github.com/user-attachments/assets/cee06819-de3e-4f08-9de3-405f9d4075d3" />
+
+
+La inspección espectral revela un patrón cualitativamente distinto al registrado en silencio:
+
+- **Basal 1 y Ojos cerrados:** el espectro se distribuye con mayor energía en gamma (> 30 Hz), lo que puede reflejar tanto mayor activación cortical por el estímulo auditivo de fondo como contaminación por artefactos musculares (EMG), frecuentes cuando el sujeto está en estado de alerta o tensión.
+- **Basal 3 y Tarea cognitiva:** aparece una concentración marcada de potencia en delta (< 4 Hz), similar a la anomalía observada en Basal 1 de la sesión silenciosa, atribuible a inestabilidad de contacto o artefactos de movimiento durante esos segmentos.
+- **Artefactos:** a diferencia de la sesión silenciosa, aquí se aprecia un pico relativo en alpha (8–13 Hz) y mayor energía en beta, posiblemente asociado a la mayor inquietud motora del sujeto en ambiente ruidoso.
+
+---
+
+### Potencia relativa por banda
+
+<img width="1935" height="880" alt="fig3b_potencia_bandas" src="https://github.com/user-attachments/assets/4c0588e1-3f83-47dd-96f8-42041ef62927" />
+
+
+| Condición | Delta (%) | Theta (%) | Alpha (%) | Beta (%) | Gamma (%) |
+|---|---|---|---|---|---|
+| Basal 1 (ojos abiertos) | 12.49 | 12.29 | 9.68 | 19.69 | **45.86** |
+| Ojos cerrados | 13.20 | 12.39 | 8.24 | 18.38 | **47.79** |
+| Basal 2 | 14.85 | 12.66 | 8.64 | 20.29 | 43.57 |
+| Basal 3 | **45.08** | 14.52 | 7.71 | 10.21 | 22.48 |
+| Tarea cognitiva | **43.42** | 11.53 | 5.08 | 9.72 | 30.26 |
+| Artefactos | 13.41 | 13.54 | **14.44** | 26.22 | 32.38 |
+
+> **Nota:** Los valores en negrita destacan la banda dominante de cada condición relevante.
+
+Tres observaciones estructurales destacan en esta distribución. Primero, gamma domina en las condiciones de reposo (Basal 1, Ojos cerrados, Basal 2), con valores superiores al 43%, lo que contrasta con la sesión silenciosa donde gamma no superó el 35% en reposo. Segundo, los segmentos Basal 3 y Tarea cognitiva repiten el patrón de dominancia delta anómala (> 43%) ya descrito en Basal 1 de la sesión anterior, sugiriendo que las condiciones de registro en estas tomas fueron afectadas por artefactos de movimiento o inestabilidad de impedancia. Tercero, el segmento de artefactos muestra el valor de alpha más alto de toda la sesión (14.44%), lo que es contraintuitivo y se discute en la sección 3.5.
+
+---
+
+### Análisis estadístico
+
+#### Alpha blocking: ojos abiertos vs. ojos cerrados
+
+<img width="1934" height="740" alt="fig4b_ttest" src="https://github.com/user-attachments/assets/f8685169-929f-4694-87fe-e7c9ab441b3d" />
+
+
+| Parámetro | Valor |
+|---|---|
+| Media ojos abiertos | 10.66 % |
+| Media ojos cerrados | 8.24 % |
+| Variación relativa | −23 % |
+| Estadístico t | 2.49 |
+| Valor p | 0.0189 |
+| Significancia | p < 0.05 ✓ |
+
+El t-test pareado detecta una diferencia estadísticamente significativa (p < 0.05), pero con una dirección opuesta a la esperada: la potencia alpha fue un 23% **menor** con ojos cerrados que con ojos abiertos. Este hallazgo constituye una inversión del fenómeno clásico de alpha blocking.
+
+La interpretación más consistente con la literatura es que el ruido ambiental sostenido actuó como un estímulo sensorial auditivo constante que mantuvo el sistema nervioso autónomo en un estado de alerta, impidiendo que los circuitos talamocorticales sincronizaran en la frecuencia alpha incluso al cerrar los ojos. En condiciones normales, cerrar los ojos elimina la entrada visual y permite la sincronización alpha. Sin embargo, cuando existe un estímulo auditivo suficientemente intenso, el sistema de activación reticular ascendente (SARA) sostiene la vigilia cortical independientemente de la modalidad visual, suprimiendo la aparición del ritmo alpha. El cerebro, en otras palabras, no puede "desconectarse" sensorialmente aunque no haya procesamiento visual activo.
+
+#### Beta en tarea cognitiva vs. reposo basal
+
+<img width="1934" height="740" alt="fig4b_ttest" src="https://github.com/user-attachments/assets/c095baf2-b6fd-4a97-9a96-d323a2e7e92d" />
+
+
+| Parámetro | Valor |
+|---|---|
+| Media basal (ojos abiertos) | 20.12 % |
+| Media tarea cognitiva | 9.81 % |
+| Variación relativa | −51 % |
+| Estadístico t | 9.82 |
+| Valor p | < 0.0001 |
+| Significancia | p < 0.001 ✓ |
+
+La potencia beta durante la tarea cognitiva fue un 51% menor que en reposo basal, resultado estadísticamente significativo pero de dirección opuesta al hallazgo de la sesión silenciosa, donde beta aumentó durante la tarea. Esta inversión tiene dos explicaciones no excluyentes.
+
+La primera y más probable es metodológica: los segmentos Basal 3 y Tarea cognitiva presentan una dominancia delta anómala superior al 43%, que infla el denominador de la potencia total y comprime artificialmente las potencias relativas de las bandas altas, incluida beta. Esto significa que la caída de beta no refleja necesariamente una reducción real de la actividad atencional, sino un artefacto de cálculo derivado de la contaminación de esos segmentos.
+
+La segunda explicación es fisiológica: en un ambiente ruidoso, la sobrecarga sensorial puede saturar los recursos atencionales disponibles, reduciendo la capacidad del sujeto para sostener el procesamiento ejecutivo prefrontal característico de la banda beta. Esta hipótesis es coherente con modelos de carga cognitiva que postulan que el ruido de fondo actúa como tarea secundaria implícita, restando recursos a la tarea principal.
+
+---
+
+### Detección de artefactos
+
+<img width="1934" height="583" alt="fig5b_artefactos" src="https://github.com/user-attachments/assets/863435af-9635-40e3-9645-3618949e61c5" />
+
+
+| Parámetro | Valor |
+|---|---|
+| Duración del segmento | 33.3 s |
+| Umbral de detección | ± 80 µV |
+| Eventos detectados | 4 |
+
+A diferencia de la sesión silenciosa donde no se detectó ningún evento, aquí se registraron 4 transientes que superaron el umbral de ±80 µV. Esto es consistente con la mayor inquietud motora esperada en un ambiente ruidoso: el sujeto tiende a realizar más microgestos faciales, movimientos oculares y tensión muscular involuntaria al procesar un estímulo auditivo continuo, todos ellos fuentes de artefactos de alta amplitud en electrodos frontales como Fp1/Fp2.
+
+El hecho de que el segmento de artefactos muestre además la mayor potencia alpha de la sesión (14.44%) puede explicarse por el efecto de los propios parpadeos controlados: el movimiento palpebral lento y sostenido genera una onda corneoretiniana de baja frecuencia que, al ser atenuada parcialmente por el filtro, puede traslapar con la banda alpha en el análisis espectral.
+
+---
+
+## Análisis Comparativo: Silencio vs. Bulla
+
+### Tabla resumen de indicadores clave
+
+| Indicador | Silencio | Bulla | Diferencia |
+|---|---|---|---|
+| Alpha (ojos abiertos) | 7.55 % | 10.66 % | Bulla → +41 % |
+| Alpha (ojos cerrados) | 10.95 % | 8.24 % | Bulla → −25 % |
+| Efecto alpha blocking | ↑ al cerrar ojos ✓ | ↓ al cerrar ojos ✗ | **Inversión** |
+| Beta (basal) | 24.74 % | 20.12 % | Bulla → −19 % |
+| Beta (tarea cognitiva) | 35.62 % | 9.81 % | Bulla → −72 % |
+| Efecto beta cognitivo | ↑ con tarea ✓ | ↓ con tarea ✗ | **Inversión** |
+| Artefactos detectados | 0 eventos | 4 eventos | Bulla → mayor ruido motor |
+| Gamma en reposo | < 35 % | > 45 % | Bulla → mayor activación |
+
+
+
+
+
 ## Discusión
 
 • ¿Qué banda de frecuencia predomina al cerrar los ojos?
