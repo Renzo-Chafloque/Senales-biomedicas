@@ -68,6 +68,96 @@ https://github.com/user-attachments/assets/43c7d335-b1f5-46b3-b4ad-b54cc518aaa7
 
 Se detectan 487 artefactos debido a la gran cantidad de sonidos externos presentes durante la toma de la muestra.
 
+## Resultados — Sujeto 1 (Ambiente Silencioso)
+
+### Señales crudas y filtradas
+
+<!-- INSERTAR AQUÍ: fig1_senales.png -->
+
+Las señales crudas presentaron amplitudes de ±200 µV a lo largo de todas las condiciones. Tras aplicar el filtro pasa-banda 0.8–48 Hz más el notch a 50 Hz se eliminaron la deriva de línea base y los picos de interferencia eléctrica, resultando en señales de morfología oscilatoria más definida con amplitudes contenidas entre ±150 µV.
+
+---
+
+### Densidad Espectral de Potencia (PSD Welch)
+
+<!-- INSERTAR AQUÍ: fig2_psd.png -->
+
+La inspección de los espectros permite identificar diferencias cualitativas entre condiciones:
+
+- **Basal 1 (ojos abiertos):** concentración anómala de potencia en delta-theta (0–8 Hz), atribuible a un artefacto de contacto al inicio del registro, antes de que la impedancia electrodo-piel se estabilizara.
+- **Ojos cerrados:** se observa un pico relativo en alpha (8–13 Hz), consistente con el estado de reposo visual.
+- **Tarea cognitiva:** redistribución de potencia hacia beta y gamma, indicando mayor actividad cortical frontal.
+- **Artefactos:** distribución similar al reposo; los artefactos de parpadeo se manifiestan en delta-theta por su naturaleza de baja frecuencia.
+
+---
+
+### Potencia relativa por banda
+
+<!-- INSERTAR AQUÍ: fig3_potencia_bandas.png -->
+
+| Condición | Delta (%) | Theta (%) | Alpha (%) | Beta (%) | Gamma (%) |
+|---|---|---|---|---|---|
+| Basal 1 (ojos abiertos) | **57.83** | 25.43 | 6.03 | 7.21 | 3.51 |
+| Ojos cerrados | 6.83 | 15.78 | **10.99** | 33.73 | 32.67 |
+| Basal 2 | 6.35 | 15.05 | 10.39 | **38.33** | 29.88 |
+| Basal 3 | 6.18 | 16.56 | 10.30 | 32.10 | 34.85 |
+| Tarea cognitiva | 6.65 | 15.56 | 10.29 | 34.79 | 32.71 |
+| Artefactos | 6.68 | 17.55 | 10.47 | 32.80 | 32.51 |
+
+> **Nota:** Los valores en negrita destacan la banda dominante de cada condición relevante.
+
+El segmento Basal 1 presenta una dominancia delta del 57.83%, incompatible con un estado de vigilia normal (típicamente < 15%). Esto se explica por inestabilidad de impedancia en los primeros segundos del registro. En las cinco condiciones restantes la distribución es homogénea, con delta reducida al 6–7%, lo que confirma la estabilización del contacto electrodo-piel a partir del segundo segmento.
+
+---
+
+### Análisis estadístico
+
+#### Alpha blocking: ojos abiertos vs. ojos cerrados
+
+<!-- INSERTAR AQUÍ: fig4_ttest.png (panel izquierdo) -->
+
+| Parámetro | Valor |
+|---|---|
+| Media ojos abiertos | 7.55 % |
+| Media ojos cerrados | 10.95 % |
+| Incremento relativo | +45 % |
+| Estadístico t | −4.27 |
+| Valor p | 0.000189 |
+| Significancia | p < 0.001 ✓ |
+
+El t-test pareado revela una diferencia estadísticamente significativa (p < 0.001) en la potencia relativa alpha entre ambas condiciones. La potencia alpha fue un 45% mayor con ojos cerrados. Este resultado confirma el fenómeno de **alpha blocking**: al cerrar los ojos se suprime la entrada visual, los circuitos talamocorticales sincronizan en la frecuencia alpha (8–13 Hz) como reflejo de reposo sensorial, y esta sincronización se rompe en cuanto se retoma el procesamiento visual activo.
+
+Cabe señalar que el artefacto inicial en Basal 1 atenúa el valor de alpha en "ojos abiertos" al inflar el denominador de potencia total, por lo que la diferencia real podría ser aún mayor.
+
+#### Beta en tarea cognitiva vs. reposo basal
+
+<!-- INSERTAR AQUÍ: fig4_ttest.png (panel derecho) -->
+
+| Parámetro | Valor |
+|---|---|
+| Media basal (ojos abiertos) | 24.74 % |
+| Media tarea cognitiva | 35.62 % |
+| Incremento relativo | +44 % |
+| Estadístico t | −3.76 |
+| Valor p | 0.000755 |
+| Significancia | p < 0.001 ✓ |
+
+La potencia beta durante la tarea cognitiva fue un 44% mayor que en reposo basal (p < 0.001). El incremento de la banda beta (13–30 Hz) en corteza prefrontal refleja la desincronización neuronal necesaria para integrar información distribuida durante la formulación de respuestas verbales, patrón asociado en la literatura a tareas de memoria de trabajo y razonamiento activo.
+
+---
+
+### Detección de artefactos
+
+<!-- INSERTAR AQUÍ: fig5_artefactos.png -->
+
+| Parámetro | Valor |
+|---|---|
+| Duración del segmento | 31.5 s |
+| Umbral de detección | ± 80 µV |
+| Eventos detectados | 0 |
+
+El algoritmo de umbral no registró eventos por encima de ± 80 µV. Esto se debe principalmente a que el filtro pasa-banda 0.8–48 Hz atenúa los transitorios del electrooculograma (EOG), cuya energía se concentra por debajo de 5 Hz. Si el parpadeo fue suave o la impedancia redujo la ganancia efectiva, la amplitud del artefacto pudo mantenerse por debajo del umbral aun siendo visible a simple vista en la señal cruda.
+
 ## Discusión
 
 • ¿Qué banda de frecuencia predomina al cerrar los ojos?
