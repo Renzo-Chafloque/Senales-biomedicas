@@ -376,25 +376,24 @@ Al igual que en el Sujeto 1 en condición de silencio, el algoritmo de umbral no
 ## Discusión
 
 • ¿Qué banda de frecuencia predomina al cerrar los ojos?
-La banda que típicamente predomina al cerrar los ojos es la banda alpha, asociada a estados de relajación y reposo cortical en vigilia. Este fenómeno ocurre porque, al eliminarse la entrada visual, disminuye la actividad de procesamiento sensorial visual y los circuitos talamocorticales sincronizan su actividad en frecuencias alpha, especialmente en regiones occipitales y parietales.
+La banda que típicamente predomina al cerrar los ojos es la banda alpha, asociada a estados de relajación y reposo cortical en vigilia [7]. Este fenómeno ocurre porque, al eliminarse la entrada visual, disminuye la actividad de procesamiento sensorial visual y los circuitos talamocorticales sincronizan su actividad en frecuencias alpha, especialmente en regiones occipitales y parietales [8].
 
-En el presente estudio, este comportamiento se observó claramente en el Sujeto 1 en ambiente silencioso, donde la potencia alpha aumentó de 7.55% (ojos abiertos) a 10.95% (ojos cerrados). Este resultado es consistente con el fenómeno conocido como alpha blocking, donde la actividad alpha aumenta durante el reposo visual y disminuye al abrir los ojos o procesar estímulos externos.
+En el presente estudio, este comportamiento se observó claramente en el Sujeto 1 en ambiente silencioso, donde la potencia alpha aumentó de 7.55% (ojos abiertos) a 10.95% (ojos cerrados), con diferencia estadísticamente significativa. Este resultado es consistente con el fenómeno conocido como alpha blocking, donde la actividad alpha aumenta durante el reposo visual y disminuye al abrir los ojos o procesar estímulos externos [8].
 
-Sin embargo, en condiciones de ruido ambiental y en algunos segmentos del Sujeto 2, este patrón no se observó de manera clara. La principal explicación es la presencia de artefactos de baja frecuencia y actividad cortical asociada al estado de alerta auditivo. En el ambiente con bulla, la estimulación sonora constante probablemente mantuvo activado el sistema reticular ascendente, dificultando la sincronización alpha incluso con los ojos cerrados. Además, la elevada potencia delta observada en varios segmentos comprimió matemáticamente el porcentaje relativo de alpha, limitando su detección en el análisis espectral.
+Sin embargo, en condiciones de ruido ambiental y en algunos segmentos del Sujeto 2, este patrón no se observó de manera clara. La principal explicación es la presencia de artefactos de baja frecuencia y actividad cortical asociada al estado de alerta auditivo [9]. En el ambiente con bulla, la estimulación sonora constante probablemente mantuvo activado el sistema reticular ascendente, dificultando la sincronización alpha incluso con los ojos cerrados [9]. Además, la elevada potencia delta observada en varios segmentos comprimió matemáticamente el porcentaje relativo de alpha, limitando su detección en el análisis espectral.
 
-Por tanto, aunque fisiológicamente la banda alpha debería predominar al cerrar los ojos, su observación experimental depende significativamente de la calidad del registro, la ausencia de artefactos y las condiciones ambientales durante la adquisición.
+Por tanto, aunque fisiológicamente la banda alpha debería predominar al cerrar los ojos, su observación experimental depende significativamente de la calidad del registro, la ausencia de artefactos y las condiciones ambientales durante la adquisición [10].
 
 • ¿Qué filtro es imprescindible para EEG y por qué?
-Uno de los filtros más importantes e imprescindibles en el procesamiento de señales EEG es el filtro notch de 50/60 Hz, utilizado para eliminar la interferencia de la red eléctrica.
+Uno de los filtros más importantes e imprescindibles en el procesamiento de señales EEG es el filtro notch de 50/60 Hz, utilizado para eliminar la interferencia de la red eléctrica [11].
 
-Las señales EEG tienen amplitudes muy pequeñas, típicamente del orden de microvoltios, por lo que son altamente susceptibles al ruido electromagnético generado por dispositivos electrónicos y líneas de alimentación eléctrica. Esta interferencia aparece como un componente sinusoidal estable centrado en 50 Hz.
+Las señales EEG tienen amplitudes muy pequeñas, típicamente del orden de microvoltios, por lo que son altamente susceptibles al ruido electromagnético generado por dispositivos electrónicos y líneas de alimentación eléctrica. Esta interferencia aparece como un componente sinusoidal estable centrado en 50 Hz [12].
 
 Si no se elimina, este ruido puede superponerse a bandas fisiológicas importantes, especialmente beta y gamma, distorsionando el análisis espectral y dificultando la interpretación de la actividad cerebral real.
 
 En este laboratorio, la aplicación del filtro notch a 50 Hz permitió reducir significativamente los picos de interferencia eléctrica observados en las señales crudas, obteniendo señales filtradas con morfología más estable y espectros más limpios para el cálculo de potencia relativa por bandas.
 
-El filtro pasabanda también es esencial en EEG, ya que permite conservar únicamente el rango fisiológico relevante de la señal cerebral y eliminar la deriva de línea base con frecuencias < 0.5 Hz y ruido muscular de alta frecuencia > 50 Hz.
-
+El filtro pasabanda también es esencial en EEG, ya que permite conservar únicamente el rango fisiológico relevante de la señal cerebral y eliminar la deriva de línea base con frecuencias < 0.5 Hz y ruido muscular de alta frecuencia > 50 Hz [13].
 
 • ¿Puedes modular conscientemente tu señal EEG? Da un ejemplo.
 
@@ -413,4 +412,16 @@ El filtro pasabanda también es esencial en EEG, ya que permite conservar única
 [5] EXPERIMENTAL GUIDES TO MEET y L. Y. Biosignals, “BITalino (r)evolution Lab Guide”, Pluxbiosignals.com. [En línea]. Disponible en: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf?utm_source=chatgpt.com. [Consultado: 17-may-2026].
 
 [6] J. Molina Del Río, M. A. Guevara, M. Hernández González, R. M. Hidalgo Aguirre, y M. A. Cruz Aguilar, “EEG correlation during the solving of simple and complex logical-mathematical problems”, Cogn. Affect. Behav. Neurosci., vol. 19, núm. 4, pp. 1036–1046, 2019.
+[7] S. M. Pfurtscheller and F. H. Lopes da Silva, “Event-related EEG/MEG synchronization and desynchronization: basic principles,” Clinical Neurophysiology, vol. 110, no. 11, pp. 1842–1857, 1999.
 
+[8] B. J. Fisch, Spehlmann’s EEG Primer, 4th ed. Amsterdam, Netherlands: Elsevier, 2020.
+
+[9] M. Teplan, “Fundamentals of EEG measurement,” Measurement Science Review, vol. 2, no. 2, pp. 1–11, 2021.
+
+[10] S. Sanei and J. A. Chambers, EEG Signal Processing and Machine Learning. Hoboken, NJ, USA: Wiley, 2021.
+
+[11] M. A. Islam, A. K. M. F. Haque, and M. T. Islam, “Power Line Interference Removal from Biomedical Signals Using Adaptive and Wavelet Filters,” Biomedical Signal Processing and Control, vol. 68, 2021.
+
+[12] R. B. Pachori and S. Patidar, “Epileptic seizure classification in EEG signals using second-order difference plot of intrinsic mode functions,” Computer Methods and Programs in Biomedicine, vol. 113, no. 2, pp. 494–502, 2020.
+
+[13] H. Sharma and K. Pachori, “Automatic Identification and Removal of Ocular and Muscle Artifacts from EEG Signals Using Wavelet Transform,” Biomedical Signal Processing and Control, vol. 62, 2020.
